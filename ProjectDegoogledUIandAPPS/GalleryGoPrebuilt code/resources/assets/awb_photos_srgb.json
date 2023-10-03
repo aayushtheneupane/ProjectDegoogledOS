@@ -1,0 +1,29 @@
+// NO LINT
+{
+  "device_id" : "photos",
+  "sensor" : {
+    "id" : -1,
+    "white_level" : 255
+  },
+  "stats" : {
+    "bright_pixel_threshold" : 255,
+    "dark_pixel_threshold" : 0,
+    "width" : -1,   // Photos does not have fixed size stats
+    "height" : -1,
+    "spatial_denoise" : false,
+    "r_sigma" : 0.03 // Range variance for the bilateral filter in
+                     // normalized intensity [0 .. 1]
+  },
+  "histogram" : {
+    "first_bin_boundary" : -4,
+    "bin_size" : 0.125,
+    // TODO(yuntatsai): change `von_mises_diagonal_pad` to 0.083333 after Photos
+    // team retrain the model.
+    "von_mises_diagonal_pad" : 1,
+    "constrain_output_to_ellipse" : false,
+    "enable_soft_splat" : false
+  },
+  "kalman" : {
+    "noise_var": 0 // Photos does not use Kalman
+  }
+}

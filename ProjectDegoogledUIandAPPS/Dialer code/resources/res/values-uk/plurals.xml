@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="one">хвилина</item>
+        <item quantity="few">хвилини</item>
+        <item quantity="many">хвилин</item>
+        <item quantity="other">хвилини</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="one">^1 виклик, останній – прийнятий дзвінок від користувача ^2</item>
+        <item quantity="few">^1 виклики, останній – прийнятий дзвінок від користувача ^2</item>
+        <item quantity="many">^1 викликів, останній – прийнятий дзвінок від користувача ^2</item>
+        <item quantity="other">^1 виклику, останній – прийнятий дзвінок від користувача ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="one">^1 виклик, останній – заблокований дзвінок від користувача ^2</item>
+        <item quantity="few">^1 виклики, останній – заблокований дзвінок від користувача ^2</item>
+        <item quantity="many">^1 викликів, останній – заблокований дзвінок від користувача ^2</item>
+        <item quantity="other">^1 виклику, останній – заблокований дзвінок від користувача ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="one">^1 виклик, останній – пропущений дзвінок від користувача ^2</item>
+        <item quantity="few">^1 виклики, останній – пропущений дзвінок від користувача ^2</item>
+        <item quantity="many">^1 викликів, останній – пропущений дзвінок від користувача ^2</item>
+        <item quantity="other">^1 виклику, останній – пропущений дзвінок від користувача ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="one">^1 виклик, останній – вихідний дзвінок користувачу ^2</item>
+        <item quantity="few">^1 виклики, останній – вихідний дзвінок користувачу ^2</item>
+        <item quantity="many">^1 викликів, останній – вихідний дзвінок користувачу ^2</item>
+        <item quantity="other">^1 виклику, останній – вихідний дзвінок користувачу ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="one">секунда</item>
+        <item quantity="few">секунди</item>
+        <item quantity="many">секунд</item>
+        <item quantity="other">секунди</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="one">Видалити ці повідомлення голосової пошти? </item>
+        <item quantity="few">Видалити ці повідомлення голосової пошти? </item>
+        <item quantity="many">Видалити ці повідомлення голосової пошти? </item>
+        <item quantity="other">Видалити ці повідомлення голосової пошти? </item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="one">%1$d голосове повідомлення</item>
+        <item quantity="few">%1$d голосові повідомлення</item>
+        <item quantity="many">%1$d голосових повідомлень</item>
+        <item quantity="other">%1$d голосових повідомлень</item>
+    </plurals>
+    <plurals name="play_recordings">
+        <item quantity="one">Відтворити запис</item>
+        <item quantity="few">Відтворити записи</item>
+        <item quantity="many">Відтворити записи</item>
+        <item quantity="other">Відтворити записи</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="one">Вкладка &quot;%1$s&quot;. %2$d непрочитаний елемент.</item>
+        <item quantity="few">Вкладка &quot;%1$s&quot;. %2$d непрочитаних елементи.</item>
+        <item quantity="many">Вкладка &quot;%1$s&quot;. %2$d непрочитаних елементів.</item>
+        <item quantity="other">Вкладка &quot;%1$s&quot;. %2$d непрочитаного елемента.</item>
+    </plurals>
+</resources>

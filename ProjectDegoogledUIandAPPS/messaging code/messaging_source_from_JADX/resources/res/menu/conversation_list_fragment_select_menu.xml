@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_archive_small" android:id="@+id/action_archive" android:orderInCategory="50" android:title="@string/action_archive" app:showAsAction="never|always|collapseActionView"/>
+    <item android:icon="@drawable/ic_archive_undo_small" android:id="@+id/action_unarchive" android:orderInCategory="50" android:title="@string/action_unarchive" app:showAsAction="never|always|collapseActionView"/>
+    <item android:icon="@drawable/ic_delete_small" android:id="@+id/action_delete" android:orderInCategory="60" android:title="@string/action_delete" app:showAsAction="never|always|collapseActionView"/>
+    <item android:icon="@drawable/ic_person_add" android:id="@+id/action_add_contact" android:orderInCategory="90" android:title="@string/action_add_contact" app:showAsAction="never|always|collapseActionView"/>
+    <item android:icon="@drawable/ic_dnd_on" android:id="@+id/action_block" android:orderInCategory="100" android:title="@string/action_block" app:showAsAction="never|always|collapseActionView"/>
+</menu>

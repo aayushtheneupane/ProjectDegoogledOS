@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/icon" android:layout_width="@android:dimen/app_icon_size" android:layout_height="@android:dimen/app_icon_size" android:layout_margin="8dp" android:contentDescription="@null"/>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:textSize="19sp" android:layout_gravity="center_vertical" android:id="@+id/title" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:paddingStart="8dp" android:paddingEnd="8dp"/>
+    <RadioButton android:layout_gravity="center_vertical" android:id="@+id/radio" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="8dp"/>
+</LinearLayout>

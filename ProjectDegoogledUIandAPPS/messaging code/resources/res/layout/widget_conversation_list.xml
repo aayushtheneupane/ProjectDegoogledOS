@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:padding="@dimen/widget_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/widget_header" android:background="@drawable/widget_top_background" android:paddingLeft="8dp" android:layout_width="match_parent" android:layout_height="@dimen/widget_header_height">
+        <TextView android:id="@+id/widget_label" android:layout_width="0dp" android:layout_height="wrap_content" android:freezesText="true" android:layout_weight="1" android:contentDescription="@string/widget_title_content_description" style="@style/WidgetTitle"/>
+        <ImageButton android:id="@+id/widget_compose" android:background="?android:attr/selectableItemBackground" android:paddingRight="8dp" android:paddingBottom="4dp" android:layout_width="@dimen/widget_header_new_conv_button_width" android:layout_height="match_parent" android:src="@drawable/ic_add_white" android:contentDescription="@string/widget_new_conversation_content_description" style="@style/WidgetHeaderImage"/>
+    </LinearLayout>
+    <ImageView android:background="#aaaaaa" android:layout_width="match_parent" android:layout_height="1dp" android:contentDescription="@null" android:importantForAccessibility="no"/>
+    <ListView android:id="@+id/conversation_list" android:background="@drawable/widget_bottom_background" android:layout_width="match_parent" android:layout_height="0dp" android:cacheColorHint="#00000000" android:divider="@android:drawable/divider_horizontal_bright" android:layout_weight="1"/>
+</LinearLayout>

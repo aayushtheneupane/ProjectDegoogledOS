@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.messaging.p041ui.mediapicker.GalleryGridItemView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/gallery_image_default_background" android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/gallery_image_cell_size">
+    <com.android.messaging.p041ui.AsyncImageView android:id="@+id/thumbnail" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <RelativeLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/additional_info" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/file_info">
+            <ImageView android:layout_gravity="center" android:id="@+id/icon" android:background="@color/background_item_transparent" android:visibility="gone" android:layout_width="@dimen/gallery_icon_size" android:layout_height="@dimen/gallery_icon_size" android:scaleType="fitCenter"/>
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/file_info" android:paddingLeft="4dp" android:paddingRight="4dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4dp" android:layout_alignParentBottom="true">
+            <TextView android:textAppearance="@style/TextAppearance.Material.Subhead" android:ellipsize="end" android:id="@+id/file_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+            <TextView android:textAppearance="@style/TextAppearance.Material.Caption" android:ellipsize="end" android:gravity="right" android:id="@+id/file_type" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:background="@drawable/gallery_image_background_selector" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <CheckBox android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:id="@+id/checkbox" android:background="@null" android:paddingTop="4dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/gallery_checkbox_selector" android:contentDescription="@string/gallery_checkbox_content_description" style="@style/GalleryGridItemViewCheckBoxStyle"/>
+</com.android.messaging.p041ui.mediapicker.GalleryGridItemView>

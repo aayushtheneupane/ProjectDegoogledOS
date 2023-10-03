@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:background="@color/action_bar_background_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/actionBarSize" app:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+        <com.android.messaging.p041ui.MaxHeightScrollView android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="@dimen/compose_message_chips_view_max_height">
+            <com.android.messaging.p041ui.contact.ContactRecipientAutoCompleteView android:layout_gravity="center_vertical" android:id="@+id/recipient_text_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/compose_message_contacts_height" android:hint="@string/recipient_hint" android:popupBackground="@drawable/popup_background" android:dropDownWidth="match_parent" app:avatarPosition="1" app:chipHeight="@dimen/compose_message_chip_height" app:chipPadding="@dimen/compose_message_chip_padding" app:imageSpanAlignment="1" app:unselectedChipBackgroundColor="@color/chips_background_color" app:unselectedChipTextColor="@color/chips_text_color" style="@style/RecipientEditTextView">
+                <requestFocus/>
+            </com.android.messaging.p041ui.contact.ContactRecipientAutoCompleteView>
+        </com.android.messaging.p041ui.MaxHeightScrollView>
+    </androidx.appcompat.widget.Toolbar>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <com.android.messaging.p041ui.CustomHeaderViewPager android:id="@+id/contact_pager" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <View android:layout_gravity="top" android:id="@+id/compose_contact_divider" android:background="@drawable/compose_chips_divider_gradient" android:layout_width="match_parent" android:layout_height="4dp"/>
+    </FrameLayout>
+</LinearLayout>

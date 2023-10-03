@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/animations_title">
+    <PreferenceCategory android:title="@string/system_animation_title">
+        <com.havoc.support.preferences.CustomSeekBarPreference android:persistent="false" android:max="400" android:title="@string/animation_duration_title" android:key="animation_controls_duration" android:defaultValue="0" settings:interval="10" settings:min="0"/>
+        <ListPreference android:title="@string/activity_open_title" android:key="activity_open"/>
+        <ListPreference android:title="@string/activity_close_title" android:key="activity_close"/>
+        <ListPreference android:title="@string/task_open_title" android:key="task_open"/>
+        <ListPreference android:title="@string/task_open_behind_title" android:key="task_open_behind"/>
+        <ListPreference android:title="@string/task_close_title" android:key="task_close"/>
+        <ListPreference android:title="@string/task_move_to_front_title" android:key="task_move_to_front"/>
+        <ListPreference android:title="@string/task_move_to_back_title" android:key="task_move_to_back"/>
+        <ListPreference android:title="@string/wallpaper_open_title" android:key="wallpaper_open"/>
+        <ListPreference android:title="@string/wallpaper_close_title" android:key="wallpaper_close"/>
+        <ListPreference android:title="@string/wallpaper_intra_open_title" android:key="wallpaper_intra_open"/>
+        <ListPreference android:title="@string/wallpaper_intra_close_title" android:key="wallpaper_intra_close"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/qs_tile_animation_category">
+        <ListPreference android:persistent="false" android:entries="@array/qs_tile_animation_style_entries" android:title="@string/qs_tile_animation_style_title" android:key="qs_tile_animation_style" android:defaultValue="0" android:entryValues="@array/qs_tile_animation_style_values"/>
+        <ListPreference android:persistent="false" android:entries="@array/qs_tile_animation_duration_entries" android:title="@string/qs_tile_animation_duration_title" android:key="qs_tile_animation_duration" android:defaultValue="2000" android:entryValues="@array/qs_tile_animation_duration_values"/>
+        <ListPreference android:persistent="false" android:entries="@array/qs_tile_animation_interpolator_entries" android:title="@string/qs_tile_animation_interpolator_title" android:key="qs_tile_animation_interpolator" android:defaultValue="0" android:entryValues="@array/qs_tile_animation_interpolator_values"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/configure_notification_settings" android:key="configure_notification_settings">
+    <com.android.settings.widget.VideoPreference android:persistent="false" android:title="@string/summary_placeholder" android:key="notification_model_illustration" app:animation="@raw/notification_interruption_model" app:controller="com.android.settings.widget.VideoPreferenceController"/>
+    <PreferenceCategory android:key="all_notifications_divider" android:order="2"/>
+    <PreferenceCategory android:title="@string/recent_notifications" android:key="recent_notifications_category" android:order="3" app:allowDividerAbove="false">
+        <Preference android:title="@string/notifications_title" android:key="all_notifications" android:order="4" android:fragment="com.android.settings.applications.manageapplications.ManageApplications">
+            <extra android:name="classname" android:value="com.android.settings.Settings$NotificationAppListActivity"/>
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/lock_screen_notifications_title" android:key="configure_notifications_lock" android:order="10">
+        <com.android.settings.RestrictedListPreference android:title="@string/lock_screen_notifs_title" android:key="lock_screen_notifications" android:summary="@string/summary_placeholder"/>
+        <com.havoc.support.preferences.SwitchPreference android:title="@string/lock_screen_notifs_redact" android:key="lock_screen_redact" android:summary="@string/lock_screen_notifs_redact_summary" app:controller="com.android.settings.notification.RedactNotificationPreferenceController"/>
+        <com.havoc.support.preferences.SwitchPreference android:title="@string/lock_screen_notifs_redact_work" android:key="lock_screen_work_redact" android:summary="@string/lock_screen_notifs_redact_work_summary" app:controller="com.android.settings.notification.RedactNotificationPreferenceController"/>
+        <com.havoc.support.preferences.SwitchPreference android:title="@string/lockscreen_bypass_title" android:key="notification_lockscreen_bypass" android:summary="@string/lockscreen_bypass_summary" app:controller="com.android.settings.biometrics.face.FaceSettingsLockscreenBypassPreferenceController" app:searchable="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:key="configure_notifications_advanced" android:order="15" app:initialExpandedChildrenCount="0">
+        <Preference android:title="@string/notification_log_title" android:summary="@string/notification_log_summary" android:fragment="com.android.settings.notification.NotificationStation"/>
+        <com.havoc.support.preferences.SwitchPreference android:title="@string/snooze_options_title" android:key="show_snooze_options" app:controller="com.android.settings.notification.SnoozeNotificationPreferenceController"/>
+        <com.havoc.support.preferences.SwitchPreference android:title="@string/asst_capabilities_actions_replies_title" android:key="asst_capabilities_actions_replies" android:summary="@string/asst_capabilities_actions_replies_summary" app:controller="com.android.settings.notification.AssistantCapabilityPreferenceController"/>
+        <com.havoc.support.preferences.SwitchPreference android:title="@string/notification_badging_title" android:key="notification_badging" app:controller="com.android.settings.notification.BadgingNotificationPreferenceController"/>
+        <com.havoc.support.preferences.SwitchPreference android:title="@string/notification_pulse_title" android:key="notification_pulse" app:controller="com.android.settings.notification.PulseNotificationPreferenceController"/>
+        <com.android.settings.DefaultRingtonePreference android:title="@string/notification_ringtone_title" android:key="notification_default_ringtone" android:summary="@string/summary_placeholder" android:dialogTitle="@string/notification_ringtone_title" android:ringtoneType="notification"/>
+        <com.android.settingslib.RestrictedPreference android:title="@string/zen_mode_settings_title" android:key="zen_mode_notifications" android:fragment="com.android.settings.notification.ZenModeSettings" app:allowDividerAbove="false" app:controller="com.android.settings.notification.ZenModePreferenceController" app:useAdminDisabledSummary="true"/>
+    </PreferenceCategory>
+</PreferenceScreen>

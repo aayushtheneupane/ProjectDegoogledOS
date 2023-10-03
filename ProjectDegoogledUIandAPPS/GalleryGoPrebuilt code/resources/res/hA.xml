@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.google.android.apps.photosgo.oneup.photo.ScalePhotoView android:layout_gravity="center" android:id="@+id/photo_view_scale_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:layout_gravity="center" android:id="@+id/photo_view_stub" android:layout="@layout/oneup_photo_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:layout_gravity="center" android:id="@+id/photo_error_view_stub" android:layout="@layout/one_up_error_view" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <include layout="@layout/oneup_bottom_gradient"/>
+    <android.support.constraint.ConstraintLayout android:id="@+id/carousel" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="8dp" android:layout_marginEnd="8dp">
+        <ViewStub android:layout_gravity="bottom" android:id="@+id/carousel_view_stub" android:layout="@layout/carousel_view" android:layout_width="wrap_content" android:layout_height="@dimen/carousel_height" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0"/>
+    </android.support.constraint.ConstraintLayout>
+</merge>

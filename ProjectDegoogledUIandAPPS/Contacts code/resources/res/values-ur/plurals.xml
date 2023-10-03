@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="contacts_count">
+        <item quantity="one">%d رابطہ</item>
+        <item quantity="other">%d رابطے</item>
+    </plurals>
+    <plurals name="contacts_count_with_account">
+        <item quantity="one">%1$d رابطہ ۔ %2$s</item>
+        <item quantity="other">%1$d رابطے ۔ %2$s</item>
+    </plurals>
+    <plurals name="contacts_deleted_toast">
+        <item quantity="one">رابطہ حذف ہو گیا</item>
+        <item quantity="other">رابطے حذف ہو گئے</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_contact_count_fmt">
+        <item quantity="one">1 رابطہ</item>
+        <item quantity="other">‏%1$d رابطے</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_template">
+        <item quantity="one">^1 رابطہ • ^2</item>
+        <item quantity="other">^1 رابطے • ^2</item>
+    </plurals>
+    <plurals name="sim_import_success_toast_fmt">
+        <item quantity="one">‏1 SIM رابطہ درآمد ہو گیا</item>
+        <item quantity="other">‏%d SIM رابطے درآمد ہو گئے</item>
+    </plurals>
+    <plurals name="title_share_via">
+        <item quantity="one">رابطہ کا اشتراک کریں بذریعہ</item>
+        <item quantity="other">رابطوں کا اشتراک کریں بذریعہ</item>
+    </plurals>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/ic_menu_reset" android:id="@+id/nav_bar_reset" android:title="@string/reset" android:showAsAction="always"/>
+</menu>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_invalid_contact_error">
+        <item quantity="one">Контактът е невалиден</item>
+        <item quantity="other">Контактите са невалидни</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">Един прикачен файл е готов за изпращане</item>
+        <item quantity="other">%d прикачени файла са готови за изпращане</item>
+    </plurals>
+    <plurals name="attachment_preview_close_content_description">
+        <item quantity="one">Отхвърляне на прикачения файл</item>
+        <item quantity="other">Отхвърляне на прикачените файлове</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">%d прикачен файл не можа да се запази</item>
+        <item quantity="other">%d прикачени файла не можаха да бъдат запазени</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one">%d прикачен файл е запазен</item>
+        <item quantity="other">%d прикачени файла са запазени</item>
+    </plurals>
+    <plurals name="attachments_saved_to_album">
+        <item quantity="one">%d прикачен файл е запазен в албума „%s“</item>
+        <item quantity="other">%d прикачени файла са запазени в албума „%s“</item>
+    </plurals>
+    <plurals name="attachments_saved_to_downloads">
+        <item quantity="one">%d прикачен файл е запазен в „Изтегляния“</item>
+        <item quantity="other">%d прикачени файла са запазени в „Изтегляния“</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_attachments">
+        <item quantity="one">Изпращане на прикачения файл</item>
+        <item quantity="other">Изпращане на прикачените файлове</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_audio">
+        <item quantity="one">Изпращане на аудиозаписа</item>
+        <item quantity="other">Изпращане на аудиозаписите</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_photo">
+        <item quantity="one">Изпращане на снимката</item>
+        <item quantity="other">Изпращане на снимките</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_vcard">
+        <item quantity="one">Изпращане на визитната картичка</item>
+        <item quantity="other">Изпращане на визитните картички</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_video">
+        <item quantity="one">Изпращане на видеоклипа</item>
+        <item quantity="other">Изпращане на видеоклиповете</item>
+    </plurals>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">Да се изтрие ли този разговор?</item>
+        <item quantity="other">Да се изтрият ли тези разговори?</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="one">един месец</item>
+        <item quantity="other">%d месеца</item>
+    </plurals>
+    <plurals name="notification_download_failures">
+        <item quantity="one">%d съобщения в един разговор</item>
+        <item quantity="other">%d съобщения в %d разговора</item>
+    </plurals>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Ново съобщение</item>
+        <item quantity="other">%d нови съобщения</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="one">%d съобщения в един разговор</item>
+        <item quantity="other">%d съобщения в %d разговора</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="one">%d ден</item>
+        <item quantity="other">%d дни</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="one">%d час</item>
+        <item quantity="other">%d часа</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="one">%d мин</item>
+        <item quantity="other">%d мин</item>
+    </plurals>
+    <plurals name="photos_saved_to_album">
+        <item quantity="one">%d снимка е запазена в албума „%s“</item>
+        <item quantity="other">%d снимки са запазени в албума „%s“</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one">%d контакт</item>
+        <item quantity="other">%d контакта</item>
+    </plurals>
+    <plurals name="videos_saved_to_album">
+        <item quantity="one">%d видеоклип е запазен в албума „%s“</item>
+        <item quantity="other">%d видеоклипа са запазени в албума „%s“</item>
+    </plurals>
+    <plurals name="wearable_participant_count">
+        <item quantity="one">%d участник</item>
+        <item quantity="other">%d участници</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="one">една седмица</item>
+        <item quantity="other">%d седмици</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="one">една година</item>
+        <item quantity="other">%d години</item>
+    </plurals>
+</resources>

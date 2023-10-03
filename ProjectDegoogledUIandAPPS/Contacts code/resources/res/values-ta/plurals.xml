@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="contacts_count">
+        <item quantity="one">%d தொடர்பு</item>
+        <item quantity="other">%d தொடர்புகள்</item>
+    </plurals>
+    <plurals name="contacts_count_with_account">
+        <item quantity="one">%1$d தொடர்பு · %2$s</item>
+        <item quantity="other">%1$d தொடர்புகள் · %2$s</item>
+    </plurals>
+    <plurals name="contacts_deleted_toast">
+        <item quantity="one">தொடர்பு நீக்கப்பட்டது</item>
+        <item quantity="other">தொடர்புகள் நீக்கப்பட்டன</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_contact_count_fmt">
+        <item quantity="one">1 தொடர்பு</item>
+        <item quantity="other">%1$d தொடர்புகள்</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_template">
+        <item quantity="one">^1 தொடர்பு • ^2</item>
+        <item quantity="other">^1 தொடர்புகள் • ^2</item>
+    </plurals>
+    <plurals name="sim_import_success_toast_fmt">
+        <item quantity="one">1 சிம் தொடர்பு இறக்கப்பட்டது</item>
+        <item quantity="other">%d சிம் தொடர்புகள் இறக்கப்பட்டன</item>
+    </plurals>
+    <plurals name="title_share_via">
+        <item quantity="one">தொடர்பை இதில் பகிர்:</item>
+        <item quantity="other">தொடர்புகளை இதில் பகிர்:</item>
+    </plurals>
+</resources>

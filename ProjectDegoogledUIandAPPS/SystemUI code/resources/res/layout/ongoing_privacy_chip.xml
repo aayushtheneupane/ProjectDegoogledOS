@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.privacy.OngoingPrivacyChip xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:orientation="horizontal" android:id="@+id/privacy_chip" android:focusable="true" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/background" android:layout_width="wrap_content" android:layout_height="@dimen/ongoing_appops_chip_height">
+        <LinearLayout android:gravity="center_vertical" android:id="@+id/icons_container" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+    </FrameLayout>
+</com.android.systemui.privacy.OngoingPrivacyChip>

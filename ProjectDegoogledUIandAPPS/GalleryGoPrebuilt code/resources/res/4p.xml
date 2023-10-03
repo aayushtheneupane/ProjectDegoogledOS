@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:id="@+id/no_permission_state" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="16dp" android:paddingEnd="16dp">
+    <ImageView android:layout_width="214dp" android:layout_height="76dp" android:src="@drawable/ic_empty_state_camera"/>
+    <TextView android:textAppearance="?attr/textAppearanceBody1" android:textSize="16sp" android:gravity="center_horizontal" android:id="@+id/permission_rationale" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:text="@string/home_permission_request" android:breakStrategy="2"/>
+    <com.google.android.material.button.MaterialButton android:id="@+id/allow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:text="@string/home_allow_permission"/>
+</LinearLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:textSize="@dimen/editor_form_text_size" android:id="@+id/date_view" android:layout_width="match_parent" android:layout_height="@dimen/editor_min_line_item_height" android:layout_weight="1" android:textAlignment="viewStart" android:paddingEnd="@dimen/editor_spinner_right_padding_workaround" style="@style/SpinnerButtonStyle"/>

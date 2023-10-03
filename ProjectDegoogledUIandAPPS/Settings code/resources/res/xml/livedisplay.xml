@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@android:string/lockscreen_too_many_failed_attempts_countdown" android:key="livedisplay">
+    <PreferenceCategory android:title="@android:string/lockscreen_too_many_failed_attempts_countdown" android:key="live_display_options">
+        <ListPreference android:persistent="false" android:title="@string/live_display_color_profile_title" android:key="live_display_color_profile"/>
+        <ListPreference android:persistent="false" android:title="@string/live_display_mode" android:key="live_display"/>
+        <com.android.settings.livedisplay.DisplayTemperature android:persistent="false" android:title="@string/live_display_color_temperature_title" android:key="live_display_color_temperature" android:dialogTitle="@android:string/lockscreen_too_many_failed_attempts_countdown"/>
+        <com.havoc.support.preferences.SystemSettingSwitchPreference android:title="@string/live_display_outdoor_mode_title" android:key="display_auto_outdoor_mode" android:summary="@string/live_display_outdoor_mode_summary" android:defaultValue="0x111004b"/>
+        <com.havoc.support.preferences.SystemSettingSwitchPreference android:persistent="false" android:title="@string/live_display_reading_mode_title" android:key="display_reading_mode" android:summary="@string/live_display_reading_mode_summary" android:defaultValue="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/advanced_settings" android:key="advanced">
+        <com.android.settings.livedisplay.DisplayColor android:persistent="false" android:title="@string/color_calibration_title" android:key="color_calibration" android:summary="@string/color_calibration_summary" android:dialogTitle="@string/color_calibration_title"/>
+        <com.android.settings.livedisplay.PictureAdjustment android:persistent="false" android:title="@string/picture_adjustment_title" android:key="picture_adjustment" android:summary="@string/picture_adjustment_summary" android:dialogTitle="@string/picture_adjustment_title"/>
+        <com.havoc.support.preferences.SystemSettingSwitchPreference android:title="@string/live_display_low_power_title" android:key="display_low_power" android:summary="@string/live_display_low_power_summary" android:defaultValue="0x111004c"/>
+        <com.havoc.support.preferences.SystemSettingSwitchPreference android:title="@string/live_display_enhance_color_title" android:key="display_color_enhance" android:summary="@string/live_display_enhance_color_summary" android:defaultValue="0x111004d"/>
+    </PreferenceCategory>
+</PreferenceScreen>

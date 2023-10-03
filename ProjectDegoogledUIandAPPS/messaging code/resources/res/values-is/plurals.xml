@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_invalid_contact_error">
+        <item quantity="one">Ógildir tengiliðir</item>
+        <item quantity="other">Ógildir tengiliðir</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">%d viðhengi tilbúið til sendingar</item>
+        <item quantity="other">%d viðhengi tilbúin til sendingar</item>
+    </plurals>
+    <plurals name="attachment_preview_close_content_description">
+        <item quantity="one">Fleygja viðhengjum</item>
+        <item quantity="other">Fleygja viðhengjum</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">Ekki tókst að vista %d viðhengi</item>
+        <item quantity="other">Ekki tókst að vista %d viðhengi</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one">%d viðhengi vistað</item>
+        <item quantity="other">%d viðhengi vistuð</item>
+    </plurals>
+    <plurals name="attachments_saved_to_album">
+        <item quantity="one">%d viðhengi vistað í „%s“ möppu</item>
+        <item quantity="other">%d viðhengi vistuð í „%s“ möppu</item>
+    </plurals>
+    <plurals name="attachments_saved_to_downloads">
+        <item quantity="one">%d viðhengi vistað í „Niðurhal“</item>
+        <item quantity="other">%d viðhengi vistuð í „Niðurhal“</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_attachments">
+        <item quantity="one">Senda viðhengi</item>
+        <item quantity="other">Senda viðhengi</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_audio">
+        <item quantity="one">Senda hljóð</item>
+        <item quantity="other">Senda hljóð</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_photo">
+        <item quantity="one">Senda myndir</item>
+        <item quantity="other">Senda myndir</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_vcard">
+        <item quantity="one">Senda tengiliðaspjöld</item>
+        <item quantity="other">Senda tengiliðaspjöld</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_video">
+        <item quantity="one">Senda myndskeið</item>
+        <item quantity="other">Senda myndskeið</item>
+    </plurals>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">Eyða þessum samtölum?</item>
+        <item quantity="other">Eyða þessum samtölum?</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="one">%d mánuður</item>
+        <item quantity="other">%d mánuðir</item>
+    </plurals>
+    <plurals name="notification_download_failures">
+        <item quantity="one">%d skilaboð í %d samtali</item>
+        <item quantity="other">%d skilaboð í %d samtölum</item>
+    </plurals>
+    <plurals name="notification_new_messages">
+        <item quantity="one">%d ný skilaboð</item>
+        <item quantity="other">%d ný skilaboð</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="one">%d skilaboð í %d samtali</item>
+        <item quantity="other">%d skilaboð í %d samtölum</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="one">%d dagur</item>
+        <item quantity="other">%d dagar</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="one">%d klukkustund</item>
+        <item quantity="other">%d klukkustundir</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="one">%d mín.</item>
+        <item quantity="other">%d mín.</item>
+    </plurals>
+    <plurals name="photos_saved_to_album">
+        <item quantity="one">%d mynd vistuð í „%s“ möppu</item>
+        <item quantity="other">%d myndir vistaðar í „%s“ möppu</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one">%d tengiliður</item>
+        <item quantity="other">%d tengiliðir</item>
+    </plurals>
+    <plurals name="videos_saved_to_album">
+        <item quantity="one">%d myndskeið vistað í „%s“ möppu</item>
+        <item quantity="other">%d myndskeið vistuð í „%s“ möppu</item>
+    </plurals>
+    <plurals name="wearable_participant_count">
+        <item quantity="one">%d þátttakandi</item>
+        <item quantity="other">%d þátttakendur</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="one">%d vika</item>
+        <item quantity="other">%d vikur</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="one">%d ár</item>
+        <item quantity="other">%d ár</item>
+    </plurals>
+</resources>

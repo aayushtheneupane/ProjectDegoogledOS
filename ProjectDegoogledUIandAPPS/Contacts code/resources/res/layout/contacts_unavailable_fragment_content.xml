@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/empty_image" android:layout_width="@dimen/contacts_no_account_empty_image_width" android:layout_height="wrap_content" android:src="@drawable/contacts_no_account_empty" android:scaleType="centerInside" android:adjustViewBounds="true"/>
+    <TextView android:id="@+id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/contacts_no_account_empty_text_padding_top" android:text="@string/noContacts" style="@style/EmptyStateTextStyle"/>
+    <Button android:id="@+id/add_account_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/contacts_no_account_empty_button_padding_top" android:text="@string/contacts_unavailable_add_account" style="@style/NoAccountViewButtonStyle"/>
+    <Button android:id="@+id/import_contacts_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/contacts_unavailable_import_contacts" style="@style/NoAccountViewButtonStyle"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ProgressBar android:layout_gravity="center" android:id="@+id/progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true"/>
+    </FrameLayout>
+</LinearLayout>

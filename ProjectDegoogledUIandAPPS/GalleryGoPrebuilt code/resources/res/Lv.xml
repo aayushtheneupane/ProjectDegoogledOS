@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <TextView android:id="@+id/oneup_share" android:text="@string/oneup_share" android:drawableTop="@drawable/quantum_gm_ic_share_vd_theme_24" style="@style/OneUp.ActionItem"/>
+    <TextView android:id="@+id/oneup_auto_enhance" android:text="@string/oneup_auto_enhance" android:drawableTop="@drawable/quantum_gm_ic_auto_fix_high_vd_theme_24" style="@style/OneUp.ActionItem"/>
+    <TextView android:id="@+id/oneup_edit" android:text="@string/oneup_edit" android:drawableTop="@drawable/quantum_gm_ic_brush_vd_theme_24" style="@style/OneUp.ActionItem"/>
+    <TextView android:id="@+id/oneup_delete" android:text="@string/oneup_delete" android:drawableTop="@drawable/quantum_gm_ic_delete_vd_theme_24" style="@style/OneUp.ActionItem"/>
+</merge>

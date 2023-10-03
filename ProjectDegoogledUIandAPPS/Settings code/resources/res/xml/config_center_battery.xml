@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/battery_title">
+    <com.havoc.support.preferences.SystemSettingMasterSwitchPreference android:title="@string/smart_pixels_title" android:key="smart_pixels_enable" android:summary="@string/smart_pixels_summary" android:defaultValue="false" android:fragment="com.havoc.config.center.fragments.SmartPixels"/>
+    <com.havoc.support.preferences.SystemSettingMasterSwitchPreference android:title="@string/screen_state_toggles_title" android:key="screen_state_toggles_enable_key" android:summary="@string/screen_state_toggles_summary" android:defaultValue="false" android:fragment="com.havoc.config.center.fragments.ScreenStateToggles"/>
+    <com.havoc.support.preferences.SystemSettingMasterSwitchPreference android:title="@string/sensor_block_title" android:key="sensor_block" android:summary="@string/sensor_block_summary" android:defaultValue="false" android:fragment="com.havoc.config.center.fragments.SensorBlock"/>
+</PreferenceScreen>

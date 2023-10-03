@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/pinned_header_list_layout" android:background="?attr/contact_browser_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/alert_container" android:background="@color/alert_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="20dp">
+        <TextView android:textSize="16sp" android:textColor="@android:color/black" android:layout_gravity="center_vertical" android:id="@+id/alert_text" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/alert_dismiss_icon" android:background="?android:attr/selectableItemBackground" android:layout_width="56dp" android:layout_height="match_parent" android:src="@drawable/quantum_ic_cancel_vd_theme_24" android:scaleType="center" android:contentDescription="@string/dismiss_sync_alert"/>
+    </LinearLayout>
+    <include layout="@layout/account_filter_header"/>
+    <FrameLayout android:id="@+id/contact_list" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <include layout="@layout/contact_list_card"/>
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:enabled="false" android:id="@+id/swipe_refresh" android:layout_width="match_parent" android:layout_height="match_parent">
+            <view android:id="@android:id/list" android:paddingTop="?attr/list_item_padding_top" android:visibility="gone" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="?attr/contact_browser_list_padding_left" android:layout_marginRight="?attr/contact_browser_list_padding_right" android:fastScrollEnabled="true" android:layout_marginStart="?attr/contact_browser_list_padding_left" android:layout_marginEnd="?attr/contact_browser_list_padding_right" android:forceDarkAllowed="false" class="com.android.contacts.list.PinnedHeaderListView"/>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/search_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge"/>
+    </FrameLayout>
+</LinearLayout>

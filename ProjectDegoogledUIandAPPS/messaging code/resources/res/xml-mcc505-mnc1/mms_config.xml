@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mms_config xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" version="4">
+    <int name="maxMessageSize">2097152
+    </int>
+    <int name="maxImageHeight">1944
+    </int>
+    <int name="maxImageWidth">2592
+    </int>
+</mms_config>

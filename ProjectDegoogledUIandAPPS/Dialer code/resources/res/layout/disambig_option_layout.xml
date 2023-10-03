@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/option_container" android:background="?android:attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp" android:paddingStart="24dp" android:paddingEnd="24dp">
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/disambig_option_image" android:layout_width="24dp" android:layout_height="24dp" android:tint="?attr/colorIcon"/>
+    <TextView android:layout_gravity="center_vertical" android:id="@+id/disambig_option_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" style="@style/Dialer.TextAppearance.Primary"/>
+</LinearLayout>

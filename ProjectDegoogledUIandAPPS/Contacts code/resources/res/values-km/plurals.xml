@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="contacts_count">
+        <item quantity="one">ទំនាក់ទំនង %d</item>
+        <item quantity="other">ទំនាក់ទំនង %d</item>
+    </plurals>
+    <plurals name="contacts_count_with_account">
+        <item quantity="one">ទំនាក់ទំនង %1$d · %2$s</item>
+        <item quantity="other">ទំនាក់ទំនង %1$d · %2$s</item>
+    </plurals>
+    <plurals name="contacts_deleted_toast">
+        <item quantity="one">បានលុបទំនាក់ទំនង</item>
+        <item quantity="other">បានលុបទំនាក់ទំនង</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_contact_count_fmt">
+        <item quantity="one">ទំនាក់ទំនង 1</item>
+        <item quantity="other">ទំនាក់ទំនង %1$d</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_template">
+        <item quantity="one">ទំនាក់ទំនង ^1 • ^2</item>
+        <item quantity="other">ទំនាក់ទំនង ^1 • ^2</item>
+    </plurals>
+    <plurals name="sim_import_success_toast_fmt">
+        <item quantity="one">បាន​នាំចូល​ទំនាក់ទំនង SIM 1</item>
+        <item quantity="other">បាន​នាំចូល​ទំនាក់ទំនង SIM %d</item>
+    </plurals>
+    <plurals name="title_share_via">
+        <item quantity="one">ចែករំលែក​ទំនាក់ទំនង​តាម</item>
+        <item quantity="other">ចែករំលែក​ទំនាក់ទំនង​តាម</item>
+    </plurals>
+</resources>

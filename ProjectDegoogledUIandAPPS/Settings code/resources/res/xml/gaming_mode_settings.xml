@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/gaming_mode_title">
+    <com.havoc.support.preferences.SystemSettingSwitchPreference android:title="@string/gaming_mode_headsup_title" android:key="gaming_mode_headsup_toggle" android:summary="@string/gaming_mode_headsup_summary" android:defaultValue="true"/>
+    <com.havoc.support.preferences.SystemSettingSwitchPreference android:title="@string/gaming_mode_hardware_keys_title" android:key="gaming_mode_hw_keys_toggle" android:summary="@string/gaming_mode_hardware_keys_summary" android:defaultValue="false"/>
+    <com.havoc.support.preferences.SystemSettingSwitchPreference android:title="@string/gaming_mode_brightness_title" android:key="gaming_mode_manual_brightness_toggle" android:summary="@string/gaming_mode_brightness_summary" android:defaultValue="true"/>
+    <com.havoc.support.preferences.SystemSettingListPreference android:entries="@array/gaming_mode_ringer_entries" android:title="@string/gaming_mode_ringer_title" android:key="gaming_mode_ringer_mode" android:summary="%s" android:defaultValue="0" android:entryValues="@array/gaming_mode_ringer_values"/>
+    <com.havoc.support.preferences.SystemSettingListPreference android:entries="@array/gaming_mode_notifications_entries" android:title="@string/gaming_mode_notifications_title" android:key="gaming_mode_notifications" android:summary="%s" android:defaultValue="3" android:entryValues="@array/gaming_mode_notifications_values"/>
+    <com.havoc.support.preferences.SystemSettingSwitchPreference android:title="@string/gaming_mode_dynamic_title" android:key="gaming_mode_dynamic_state" android:summary="@string/gaming_mode_dynamic_summary" android:defaultValue="false"/>
+    <PreferenceCategory android:title="@string/gaming_mode_app_picker_title" android:key="gamingmode_applications">
+        <Preference android:icon="@drawable/ic_menu_add_white" android:title="@string/add_gaming_mode_package_title" android:key="add_gamingmode_packages"/>
+    </PreferenceCategory>
+</PreferenceScreen>

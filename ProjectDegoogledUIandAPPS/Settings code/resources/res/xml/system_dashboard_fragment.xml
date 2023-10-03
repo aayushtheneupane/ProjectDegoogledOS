@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/header_category_system" android:key="system_dashboard_screen" app:initialExpandedChildrenCount="4">
+    <Preference android:icon="@drawable/ic_restore" android:title="@string/reset_dashboard_title" android:key="reset_dashboard" android:summary="@string/reset_dashboard_summary" android:order="-50" android:fragment="com.android.settings.system.ResetDashboardFragment" app:controller="com.android.settings.system.ResetPreferenceController"/>
+    <Preference android:icon="@drawable/ic_system_update" android:title="@string/system_update_settings_list_item_title" android:key="system_update_settings" android:summary="@string/summary_placeholder" android:order="-30" app:controller="com.android.settings.system.SystemUpdatePreferenceController" app:keywords="@string/keywords_system_update_settings">
+        <intent android:action="android.settings.SYSTEM_UPDATE_SETTINGS"/>
+    </Preference>
+    <Preference android:title="@string/additional_system_update_settings_list_item_title" android:key="additional_system_update_settings" android:order="-31" app:controller="com.android.settings.system.AdditionalSystemUpdatePreferenceController">
+        <intent android:targetPackage="@string/additional_system_update" android:action="android.intent.action.MAIN" android:targetClass="@string/additional_system_update_menu"/>
+    </Preference>
+</PreferenceScreen>

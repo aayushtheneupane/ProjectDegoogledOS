@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="contacts_count">
+        <item quantity="one">%d सम्पर्क</item>
+        <item quantity="other">%d सम्पर्कहरू</item>
+    </plurals>
+    <plurals name="contacts_count_with_account">
+        <item quantity="one">%1$d सम्पर्क · %2$s</item>
+        <item quantity="other">%1$d सम्पर्कहरू · %2$s</item>
+    </plurals>
+    <plurals name="contacts_deleted_toast">
+        <item quantity="one">सम्पर्क ठेगाना मेटियो</item>
+        <item quantity="other">सम्पर्क ठेगानाहरू मेटिए</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_contact_count_fmt">
+        <item quantity="one">१ सम्पर्क</item>
+        <item quantity="other">%1$d सम्पर्कहरू</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_template">
+        <item quantity="one">^1 सम्पर्क • ^2</item>
+        <item quantity="other">^1 सम्पर्कहरू • ^2</item>
+    </plurals>
+    <plurals name="sim_import_success_toast_fmt">
+        <item quantity="one">SIM को १ सम्पर्क आयात गरियो</item>
+        <item quantity="other">SIM को %d सम्पर्कहरू आयात गरिए</item>
+    </plurals>
+    <plurals name="title_share_via">
+        <item quantity="one">यस मार्फत सम्पर्क ‍साझेदारी गर्नुहोस्</item>
+        <item quantity="other">यस मार्फत सम्पर्कहरू ‍साझेदारी गर्नुहोस्</item>
+    </plurals>
+</resources>

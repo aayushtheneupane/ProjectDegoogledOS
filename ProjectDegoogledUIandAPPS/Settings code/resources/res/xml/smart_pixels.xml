@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/smart_pixels_title">
+    <com.havoc.support.preferences.SystemSettingSwitchPreference android:title="@string/smart_pixels_on_power_save_title" android:key="smart_pixels_on_power_save" android:summary="@string/smart_pixels_on_power_save_summary" android:defaultValue="false"/>
+    <com.havoc.support.preferences.SystemSettingListPreference android:entries="@array/smart_pixels_percent_strings" android:title="@string/smart_pixels_percent" android:key="smart_pixels_pattern" android:defaultValue="5" android:entryValues="@array/smart_pixels_percent_values"/>
+    <com.havoc.support.preferences.SystemSettingListPreference android:entries="@array/smart_pixels_shift_times" android:title="@string/smart_pixels_shift" android:key="smart_pixels_shift_timeout" android:defaultValue="5" android:entryValues="@array/smart_pixels_shift_values"/>
+</PreferenceScreen>

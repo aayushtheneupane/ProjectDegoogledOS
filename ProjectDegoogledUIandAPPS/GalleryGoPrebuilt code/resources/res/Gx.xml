@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <VideoView android:layout_gravity="center" android:id="@+id/video_view" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.google.android.apps.photosgo.oneup.photo.PhotoView android:layout_gravity="center" android:id="@+id/video_view_placeholder" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:layout_gravity="center" android:id="@+id/video_error_view_stub" android:layout="@layout/one_up_error_view" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <include layout="@layout/oneup_bottom_gradient"/>
+    <com.google.android.apps.photosgo.oneup.video.VideoControlsView android:id="@+id/video_controls_view" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</merge>

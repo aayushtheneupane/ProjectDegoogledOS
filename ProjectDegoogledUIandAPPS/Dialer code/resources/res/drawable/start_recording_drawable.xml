@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/dialer_call_green"/>
+        </shape>
+    </item>
+    <item android:id="@+id/record_icon" android:drawable="@drawable/quantum_ic_mic_vd_theme_24" android:left="24dp" android:top="24dp" android:right="24dp" android:bottom="24dp"/>
+</layer-list>

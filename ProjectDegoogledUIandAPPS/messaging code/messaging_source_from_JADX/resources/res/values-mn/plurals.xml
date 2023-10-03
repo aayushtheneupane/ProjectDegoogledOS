@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_invalid_contact_error">
+        <item quantity="one">Харилцагчийн хаяг буруу байна</item>
+        <item quantity="other">Харилцагчийн хаяг буруу байна</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">Илгээхэд бэлэн нэг хавсралт байна</item>
+        <item quantity="other">Илгээхэд бэлэн %d хавсралт байна</item>
+    </plurals>
+    <plurals name="attachment_preview_close_content_description">
+        <item quantity="one">Хавсралтыг цуцлах</item>
+        <item quantity="other">Хавсралтыг цуцлах</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">%d хавсралтыг хадгалж чадсангүй</item>
+        <item quantity="other">%d хавсралтыг хадгалж чадсангүй</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one">%d хавсралт хадгалсан</item>
+        <item quantity="other">%d хавсралт хадгалсан</item>
+    </plurals>
+    <plurals name="attachments_saved_to_album">
+        <item quantity="one">%d хавсралтыг &quot;%s&quot; цомогт хадгаллаа</item>
+        <item quantity="other">%d хавсралтыг &quot;%s&quot; цомогт хадгаллаа</item>
+    </plurals>
+    <plurals name="attachments_saved_to_downloads">
+        <item quantity="one">%d хавсралтыг &quot;Татаж aвсан файл&quot;-д хадгаллаа</item>
+        <item quantity="other">%d хавсралтыг &quot;Татаж авсан файл&quot;-д хадгаллаа</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_attachments">
+        <item quantity="one">Хавсралт илгээх</item>
+        <item quantity="other">Хавсралт илгээх</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_audio">
+        <item quantity="one">Аудио илгээх</item>
+        <item quantity="other">Аудио илгээх</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_photo">
+        <item quantity="one">Зураг илгээх</item>
+        <item quantity="other">Зураг илгээх</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_vcard">
+        <item quantity="one">Харилцагчийн карт илгээх</item>
+        <item quantity="other">Харилцагчийн карт илгээх</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_video">
+        <item quantity="one">Видео илгээх</item>
+        <item quantity="other">Видео илгээх</item>
+    </plurals>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">Энэ харилцан яриаг устах уу?</item>
+        <item quantity="other">Эдгээр харилцан яриаг устгах уу?</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="one">нэг сар</item>
+        <item quantity="other">%d сар</item>
+    </plurals>
+    <plurals name="notification_download_failures">
+        <item quantity="one">Нэг харилцан ярианд %d зурвас байна</item>
+        <item quantity="other">%d Харилцан ярианд %d зурвас байна</item>
+    </plurals>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Шинэ зурвас</item>
+        <item quantity="other">%d шинэ зурвас</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="one">Нэг харилцан ярианд %d зурвас байна</item>
+        <item quantity="other">%d Харилцан ярианд %d зурвас байна</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="one">%d өдөр</item>
+        <item quantity="other">%d өдөр</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="one">%d цаг</item>
+        <item quantity="other">%d цаг</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="one">%d минут</item>
+        <item quantity="other">%d минут</item>
+    </plurals>
+    <plurals name="photos_saved_to_album">
+        <item quantity="one">%d зургийг &quot;%s&quot; цомогт хадгаллаа</item>
+        <item quantity="other">%d зургийг &quot;%s&quot; цомогт хадгаллаа</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one">%d харилцагч</item>
+        <item quantity="other">%d харилцагч</item>
+    </plurals>
+    <plurals name="videos_saved_to_album">
+        <item quantity="one">%d бичлэгийг &quot;%s&quot; цомогт хадгаллаа</item>
+        <item quantity="other">%d бичлэгийг &quot;%s&quot; цомогт хадгаллаа</item>
+    </plurals>
+    <plurals name="wearable_participant_count">
+        <item quantity="one">%d оролцогч</item>
+        <item quantity="other">%d оролцогч</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="one">долоо хоног</item>
+        <item quantity="other">%d долоо хоног</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="one">нэг жил</item>
+        <item quantity="other">%d жил</item>
+    </plurals>
+</resources>

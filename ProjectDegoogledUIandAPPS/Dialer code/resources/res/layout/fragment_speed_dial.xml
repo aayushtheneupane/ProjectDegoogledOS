@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/speed_dial_root" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.p002v7.widget.RecyclerView android:id="@+id/speed_dial_recycler_view" android:background="@android:color/transparent" android:paddingBottom="@dimen/floating_action_button_list_bottom_padding" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/expanded_search_bar_height_minus"/>
+    <com.android.dialer.widget.EmptyContentView android:layout_gravity="center" android:id="@+id/speed_dial_empty_content_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</FrameLayout>

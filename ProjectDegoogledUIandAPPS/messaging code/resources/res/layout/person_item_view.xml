@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.android.messaging.p041ui.ContactIconView android:layout_gravity="center_vertical" android:id="@+id/contact_icon" android:layout_width="@dimen/contact_list_icon_size" android:layout_height="@dimen/contact_list_icon_size" android:importantForAccessibility="no" app:iconSize="0"/>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/details_container" android:background="@android:color/transparent" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/ContactListItemLinearLayoutStyle">
+        <TextView android:ellipsize="end" android:id="@+id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" style="@style/ParticipantListItem"/>
+        <TextView android:ellipsize="end" android:id="@+id/details" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" style="@style/ContactListItemDetail"/>
+    </LinearLayout>
+</merge>

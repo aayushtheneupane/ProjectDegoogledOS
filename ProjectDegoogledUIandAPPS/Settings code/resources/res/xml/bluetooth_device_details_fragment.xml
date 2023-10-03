@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/device_details_title">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/settings_entity_header" android:selectable="false" android:key="bluetooth_device_header" app:allowDividerBelow="true" app:searchable="false"/>
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/advanced_bt_entity_header" android:selectable="false" android:key="advanced_bluetooth_device_header" app:allowDividerBelow="true" app:controller="com.android.settings.bluetooth.AdvancedBluetoothDetailsHeaderController" app:searchable="false"/>
+    <com.android.settingslib.widget.ActionButtonsPreference android:key="action_buttons" app:allowDividerBelow="true"/>
+    <com.android.settings.slices.SlicePreference android:key="bt_device_slice" app:allowDividerAbove="true" app:allowDividerBelow="true" app:controller="com.android.settings.slices.BlockingSlicePrefController"/>
+    <PreferenceCategory android:key="bluetooth_profiles"/>
+</PreferenceScreen>

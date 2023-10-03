@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="contacts_count">
+        <item quantity="one">%d контакт</item>
+        <item quantity="few">%d контакта</item>
+        <item quantity="many">%d контактов</item>
+        <item quantity="other">%d контакта</item>
+    </plurals>
+    <plurals name="contacts_count_with_account">
+        <item quantity="one">%1$d контакт · %2$s</item>
+        <item quantity="few">%1$d контакта · %2$s</item>
+        <item quantity="many">%1$d контактов · %2$s</item>
+        <item quantity="other">%1$d контакта · %2$s</item>
+    </plurals>
+    <plurals name="contacts_deleted_toast">
+        <item quantity="one">Контакты удалены</item>
+        <item quantity="few">Контакты удалены</item>
+        <item quantity="many">Контакты удалены</item>
+        <item quantity="other">Контакты удалены</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_contact_count_fmt">
+        <item quantity="one">%1$d контакт</item>
+        <item quantity="few">%1$d контакта</item>
+        <item quantity="many">%1$d контактов</item>
+        <item quantity="other">%1$d контакта</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_template">
+        <item quantity="one">^1 контакт • ^2</item>
+        <item quantity="few">^1 контакта • ^2</item>
+        <item quantity="many">^1 контактов • ^2</item>
+        <item quantity="other">^1 контакта • ^2</item>
+    </plurals>
+    <plurals name="sim_import_success_toast_fmt">
+        <item quantity="one">Импортирован %d контакт с SIM-карты</item>
+        <item quantity="few">Импортировано %d контакта с SIM-карты</item>
+        <item quantity="many">Импортировано %d контактов с SIM-карты</item>
+        <item quantity="other">Импортировано %d контакта с SIM-карты</item>
+    </plurals>
+    <plurals name="title_share_via">
+        <item quantity="one">Выберите способ</item>
+        <item quantity="few">Выберите способ</item>
+        <item quantity="many">Выберите способ</item>
+        <item quantity="other">Выберите способ</item>
+    </plurals>
+</resources>

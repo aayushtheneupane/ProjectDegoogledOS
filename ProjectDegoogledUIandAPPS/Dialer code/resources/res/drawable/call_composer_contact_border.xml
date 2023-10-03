@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:shape="oval">
+    <stroke android:width="@dimen/call_composer_contact_photo_border_thickness" android:color="?android:attr/colorBackground"/>
+    <padding android:left="@dimen/call_composer_contact_photo_border_thickness" android:top="@dimen/call_composer_contact_photo_border_thickness" android:right="@dimen/call_composer_contact_photo_border_thickness" android:bottom="@dimen/call_composer_contact_photo_border_thickness"/>
+</shape>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/autofill_app" android:key="default_autofill_picker" app:keywords="@string/autofill_keywords">
+    <com.android.settings.widget.GearPreference android:title="@string/autofill_app" android:key="default_autofill_main" android:fragment="com.android.settings.applications.defaultapps.DefaultAutofillPicker" app:keywords="@string/autofill_keywords">
+        <extra android:name="for_work" android:value="false"/>
+    </com.android.settings.widget.GearPreference>
+    <com.android.settings.widget.WorkOnlyCategory android:title="@string/default_for_work" android:key="autofill_work_app_defaults">
+        <com.android.settings.widget.GearPreference android:title="@string/autofill_app" android:key="default_autofill_work" android:fragment="com.android.settings.applications.defaultapps.DefaultAutofillPicker" app:keywords="@string/autofill_keywords">
+            <extra android:name="for_work" android:value="true"/>
+        </com.android.settings.widget.GearPreference>
+    </com.android.settings.widget.WorkOnlyCategory>
+</PreferenceScreen>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_invalid_contact_error">
+        <item quantity="one">పరిచయం చెల్లదు</item>
+        <item quantity="other">పరిచయాలు చెల్లవు</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">ఒక జోడింపు పంపడానికి సిద్ధంగా ఉంది</item>
+        <item quantity="other">%d జోడింపులు పంపడానికి సిద్ధంగా ఉన్నాయి</item>
+    </plurals>
+    <plurals name="attachment_preview_close_content_description">
+        <item quantity="one">జోడింపును విస్మరించండి</item>
+        <item quantity="other">జోడింపులను విస్మరించండి</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">%d జోడింపును సేవ్ చేయలేకపోయింది</item>
+        <item quantity="other">%d జోడింపులను సేవ్ చేయలేకపోయింది</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one">%d జోడింపు సేవ్ చేయబడింది</item>
+        <item quantity="other">%d జోడింపులు సేవ్ చేయబడ్డాయి</item>
+    </plurals>
+    <plurals name="attachments_saved_to_album">
+        <item quantity="one">%d జోడింపు &quot;%s&quot; ఆల్బమ్‌కి సేవ్ చేయబడింది</item>
+        <item quantity="other">%d జోడింపులు &quot;%s&quot; ఆల్బమ్‌కి సేవ్ చేయబడ్డాయి</item>
+    </plurals>
+    <plurals name="attachments_saved_to_downloads">
+        <item quantity="one">%d జోడింపు &quot;డౌన్‌లోడ్‌లు&quot;కి సేవ్ చేయబడింది</item>
+        <item quantity="other">%d జోడింపులు &quot;డౌన్‌లోడ్‌లు&quot;కి సేవ్ చేయబడ్డాయి</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_attachments">
+        <item quantity="one">జోడింపుని పంపండి</item>
+        <item quantity="other">జోడింపులను పంపండి</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_audio">
+        <item quantity="one">ఆడియోను పంపండి</item>
+        <item quantity="other">ఆడియోలను పంపండి</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_photo">
+        <item quantity="one">ఫోటోను పంపండి</item>
+        <item quantity="other">ఫోటోలను పంపండి</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_vcard">
+        <item quantity="one">పరిచయ కార్డ్‌ను పంపండి</item>
+        <item quantity="other">పరిచయ కార్డ్‌లను పంపండి</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_video">
+        <item quantity="one">వీడియోను పంపండి</item>
+        <item quantity="other">వీడియోలను పంపండి</item>
+    </plurals>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">ఈ సంభాషణను తొలగించాలా?</item>
+        <item quantity="other">ఈ సంభాషణలను తొలగించాలా?</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="one">ఒక నెల</item>
+        <item quantity="other">%d నెలలు</item>
+    </plurals>
+    <plurals name="notification_download_failures">
+        <item quantity="one">ఒక సంభాషణలో %d సందేశాలు</item>
+        <item quantity="other">%d సంభాషణల్లో %d సందేశాలు</item>
+    </plurals>
+    <plurals name="notification_new_messages">
+        <item quantity="one">కొత్త సందేశం</item>
+        <item quantity="other">%d కొత్త సందేశాలు</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="one">ఒక సంభాషణలో %d సందేశాలు</item>
+        <item quantity="other">%d సంభాషణల్లో %d సందేశాలు</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="one">%d రోజు</item>
+        <item quantity="other">%d రోజులు</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="one">%d గంట</item>
+        <item quantity="other">%d గంటలు</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="one">%d నిమి</item>
+        <item quantity="other">%d నిమి</item>
+    </plurals>
+    <plurals name="photos_saved_to_album">
+        <item quantity="one">%d ఫోటో &quot;%s&quot; ఆల్బమ్‌కి సేవ్ చేయబడింది</item>
+        <item quantity="other">%d ఫోటోలు &quot;%s&quot; ఆల్బమ్‌కి సేవ్ చేయబడ్డాయి</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one">%d పరిచయం</item>
+        <item quantity="other">%d పరిచయాలు</item>
+    </plurals>
+    <plurals name="videos_saved_to_album">
+        <item quantity="one">%d వీడియో &quot;%s&quot; ఆల్బమ్‌కి సేవ్ చేయబడింది</item>
+        <item quantity="other">%d వీడియోలు &quot;%s&quot; ఆల్బమ్‌కి సేవ్ చేయబడ్డాయి</item>
+    </plurals>
+    <plurals name="wearable_participant_count">
+        <item quantity="one">%d పాల్గొన్నారు</item>
+        <item quantity="other">%d మంది పాల్గొన్నారు</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="one">ఒక వారం</item>
+        <item quantity="other">%d వారాలు</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="one">ఒక సంవత్సరం</item>
+        <item quantity="other">%d సంవత్సరాలు</item>
+    </plurals>
+</resources>

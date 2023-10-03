@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="contacts_count">
+        <item quantity="one">%d ລາຍ​ຊື່ຜູ້ຕິດຕໍ່</item>
+        <item quantity="other">%d ລາຍ​ຊື່ຜູ້ຕິດຕໍ່</item>
+    </plurals>
+    <plurals name="contacts_count_with_account">
+        <item quantity="one">%1$d ລາຍຊື່ຜູ້ຕິດຕໍ່ · %2$s</item>
+        <item quantity="other">%1$d ລາຍຊື່ຜູ້ຕິດຕໍ່ · %2$s</item>
+    </plurals>
+    <plurals name="contacts_deleted_toast">
+        <item quantity="one">ລາຍຊື່ຜູ້ຕິດຕໍ່ຖືກລຶບອອກແລ້ວ</item>
+        <item quantity="other">ລາຍຊື່ຜູ້ຕິດຕໍ່ຖືກລຶບອອກແລ້ວ</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_contact_count_fmt">
+        <item quantity="one">1 ລາຍຊື່ຜູ້ຕິດຕໍ່</item>
+        <item quantity="other">%1$d ລາຍຊື່ຜູ້ຕິດຕໍ່</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_template">
+        <item quantity="one">^1 ລາຍຊື່ຜູ້ຕິດຕໍ່ • ^2</item>
+        <item quantity="other">^1 ລາຍຊື່ຜູ້ຕິດຕໍ່ • ^2</item>
+    </plurals>
+    <plurals name="sim_import_success_toast_fmt">
+        <item quantity="one">ນຳເຂົ້າ 1 ລາຍຊື່ຜູ້ຕິດຕໍ່ຊິມແລ້ວ</item>
+        <item quantity="other">ນຳເຂົ້າ %d ລາຍຊື່ຜູ້ຕິດຕໍ່ຊິມແລ້ວ</item>
+    </plurals>
+    <plurals name="title_share_via">
+        <item quantity="one">ແບ່ງປັນລາຍຊື່ຜູ້ຕິດຕໍ່ຜ່ານ</item>
+        <item quantity="other">ແບ່ງປັນລາຍຊື່ຜູ້ຕິດຕໍ່ຜ່ານ</item>
+    </plurals>
+</resources>

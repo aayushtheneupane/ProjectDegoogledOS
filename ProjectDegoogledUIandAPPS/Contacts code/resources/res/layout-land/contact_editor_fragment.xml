@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/contact_editor_fragment" android:background="@color/background_primary" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.android.contacts.editor.RawContactEditorView android:orientation="horizontal" android:id="@+id/raw_contacts_editor_view" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/photo_editor_view"/>
+        <View android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0dp" android:layout_height="0dp"/>
+        <ScrollView android:id="@+id/contact_editor_scroller" android:fadingEdge="none" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+            <LinearLayout android:orientation="vertical" android:id="@+id/editor_fields_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include layout="@layout/editor_account_header"/>
+                <include layout="@layout/contact_editor_fields"/>
+            </LinearLayout>
+        </ScrollView>
+    </com.android.contacts.editor.RawContactEditorView>
+</FrameLayout>

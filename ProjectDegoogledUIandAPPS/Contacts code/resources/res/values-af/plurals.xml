@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="contacts_count">
+        <item quantity="one">%d kontak</item>
+        <item quantity="other">%d kontakte</item>
+    </plurals>
+    <plurals name="contacts_count_with_account">
+        <item quantity="one">%1$d kontak · %2$s</item>
+        <item quantity="other">%1$d kontakte · %2$s</item>
+    </plurals>
+    <plurals name="contacts_deleted_toast">
+        <item quantity="one">Kontak is uitgevee</item>
+        <item quantity="other">Kontakte is uitgevee</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_contact_count_fmt">
+        <item quantity="one">1 kontak</item>
+        <item quantity="other">%1$d kontakte</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_template">
+        <item quantity="one">^1 kontak • ^2</item>
+        <item quantity="other">^1 kontakte • ^2</item>
+    </plurals>
+    <plurals name="sim_import_success_toast_fmt">
+        <item quantity="one">1 SIM-kontak ingevoer</item>
+        <item quantity="other">%d SIM-kontakte ingevoer</item>
+    </plurals>
+    <plurals name="title_share_via">
+        <item quantity="one">Deel kontak via</item>
+        <item quantity="other">Deel kontakte via</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/about_title">
+    <PreferenceCategory android:title="@string/team_category_title" android:key="team_category">
+        <Preference android:icon="@drawable/havoc_developer" android:title="Under Guidance\10Harish Kumar HC\10Asst. Professor\10Dr AIT\10------------------------\10Aayush Neupane\101DA19CS002\10\10Dhiraj Kumar Mandal\101DA19CS045\10\10Mahaboob Alam Momin\101DA19CS084\10\10Bibek Prasad Yadav\101DA19CS031"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:key="app_notifications">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/settings_entity_header" android:key="pref_app_header"/>
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/styled_switch_bar" android:key="block"/>
+    <com.android.settings.notification.NotificationFooterPreference android:key="block_desc"/>
+    <PreferenceCategory android:layout="@layout/empty_view" android:key="channels" settings:allowDividerAbove="false" settings:allowDividerBelow="false"/>
+    <com.android.settingslib.RestrictedSwitchPreference android:title="@string/allow_interruption" android:key="allow_sound" android:summary="@string/allow_interruption_summary"/>
+    <com.android.settings.RestrictedListPreference android:title="@string/app_notification_visibility_override_title" android:key="visibility_override"/>
+    <com.android.settingslib.RestrictedSwitchPreference android:title="@string/app_notification_override_dnd_title" android:key="bypass_dnd" android:summary="@string/app_notification_override_dnd_summary" settings:useAdditionalSummary="true"/>
+    <com.android.settingslib.RestrictedSwitchPreference android:title="@string/notification_show_lights_title" android:key="lights" settings:useAdditionalSummary="true"/>
+    <com.havoc.support.colorpicker.ColorPickerPreference android:title="@string/custom_light_title" android:key="custom_light" android:dependency="lights" android:defaultValue="ffffff" isledPicker="true"/>
+    <com.havoc.support.preferences.CustomSeekBarPreference android:max="10000" android:title="@string/custom_light_on_time_title" android:key="custom_light_on_time" android:dependency="lights" settings:interval="100" settings:min="0" settings:units="ms"/>
+    <com.havoc.support.preferences.CustomSeekBarPreference android:max="10000" android:title="@string/custom_light_off_time_title" android:key="custom_light_off_time" android:dependency="lights" settings:interval="100" settings:min="0" settings:units="ms"/>
+    <PreferenceCategory android:key="app_advanced" android:order="1000" settings:initialExpandedChildrenCount="0">
+        <com.android.settingslib.RestrictedSwitchPreference android:title="@string/notification_badge_title" android:key="badge" android:order="1001" settings:restrictedSwitchSummary="@string/enabled_by_admin" settings:useAdditionalSummary="true"/>
+        <Preference android:title="@string/notification_bubbles_title" android:key="bubble_link_pref" android:order="1002"/>
+        <com.android.settings.RestrictedListPreference android:persistent="false" android:entries="@array/app_notification_sound_timeout_entries" android:title="@string/app_notification_sound_timeout_title" android:key="sound_timeout" android:order="1003" android:entryValues="@array/app_notification_sound_timeout_values"/>
+        <Preference android:title="@string/app_settings_link" android:key="app_link" android:order="1004"/>
+    </PreferenceCategory>
+    <com.android.settings.notification.NotificationFooterPreference android:key="desc" android:order="5000"/>
+    <com.android.settings.notification.NotificationFooterPreference android:key="deleted" android:order="8000"/>
+</PreferenceScreen>

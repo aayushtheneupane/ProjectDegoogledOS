@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="contacts_count">
+        <item quantity="one">%d איש קשר</item>
+        <item quantity="two">%d אנשי קשר</item>
+        <item quantity="many">%d אנשי קשר</item>
+        <item quantity="other">%d אנשי קשר</item>
+    </plurals>
+    <plurals name="contacts_count_with_account">
+        <item quantity="one">%1$d איש קשר · %2$s</item>
+        <item quantity="two">%1$d אנשי קשר · %2$s</item>
+        <item quantity="many">%1$d אנשי קשר · %2$s</item>
+        <item quantity="other">%1$d אנשי קשר · %2$s</item>
+    </plurals>
+    <plurals name="contacts_deleted_toast">
+        <item quantity="one">איש קשר נמחק</item>
+        <item quantity="two">אנשי קשר נמחקו</item>
+        <item quantity="many">אנשי קשר נמחקו</item>
+        <item quantity="other">אנשי קשר נמחקו</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_contact_count_fmt">
+        <item quantity="one">איש קשר אחד</item>
+        <item quantity="two">‏%1$d אנשי קשר</item>
+        <item quantity="many">‏%1$d אנשי קשר</item>
+        <item quantity="other">‏%1$d אנשי קשר</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_template">
+        <item quantity="one">^1 איש קשר • ^2</item>
+        <item quantity="two">^1 אנשי קשר • ^2</item>
+        <item quantity="many">^1 אנשי קשר • ^2</item>
+        <item quantity="other">^1 אנשי קשר • ^2</item>
+    </plurals>
+    <plurals name="sim_import_success_toast_fmt">
+        <item quantity="one">‏איש קשר אחד יובא מכרטיס ה-SIM</item>
+        <item quantity="two">‏%d אנשי קשר יובאו מכרטיס ה-SIM</item>
+        <item quantity="many">‏%d אנשי קשר יובאו מכרטיס ה-SIM</item>
+        <item quantity="other">‏%d אנשי קשר יובאו מכרטיס ה-SIM</item>
+    </plurals>
+    <plurals name="title_share_via">
+        <item quantity="one">שתף את איש הקשר באמצעות</item>
+        <item quantity="two">שתף את אנשי הקשר באמצעות</item>
+        <item quantity="many">שתף את אנשי הקשר באמצעות</item>
+        <item quantity="other">שתף את אנשי הקשר באמצעות</item>
+    </plurals>
+</resources>

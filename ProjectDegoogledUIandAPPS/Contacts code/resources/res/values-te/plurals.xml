@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="contacts_count">
+        <item quantity="one">%d పరిచయం</item>
+        <item quantity="other">%d పరిచయాలు</item>
+    </plurals>
+    <plurals name="contacts_count_with_account">
+        <item quantity="one">%1$d పరిచయం · %2$s</item>
+        <item quantity="other">%1$d పరిచయాలు · %2$s</item>
+    </plurals>
+    <plurals name="contacts_deleted_toast">
+        <item quantity="one">పరిచయం తొలగించబడింది</item>
+        <item quantity="other">పరిచయాలు తొలగించబడ్డాయి</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_contact_count_fmt">
+        <item quantity="one">1 పరిచయం</item>
+        <item quantity="other">%1$d పరిచయాలు</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_template">
+        <item quantity="one">^1 పరిచయం • ^2</item>
+        <item quantity="other">^1 పరిచయాలు • ^2</item>
+    </plurals>
+    <plurals name="sim_import_success_toast_fmt">
+        <item quantity="one">1 SIM పరిచయం దిగుమతి చేయబడింది</item>
+        <item quantity="other">%d SIM పరిచయాలు దిగుమతి చేయబడ్డాయి</item>
+    </plurals>
+    <plurals name="title_share_via">
+        <item quantity="one">పరిచయాన్ని దీని ద్వారా భాగస్వామ్యం చేయండి</item>
+        <item quantity="other">పరిచయాలను దీని ద్వారా భాగస్వామ్యం చేయండి</item>
+    </plurals>
+</resources>

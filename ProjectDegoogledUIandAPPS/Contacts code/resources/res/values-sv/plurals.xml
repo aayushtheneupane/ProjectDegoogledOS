@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="contacts_count">
+        <item quantity="one">%d kontakt</item>
+        <item quantity="other">%d kontakter</item>
+    </plurals>
+    <plurals name="contacts_count_with_account">
+        <item quantity="one">%1$d kontakt · %2$s</item>
+        <item quantity="other">%1$d kontakter · %2$s</item>
+    </plurals>
+    <plurals name="contacts_deleted_toast">
+        <item quantity="one">Kontakten har tagits bort</item>
+        <item quantity="other">Kontakterna har tagits bort</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_contact_count_fmt">
+        <item quantity="one">En kontakt</item>
+        <item quantity="other">%1$d kontakter</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_template">
+        <item quantity="one">^1 kontakt • ^2</item>
+        <item quantity="other">^1 kontakter • ^2</item>
+    </plurals>
+    <plurals name="sim_import_success_toast_fmt">
+        <item quantity="one">En SIM-kontakt importerad</item>
+        <item quantity="other">%d SIM-kontakter importerade</item>
+    </plurals>
+    <plurals name="title_share_via">
+        <item quantity="one">Dela kontakt med</item>
+        <item quantity="other">Dela kontakter med</item>
+    </plurals>
+</resources>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:textSize="@dimen/frequently_contacted_title_text_size" android:textStyle="bold" android:textColor="@color/frequently_contacted_title_color" android:id="@+id/title" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="15dp" android:paddingStart="16dp" android:paddingEnd="16dp"/>

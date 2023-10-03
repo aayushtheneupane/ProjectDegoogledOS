@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SudThemeGlif.DayNight">
+    </style>
+    <style name="SudThemeGlifV2.DayNight">
+    </style>
+    <style name="SudThemeGlifV3.DayNight">
+    </style>
+    <style name="SudThemeMaterial.DayNight">
+    </style>
+    <style name="Theme.AlertDialog.Base">
+        <item name="android:colorBackground">@color/dialog_background</item>
+        <item name="colorAccent">@android:color/highlighted_text_dark</item>
+    </style>
+    <style name="Theme.AppCompat.DayNight">
+    </style>
+    <style name="Theme.AppCompat.DayNight.DarkActionBar">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog.MinWidth">
+    </style>
+    <style name="Theme.AppCompat.DayNight.DialogWhenLarge">
+    </style>
+    <style name="Theme.AppCompat.DayNight.NoActionBar">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.Dialog">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.DialogWhenLarge">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar">
+    </style>
+    <style name="Theme.Settings.Home">
+        <item name="android:colorBackground">?android:attr/colorPrimaryDark</item>
+        <item name="colorPrimary">?unknown_ref: 10601da</item>
+        <item name="colorPrimaryDark">?unknown_ref: 10601d1</item>
+    </style>
+    <style name="ThemeOverlay.AppCompat.DayNight">
+    </style>
+    <style name="ThemeOverlay.Settings.SearchBar">
+        <item name="android:colorBackground">?android:attr/colorPrimaryDark</item>
+        <item name="android:colorControlNormal">?android:attr/colorAccent</item>
+        <item name="cardBackgroundColor">?android:attr/colorPrimary</item>
+    </style>
+    <style name="ThemeOverlay.SwitchBar.Settings">
+        <item name="android:textColorPrimaryInverse">@android:color/black</item>
+    </style>
+    <style name="Widget.ActionBar.Base">
+        <item name="android:background">?android:attr/colorPrimaryDark</item>
+    </style>
+</resources>

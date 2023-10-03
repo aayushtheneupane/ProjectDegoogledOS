@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="64dp" android:paddingStart="16dp" android:paddingEnd="8dp">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <ImageView android:id="@+id/callerPhoto" android:layout_width="@dimen/contact_browser_list_item_photo_size" android:layout_height="@dimen/contact_browser_list_item_photo_size"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="16dp">
+            <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:textSize="16sp" android:textColor="@color/conference_call_manager_caller_name_text_color" android:id="@+id/conferenceCallerName" android:layout_width="wrap_content" android:layout_height="match_parent" android:singleLine="true" android:layout_marginEnd="2dp"/>
+            <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <TextView android:enabled="false" android:id="@+id/conferenceCallerStatus" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Dialer.TextAppearance.Secondary"/>
+                <TextView android:textSize="14sp" android:textColor="@color/conference_call_manager_secondary_text_color" android:ellipsize="marquee" android:id="@+id/conferenceCallerNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginEnd="8dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@+id/conferenceCallerSeparate" android:background="?android:attr/selectableItemBackgroundBorderless" android:clickable="true" android:layout_width="@dimen/conference_call_manager_button_dimension" android:layout_height="@dimen/conference_call_manager_button_dimension" android:src="@drawable/ic_call_split_white_24dp" android:scaleType="center" android:tint="?attr/colorIcon" android:contentDescription="@string/goPrivate"/>
+    <ImageButton android:id="@+id/conferenceCallerDisconnect" android:background="?android:attr/selectableItemBackgroundBorderless" android:clickable="true" android:layout_width="@dimen/conference_call_manager_button_dimension" android:layout_height="@dimen/conference_call_manager_button_dimension" android:src="@drawable/quantum_ic_call_end_white_24" android:scaleType="center" android:tint="?attr/colorIcon" android:contentDescription="@string/conference_caller_disconnect_content_description" android:layout_marginStart="8dp"/>
+</LinearLayout>

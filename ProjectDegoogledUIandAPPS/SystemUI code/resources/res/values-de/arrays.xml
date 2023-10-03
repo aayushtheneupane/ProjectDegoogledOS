@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="animator_duration_scale_entries">
+        <item>Animation aus</item>
+        <item>Animationsfaktor: 0,5x</item>
+        <item>Animationsfaktor: 1x</item>
+        <item>Animationsfaktor: 1,5x</item>
+        <item>Animationsfaktor: 2x</item>
+        <item>Animationsfaktor: 5x</item>
+        <item>Animationsfaktor: 10x</item>
+    </array>
+    <array name="app_process_limit_entries">
+        <item>Standardlimit</item>
+        <item>Keine Hintergrundprozesse</item>
+        <item>Höchstens 1 Prozess</item>
+        <item>Höchstens 2 Prozesse</item>
+        <item>Höchstens 3 Prozesse</item>
+        <item>Höchstens 4 Prozesse</item>
+    </array>
+    <array name="battery_labels">
+        <item>0 %</item>
+        <item>50 %</item>
+        <item>100 %</item>
+    </array>
+    <array name="battery_options">
+        <item>Prozentwert immer anzeigen</item>
+        <item>Prozentwert beim Laden anzeigen (Standardeinstellung)</item>
+        <item>Dieses Symbol nicht anzeigen</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Systemauswahl verwenden (Standard)</item>
+        <item>16 Bits pro Sample</item>
+        <item>24 Bits pro Sample</item>
+        <item>32 Bits pro Sample</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Systemauswahl verwenden (Standard)</item>
+        <item>16 Bits pro Sample</item>
+        <item>24 Bits pro Sample</item>
+        <item>32 Bits pro Sample</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Systemauswahl verwenden (Standard)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Systemauswahl verwenden (Standard)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>Für Audioqualität optimiert</item>
+        <item>Ausgeglichene Audio- und Verbindungsqualität</item>
+        <item>Für Verbindungsqualität optimiert</item>
+        <item>Bestmöglich (adaptive Bitrate)</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>Für Audioqualität optimiert (990 kbit/s/909 kbit/s)</item>
+        <item>Ausgeglichene Audio- und Verbindungsqualität (660 kbit/s/606 kbit/s)</item>
+        <item>Für Verbindungsqualität optimiert (330 kbit/s/303 kbit/s)</item>
+        <item>Bestmöglich (adaptive Bitrate)</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Systemauswahl verwenden (Standard)</item>
+        <item>44,1 kHz</item>
+        <item>48 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96 kHz</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Systemauswahl verwenden (Standard)</item>
+        <item>44,1 kHz</item>
+        <item>48 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96 kHz</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_summaries">
+        <item>Systemauswahl verwenden (Standard)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™-Audio</item>
+        <item>Qualcomm® aptX™ HD-Audio</item>
+        <item>LDAC</item>
+        <item>Optionale Codecs aktivieren</item>
+        <item>Optionale Codecs deaktivieren</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_titles">
+        <item>Systemauswahl verwenden (Standard)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™-Audio</item>
+        <item>Qualcomm® aptX™ HD-Audio</item>
+        <item>LDAC</item>
+        <item>Optionale Codecs aktivieren</item>
+        <item>Optionale Codecs deaktivieren</item>
+    </array>
+    <array name="bluetooth_audio_active_device_summaries">
+        <item />
+        <item>, aktiv</item>
+        <item>, aktiv (Medien)</item>
+        <item>, aktiv (Telefon)</item>
+    </array>
+    <array name="bluetooth_avrcp_version_values">
+        <item>avrcp14</item>
+        <item>avrcp13</item>
+        <item>avrcp15</item>
+        <item>avrcp16</item>
+    </array>
+    <array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.4 (Standard)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.5</item>
+        <item>AVRCP 1.6</item>
+    </array>
+    <array name="bt_hci_snoop_log_entries">
+        <item>Deaktiviert</item>
+        <item>Filter aktiviert</item>
+        <item>Aktiviert</item>
+    </array>
+    <array name="clock_options">
+        <item>Stunden, Minuten und Sekunden anzeigen</item>
+        <item>Stunden und Minuten anzeigen (Standardeinstellung)</item>
+        <item>Dieses Symbol nicht anzeigen</item>
+    </array>
+    <array name="color_mode_descriptions">
+        <item>Verstärkte Farben</item>
+        <item>Natürliche Farben wie vom Auge wahrgenommen</item>
+        <item>Für digitale Inhalte optimierte Farben</item>
+    </array>
+    <array name="color_mode_names">
+        <item>Brillant (Standardeinstellung)</item>
+        <item>Natürlich</item>
+        <item>Standard</item>
+    </array>
+    <array name="debug_hw_overdraw_entries">
+        <item>Aus</item>
+        <item>Überschneidungsbereiche anzeigen</item>
+        <item>Bereiche für Deuteranomalie anzeigen</item>
+    </array>
+    <array name="enable_opengl_traces_entries">
+        <item>Keine</item>
+        <item>Logcat</item>
+        <item>Systrace (Grafik)</item>
+        <item>Aufrufliste für glGetError</item>
+    </array>
+    <array name="hdcp_checking_summaries">
+        <item>HDCP-Prüfung nie verwenden</item>
+        <item>HDCP-Prüfung nur für DRM-Inhalte verwenden</item>
+        <item>HDCP-Prüfung immer verwenden</item>
+    </array>
+    <array name="hdcp_checking_titles">
+        <item>Nie prüfen</item>
+        <item>Nur auf DRM-Inhalte prüfen</item>
+        <item>Immer prüfen</item>
+    </array>
+    <array name="nav_bar_buttons">
+        <item>Zwischenablage</item>
+        <item>Keycode</item>
+        <item>Drehen bestätigen, Tastaturwechsler</item>
+        <item>Keine</item>
+    </array>
+    <array name="nav_bar_layouts">
+        <item>Mittig</item>
+        <item>Kompakt</item>
+        <item>Links­bün­dig</item>
+        <item>Rechtsbündig</item>
+    </array>
+    <array name="overlay_display_devices_entries">
+        <item>Keine</item>
+        <item>480p</item>
+        <item>480p (sicher)</item>
+        <item>720p</item>
+        <item>720p (sicher)</item>
+        <item>1080p</item>
+        <item>1080p (sicher)</item>
+        <item>4K</item>
+        <item>4K (sicher)</item>
+        <item>4K (hochskaliert)</item>
+        <item>4K (hochskaliert, sicher)</item>
+        <item>720p, 1080p (Dual-Screen)</item>
+    </array>
+    <array name="select_logd_size_lowram_titles">
+        <item>Aus</item>
+        <item>64.000</item>
+        <item>256.000</item>
+        <item>1 Mio.</item>
+    </array>
+    <array name="select_logd_size_summaries">
+        <item>Aus</item>
+        <item>64.000 pro Puffer</item>
+        <item>256.000 pro Puffer</item>
+        <item>1 Mio. pro Puffer</item>
+        <item>4 Mio. pro Puffer</item>
+        <item>16 Mio. pro Puffer</item>
+    </array>
+    <array name="select_logd_size_titles">
+        <item>Aus</item>
+        <item>64.000</item>
+        <item>256.000</item>
+        <item>1 Mio.</item>
+        <item>4 Mio.</item>
+        <item>16 Mio.</item>
+    </array>
+    <array name="select_logpersist_summaries">
+        <item>Aus</item>
+        <item>Alle Protokollzwischenspeicher</item>
+        <item>Alle Protokollzwischenspeicher außer Funkschnittstelle</item>
+        <item>Nur Kernelprotokoll-Zwischenspeicher</item>
+    </array>
+    <array name="select_logpersist_titles">
+        <item>Aus</item>
+        <item>Alle</item>
+        <item>Alle außer Funkschnittstelle</item>
+        <item>Nur Kernel</item>
+    </array>
+    <array name="show_non_rect_clip_entries">
+        <item>Aus</item>
+        <item>Nicht rechteckigen Clipbereich blau zeichnen</item>
+        <item>Getestete Zeichenbefehle grün hervorheben</item>
+    </array>
+    <array name="track_frame_time_entries">
+        <item>Aus</item>
+        <item>Auf Bildschirm als Balken</item>
+        <item>In adb shell dumpsys gfxinfo</item>
+    </array>
+    <array name="transition_animation_scale_entries">
+        <item>Animation aus</item>
+        <item>Animationsfaktor: 0,5x</item>
+        <item>Animationsfaktor: 1x</item>
+        <item>Animationsfaktor: 1,5x</item>
+        <item>Animationsfaktor: 2x</item>
+        <item>Animationsfaktor: 5x</item>
+        <item>Animationsfaktor: 10x</item>
+    </array>
+    <array name="tts_rate_entries">
+        <item>Sehr langsam</item>
+        <item>Langsam</item>
+        <item>Mittel</item>
+        <item>Schnell</item>
+        <item>Schneller</item>
+        <item>Sehr schnell</item>
+        <item>Schnell</item>
+        <item>Sehr schnell</item>
+        <item>Am schnellsten</item>
+    </array>
+    <array name="type_clock_hours">
+        <item>zwölf Uhr</item>
+        <item>ein Uhr</item>
+        <item>zwei Uhr</item>
+        <item>drei Uhr</item>
+        <item>vier Uhr</item>
+        <item>fünf Uhr</item>
+        <item>sechs Uhr</item>
+        <item>sieben Uhr</item>
+        <item>acht Uhr</item>
+        <item>neun Uhr</item>
+        <item>zehn Uhr</item>
+        <item>elf Uhr</item>
+    </array>
+    <array name="type_clock_minutes">
+        <item />
+        <item>Eins</item>
+        <item>Zwei</item>
+        <item>Drei</item>
+        <item>Vier</item>
+        <item>Fünf</item>
+        <item>Sechs</item>
+        <item>Sieben</item>
+        <item>Acht</item>
+        <item>Neun</item>
+        <item>zehn</item>
+        <item>elf</item>
+        <item>zwölf</item>
+        <item>dreizehn</item>
+        <item>vierzehn</item>
+        <item>fünfzehn</item>
+        <item>sechzehn</item>
+        <item>siebzehn</item>
+        <item>achtzehn</item>
+        <item>neunzehn</item>
+        <item>zwanzig</item>
+        <item>einund-\10zwanzig</item>
+        <item>zweiund-\10zwanzig</item>
+        <item>dreiund-\10zwanzig</item>
+        <item>vierund-\10zwanzig</item>
+        <item>fünfund-\10zwanzig</item>
+        <item>sechsund-\10zwanzig</item>
+        <item>siebenund-\10zwanzig</item>
+        <item>achtund-\10zwanzig</item>
+        <item>neunund-\10zwanzig</item>
+        <item>dreißig</item>
+        <item>einund-\10dreißig</item>
+        <item>zweiund-\10dreißig</item>
+        <item>dreiund-\10dreißig</item>
+        <item>vierund-\10dreißig</item>
+        <item>fünfund-\10dreißig</item>
+        <item>sechsund-\10dreißig</item>
+        <item>siebenund-\10dreißig</item>
+        <item>achtund-\10dreißig</item>
+        <item>neunund-\10dreißig</item>
+        <item>vierzig</item>
+        <item>einund-\10vierzig</item>
+        <item>zweiund-\10vierzig</item>
+        <item>dreiund-\10vierzig</item>
+        <item>vierund-\10vierzig</item>
+        <item>fünfund-\10vierzig</item>
+        <item>sechsund-\10vierzig</item>
+        <item>siebenund-\10vierzig</item>
+        <item>achtund-\10vierzig</item>
+        <item>neunund-\10vierzig</item>
+        <item>fünfzig</item>
+        <item>einund-\10fünfzig</item>
+        <item>zweiund-\10fünfzig</item>
+        <item>dreiund-\10fünfzig</item>
+        <item>vierund-\10fünfzig</item>
+        <item>fünfund-\10fünfzig</item>
+        <item>sechsund-\10fünfzig</item>
+        <item>siebenund-\10fünfzig</item>
+        <item>achtund-\10fünfzig</item>
+        <item>neunund-\10fünfzig</item>
+    </array>
+    <array name="usb_configuration_titles">
+        <item>Wird aufgeladen</item>
+        <item>MTP (Media Transfer Protocol)</item>
+        <item>PTP (Picture Transfer Protocol)</item>
+        <item>RNDIS (USB-Ethernet)</item>
+        <item>Audioquelle</item>
+        <item>MIDI</item>
+    </array>
+    <array name="wifi_status">
+        <item />
+        <item>Scan läuft…</item>
+        <item>Verbindung wird hergestellt...</item>
+        <item>Authentifizierung...</item>
+        <item>IP-Adresse wird abgerufen...</item>
+        <item>Verbunden</item>
+        <item>Angehalten</item>
+        <item>Verbindung wird getrennt...</item>
+        <item>Nicht verbunden</item>
+        <item>Nicht erfolgreich</item>
+        <item>Blockiert</item>
+        <item>Schlechte Internetverbindung wird vorübergehend vermieden.</item>
+    </array>
+    <array name="wifi_status_with_ssid">
+        <item />
+        <item>Scan läuft…</item>
+        <item>Verbindung mit %1$s wird hergestellt...</item>
+        <item>Authentifizierung mit %1$s...</item>
+        <item>IP-Adresse wird von %1$s abgerufen...</item>
+        <item>Verbunden mit %1$s</item>
+        <item>Angehalten</item>
+        <item>Verbindung mit %1$s wird getrennt...</item>
+        <item>Nicht verbunden</item>
+        <item>Nicht erfolgreich</item>
+        <item>Blockiert</item>
+        <item>Schlechte Internetverbindung wird vorübergehend vermieden.</item>
+    </array>
+    <array name="window_animation_scale_entries">
+        <item>Animation aus</item>
+        <item>Animationsfaktor: 0,5x</item>
+        <item>Animationsfaktor: 1x</item>
+        <item>Animationsfaktor: 1,5x</item>
+        <item>Animationsfaktor: 2x</item>
+        <item>Animationsfaktor: 5x</item>
+        <item>Animationsfaktor: 10x</item>
+    </array>
+</resources>

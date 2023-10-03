@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_invalid_contact_error">
+        <item quantity="one">Virheellinen yhteystieto</item>
+        <item quantity="other">Virheelliset yhteystiedot</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">Yksi liite valmiina lähetettäväksi</item>
+        <item quantity="other">%d liitettä valmiina lähetettäväksi</item>
+    </plurals>
+    <plurals name="attachment_preview_close_content_description">
+        <item quantity="one">Hylkää liite</item>
+        <item quantity="other">Hylkää liitteet</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">%d liitteen tallentaminen epäonnistui.</item>
+        <item quantity="other">%d liitteen tallentaminen epäonnistui.</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one">%d liite tallennettiin.</item>
+        <item quantity="other">%d liitettä tallennettiin</item>
+    </plurals>
+    <plurals name="attachments_saved_to_album">
+        <item quantity="one">%d liite tallennettu albumiin %s</item>
+        <item quantity="other">%d liitettä tallennettu albumiin %s</item>
+    </plurals>
+    <plurals name="attachments_saved_to_downloads">
+        <item quantity="one">%d liite tallennettu Lataukset-kansioon</item>
+        <item quantity="other">%d liitettä tallennettu Lataukset-kansioon</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_attachments">
+        <item quantity="one">Lähetä liite</item>
+        <item quantity="other">Lähetä liitteitä</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_audio">
+        <item quantity="one">Lähetä äänitiedosto</item>
+        <item quantity="other">Lähetä äänitiedostoja</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_photo">
+        <item quantity="one">Lähetä kuva</item>
+        <item quantity="other">Lähetä kuvia</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_vcard">
+        <item quantity="one">Lähetä yhteystietokortti</item>
+        <item quantity="other">Lähetä yhteystietokortteja</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_video">
+        <item quantity="one">Lähetä video</item>
+        <item quantity="other">Lähetä videoita</item>
+    </plurals>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">Poistetaanko tämä keskustelu?</item>
+        <item quantity="other">Poistetaanko nämä keskustelut?</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="one">kuukausi</item>
+        <item quantity="other">%d kuukautta</item>
+    </plurals>
+    <plurals name="notification_download_failures">
+        <item quantity="one">%d viesti yhdessä keskustelussa</item>
+        <item quantity="other">%d viestiä %d keskustelussa</item>
+    </plurals>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Uusi viesti</item>
+        <item quantity="other">%d uutta viestiä</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="one">%d viesti yhdessä keskustelussa</item>
+        <item quantity="other">%d viestiä %d keskustelussa</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="one">%d päivä</item>
+        <item quantity="other">%d päivää</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="one">%d tunti</item>
+        <item quantity="other">%d tuntia</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="one">%d minuutti</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="photos_saved_to_album">
+        <item quantity="one">%d valokuva tallennettu albumiin %s</item>
+        <item quantity="other">%d valokuvaa tallennettu albumiin %s</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one">%d yhteystieto</item>
+        <item quantity="other">%d yhteystietoa</item>
+    </plurals>
+    <plurals name="videos_saved_to_album">
+        <item quantity="one">%d video tallennettu albumiin %s</item>
+        <item quantity="other">%d videota tallennettu albumiin %s</item>
+    </plurals>
+    <plurals name="wearable_participant_count">
+        <item quantity="one">%d osallistuja</item>
+        <item quantity="other">%d osallistujaa</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="one">viikko</item>
+        <item quantity="other">%d viikkoa</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="one">vuosi</item>
+        <item quantity="other">%d vuotta</item>
+    </plurals>
+</resources>

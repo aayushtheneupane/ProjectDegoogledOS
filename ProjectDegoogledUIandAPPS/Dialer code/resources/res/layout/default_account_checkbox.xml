@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="horizontal" android:id="@+id/default_account_checkbox_layout" android:padding="4dp" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp" android:paddingStart="0dp" android:paddingEnd="24dp">
+    <FrameLayout android:layout_width="72dp" android:layout_height="wrap_content">
+        <CheckBox android:layout_gravity="center" android:id="@+id/default_account_checkbox_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false"/> /&gt; 
+    </FrameLayout>
+    <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="?android:attr/textColorSecondary" android:id="@+id/default_account_checkbox_text" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/set_default_account" android:layout_weight="1" android:textAlignment="viewStart"/>
+</LinearLayout>

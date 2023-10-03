@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="editor_round_button_padding_left">8dp</dimen>
+    <dimen name="editor_round_button_padding_right">8dp</dimen>
+    <dimen name="editor_type_label_width">180dp</dimen>
+    <dimen name="expanding_entry_card_marginStartEnd">10dp</dimen>
+    <dimen name="quickcontact_title_initial_bottom_margin">0dp</dimen>
+    <dimen name="quickcontact_title_initial_margin">32dp</dimen>
+</resources>

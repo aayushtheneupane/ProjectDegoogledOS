@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_invalid_contact_error">
+        <item quantity="one">അസാധുവായ കോൺടാക്‌റ്റ്</item>
+        <item quantity="other">അസാധുവായ കോൺടാക്റ്റുകൾ</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">ഒരു അറ്റാച്ച്‌മെന്റ് അയയ്‌ക്കാൻ തയ്യാറാണ്</item>
+        <item quantity="other">%d അറ്റാച്ച്‌മെന്റുകൾ അയയ്‌ക്കാൻ തയ്യാറാണ്</item>
+    </plurals>
+    <plurals name="attachment_preview_close_content_description">
+        <item quantity="one">അറ്റാച്ച്‌മെന്റ് ഉപേക്ഷിക്കുക</item>
+        <item quantity="other">അറ്റാച്ച്‌മെന്റുകൾ ഉപേക്ഷിക്കുക</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">%d അറ്റാച്ച്‌മെന്റ് സംരക്ഷിക്കാനായില്ല</item>
+        <item quantity="other">%dഅറ്റാച്ച്‌മെന്റുകൾ സംരക്ഷിക്കാനായില്ല</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one">%d അറ്റാച്ച്‌മെന്റ് സംരക്ഷിച്ചു</item>
+        <item quantity="other">%d അറ്റാച്ച്‌മെന്റുകൾ സംരക്ഷിച്ചു</item>
+    </plurals>
+    <plurals name="attachments_saved_to_album">
+        <item quantity="one">%d അറ്റാച്ച്‌മെന്റ് &quot;%s&quot; ആൽബത്തിലേക്ക് സംരക്ഷിച്ചു</item>
+        <item quantity="other">%d അറ്റാച്ചുമെന്റുകൾ &quot;%s&quot; ആൽബത്തിലേക്ക് സംരക്ഷിച്ചു</item>
+    </plurals>
+    <plurals name="attachments_saved_to_downloads">
+        <item quantity="one">%d അറ്റാച്ചുമെന്റ് &quot;ഡൗൺലോഡുകളി&quot;ലേക്ക് സംരക്ഷിച്ചു</item>
+        <item quantity="other">%d അറ്റാച്ചുമെന്റുകൾ &quot;ഡൗൺലോഡുകളി&quot;ലേക്ക് സംരക്ഷിച്ചു</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_attachments">
+        <item quantity="one">അറ്റാച്ച്‌മെന്റ് അയയ്ക്കുക</item>
+        <item quantity="other">അറ്റാച്ച്‌മെന്റുകൾ അയയ്ക്കുക</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_audio">
+        <item quantity="one">ഓഡിയോ അയയ്ക്കുക</item>
+        <item quantity="other">ഓഡിയോകൾ അയയ്‌ക്കുക</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_photo">
+        <item quantity="one">ഫോട്ടോ അയയ്ക്കുക</item>
+        <item quantity="other">ഫോട്ടോകൾ അയയ്‌ക്കുക</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_vcard">
+        <item quantity="one">കോൺടാക്റ്റ് കാർഡ് അയയ്ക്കുക</item>
+        <item quantity="other">കോൺടാക്റ്റ് കാർഡുകൾ അയയ്‌ക്കുക</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_video">
+        <item quantity="one">വീഡിയോ അയയ്‌ക്കുക</item>
+        <item quantity="other">വീഡിയോകൾ അയയ്‌ക്കുക</item>
+    </plurals>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">ഈ സംഭാഷണം ഇല്ലാതാക്കണോ?</item>
+        <item quantity="other">ഈ സംഭാഷണങ്ങൾ ഇല്ലാതാക്കണോ?</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="one">ഒരു മാസം</item>
+        <item quantity="other">%d മാസം</item>
+    </plurals>
+    <plurals name="notification_download_failures">
+        <item quantity="one">ഒരു സംഭാഷണത്തിൽ %d സന്ദേശങ്ങൾ</item>
+        <item quantity="other">%d സംഭാഷണങ്ങളിൽ %d സന്ദേശങ്ങൾ</item>
+    </plurals>
+    <plurals name="notification_new_messages">
+        <item quantity="one">പുതിയ സന്ദേശം</item>
+        <item quantity="other">%d പുതിയ സന്ദേശങ്ങൾ</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="one">ഒരു സംഭാഷണത്തിൽ %d സന്ദേശങ്ങൾ</item>
+        <item quantity="other">%d സംഭാഷണങ്ങളിൽ %d സന്ദേശങ്ങൾ</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="one">%d ദിവസം</item>
+        <item quantity="other">%d ദിവസം</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="one">%d മണിക്കൂർ</item>
+        <item quantity="other">%d മണിക്കൂർ</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="one">%d മിനിറ്റ്</item>
+        <item quantity="other">%d മിനിറ്റ്</item>
+    </plurals>
+    <plurals name="photos_saved_to_album">
+        <item quantity="one">%d ഫോട്ടോ &quot;%s&quot; ആൽബത്തിലേക്ക് സംരക്ഷിച്ചു</item>
+        <item quantity="other">%d ഫോട്ടോകൾ &quot;%s&quot; ആൽബത്തിലേക്ക് സംരക്ഷിച്ചു</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one">%d കോൺടാക്റ്റ്</item>
+        <item quantity="other">%d കോൺടാക്റ്റുകൾ</item>
+    </plurals>
+    <plurals name="videos_saved_to_album">
+        <item quantity="one">%d വീഡിയോ &quot;%s&quot; ആൽബത്തിലേക്ക് സംരക്ഷിച്ചു</item>
+        <item quantity="other">%d വീഡിയോകൾ &quot;%s&quot; ആൽബത്തിലേക്ക് സംരക്ഷിച്ചു</item>
+    </plurals>
+    <plurals name="wearable_participant_count">
+        <item quantity="one">%d പങ്കെടുക്കുന്നയാൾ</item>
+        <item quantity="other">%d പങ്കെടുക്കുന്നവർ</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="one">ഒരു ആഴ്‌ച</item>
+        <item quantity="other">%d ആഴ്‌ച</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="one">ഒരു വർഷം</item>
+        <item quantity="other">%d വർഷം</item>
+    </plurals>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <item android:icon="@drawable/quantum_gm_ic_share_vd_theme_24" android:id="@+id/share" android:orderInCategory="1" android:title="@string/multiselect_share_title" app:showAsAction="ifRoom"/>
+    <item android:icon="@drawable/quantum_gm_ic_delete_vd_theme_24" android:id="@+id/delete" android:orderInCategory="2" android:title="@string/multiselect_delete_title" app:showAsAction="ifRoom"/>
+    <item android:id="@+id/select_all" android:orderInCategory="3" android:title="@string/multiselect_select_all_title" android:showAsAction="never"/>
+    <item android:id="@+id/move_to_folder" android:orderInCategory="4" android:title="@string/multiselect_move_to_title" android:showAsAction="never"/>
+    <item android:id="@+id/copy_to_folder" android:orderInCategory="5" android:title="@string/multiselect_copy_to_title" android:showAsAction="never"/>
+    <item android:id="@+id/trash" android:visible="false" android:orderInCategory="6" android:title="@string/multiselect_trash_title" android:showAsAction="never"/>
+</menu>

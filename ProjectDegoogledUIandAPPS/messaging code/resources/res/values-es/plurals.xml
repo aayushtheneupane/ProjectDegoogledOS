@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_invalid_contact_error">
+        <item quantity="one">Contacto no válido</item>
+        <item quantity="other">Contactos no válidos</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">Un archivo adjunto listo para enviar</item>
+        <item quantity="other">%d archivos adjuntos listos para enviar</item>
+    </plurals>
+    <plurals name="attachment_preview_close_content_description">
+        <item quantity="one">Descartar archivo adjunto</item>
+        <item quantity="other">Descartar archivos adjuntos</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">No se ha podido guardar %d archivo adjunto</item>
+        <item quantity="other">No se han podido guardar %d archivos adjuntos</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one">%d archivo adjunto guardado</item>
+        <item quantity="other">%d archivos adjuntos guardados</item>
+    </plurals>
+    <plurals name="attachments_saved_to_album">
+        <item quantity="one">%d archivo adjunto guardado en el álbum %s</item>
+        <item quantity="other">%d archivos adjuntos guardados en el álbum %s</item>
+    </plurals>
+    <plurals name="attachments_saved_to_downloads">
+        <item quantity="one">%d archivo adjunto guardado en Descargas</item>
+        <item quantity="other">%d archivos adjuntos guardados en Descargas</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_attachments">
+        <item quantity="one">Enviar archivo adjunto</item>
+        <item quantity="other">Enviar archivos adjuntos</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_audio">
+        <item quantity="one">Enviar archivo de audio</item>
+        <item quantity="other">Enviar archivos de audio</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_photo">
+        <item quantity="one">Enviar foto</item>
+        <item quantity="other">Enviar fotos</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_vcard">
+        <item quantity="one">Enviar tarjeta de contacto</item>
+        <item quantity="other">Enviar tarjetas de contacto</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_video">
+        <item quantity="one">Enviar vídeo</item>
+        <item quantity="other">Enviar vídeos</item>
+    </plurals>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">¿Eliminar esta conversación?</item>
+        <item quantity="other">¿Eliminar estas conversaciones?</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="one">un mes</item>
+        <item quantity="other">%d meses</item>
+    </plurals>
+    <plurals name="notification_download_failures">
+        <item quantity="one">%d mensajes en una conversación</item>
+        <item quantity="other">%d mensajes en %d conversaciones</item>
+    </plurals>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Mensaje nuevo</item>
+        <item quantity="other">%d mensajes nuevos</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="one">%d mensajes en una conversación</item>
+        <item quantity="other">%d mensajes en %d conversaciones</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="one">%d día</item>
+        <item quantity="other">%d días</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="one">%d hora</item>
+        <item quantity="other">%d horas</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="one">%d min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="photos_saved_to_album">
+        <item quantity="one">%d foto guardada en el álbum %s</item>
+        <item quantity="other">%d fotos guardadas en el álbum %s</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one">%d contacto</item>
+        <item quantity="other">%d contactos</item>
+    </plurals>
+    <plurals name="videos_saved_to_album">
+        <item quantity="one">%d vídeo guardado en el álbum %s</item>
+        <item quantity="other">%d vídeos guardados en el álbum %s</item>
+    </plurals>
+    <plurals name="wearable_participant_count">
+        <item quantity="one">%d participante</item>
+        <item quantity="other">%d participantes</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="one">una semana</item>
+        <item quantity="other">%d semanas</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="one">un año</item>
+        <item quantity="other">%d años</item>
+    </plurals>
+</resources>

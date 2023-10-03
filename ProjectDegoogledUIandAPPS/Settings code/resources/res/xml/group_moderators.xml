@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/group_mods_title">
+    <Preference android:icon="@drawable/havoc_support" android:title="Vrushank Nijaguna (vrushock)" android:summary="@string/havoc_support_summary"/>
+    <Preference android:icon="@drawable/havoc_support" android:title="Sushobith Sukumar (G920I)" android:summary="@string/havoc_support_summary"/>
+    <Preference android:icon="@drawable/havoc_support" android:title="Răileanu Cosmin (ComicoX)" android:summary="@string/havoc_support_maintainer_summary"/>
+    <Preference android:icon="@drawable/havoc_support" android:title="Joshua Primero (Jprimero15)" android:summary="@string/havoc_support_maintainer_summary"/>
+    <Preference android:icon="@drawable/havoc_support" android:title="Yash Sonawane (rdjr5)" android:summary="@string/havoc_support_maintainer_summary"/>
+    <Preference android:icon="@drawable/havoc_support" android:title="Sagar Rokade (Sagarrokade006)" android:summary="@string/havoc_support_maintainer_summary"/>
+    <Preference android:icon="@drawable/havoc_support" android:title="Sairam Majgaonkar (Sairam60)" android:summary="@string/havoc_support_maintainer_summary"/>
+    <Preference android:icon="@drawable/havoc_support" android:title="Rique Barros (riquebarros17)" android:summary="@string/havoc_support_maintainer_summary"/>
+    <Preference android:icon="@drawable/havoc_support" android:title="Nikhil Gohil (nikhilgohil3)" android:summary="@string/havoc_support_maintainer_summary"/>
+    <Preference android:icon="@drawable/havoc_support" android:title="Rishi Shukla (Lightvortex242)" android:summary="@string/havoc_support_maintainer_summary"/>
+</PreferenceScreen>

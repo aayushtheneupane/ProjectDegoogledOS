@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/nav_drawer_spacer" android:background="@color/navigation_drawer_background_color" android:layout_width="match_parent" android:layout_height="@dimen/nav_drawer_spacer_height" android:importantForAccessibility="no"/>

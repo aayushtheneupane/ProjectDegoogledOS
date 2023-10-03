@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@+id/placeholder_background" android:layout_width="@dimen/category_image_width" android:layout_height="@dimen/category_image_height" android:layout_marginTop="16dp" android:src="@drawable/category_placeholder_background"/>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@+id/placeholder_image" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginTop="36dp" android:scaleType="centerCrop" android:tint="@color/category_placeholder_icon_color"/>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@+id/canonical_image" android:background="@drawable/category_placeholder_background" android:layout_width="@dimen/category_image_width" android:layout_height="@dimen/category_image_height" android:layout_marginTop="16dp" android:scaleType="centerCrop" android:elevation="4dp" android:outlineProvider="background"/>
+    <include android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4dp" layout="@layout/category_name_textview"/>
+</merge>

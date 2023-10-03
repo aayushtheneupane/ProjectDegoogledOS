@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.android.messaging.p041ui.AsyncImageView android:id="@+id/attachment_image_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true" android:maxHeight="@dimen/single_attachment_max_height" android:minWidth="@dimen/single_attachment_min_dimen" android:minHeight="@dimen/single_attachment_min_dimen" app:cornerRadius="@dimen/attachment_rounded_corner_radius" app:fadeIn="false"/>
+    <TextView android:ellipsize="end" android:id="@+id/caption" android:background="@color/message_bubble_color_outgoing" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:maxLines="3" style="@style/ConversationMessage"/>
+</LinearLayout>

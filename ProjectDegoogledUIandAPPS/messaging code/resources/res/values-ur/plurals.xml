@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_invalid_contact_error">
+        <item quantity="one">غلط رابطہ</item>
+        <item quantity="other">غلط رابطے</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">ایک منسلکہ بھیجنے کیلئے تیار</item>
+        <item quantity="other">%d منسلکہ جات بھیجنے کیلئے تیار</item>
+    </plurals>
+    <plurals name="attachment_preview_close_content_description">
+        <item quantity="one">منسلکہ کو مسترد کریں</item>
+        <item quantity="other">منسلکہ جات کو مسترد کریں</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">%d منسلکہ کو محفوظ نہیں کیا جا سکا</item>
+        <item quantity="other">%d منسلکہ جات کو محفوظ نہیں کیا جا سکا</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one">%d منسلکہ کو محفوظ کر دیا گیا</item>
+        <item quantity="other">%d منسلکہ جات کو محفوظ کر دیا گیا</item>
+    </plurals>
+    <plurals name="attachments_saved_to_album">
+        <item quantity="one">%d منسلکہ &quot;%s&quot; البم میں محفوظ ہو گئی</item>
+        <item quantity="other">%d منسلکہ جات &quot;%s&quot; البم میں محفوظ ہو گئیں</item>
+    </plurals>
+    <plurals name="attachments_saved_to_downloads">
+        <item quantity="one">%d منسلکہ &apos;ڈاؤن لوڈز&apos; میں محفوظ ہو گئی</item>
+        <item quantity="other">%d منسلکہ جات &apos;ڈاؤن لوڈز&apos; میں محفوظ ہو گئیں</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_attachments">
+        <item quantity="one">منسلکہ بھیجیں</item>
+        <item quantity="other">منسلکہ جات بھیجیں</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_audio">
+        <item quantity="one">آڈیو بھیجیں</item>
+        <item quantity="other">آڈیوز بھیجیں</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_photo">
+        <item quantity="one">تصویر بھیجیں</item>
+        <item quantity="other">تصاویر بھیجیں</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_vcard">
+        <item quantity="one">رابطہ کارڈ بھیجیں</item>
+        <item quantity="other">رابطہ کارڈز بھیجیں</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_video">
+        <item quantity="one">ویڈیو بھیجیں</item>
+        <item quantity="other">ویڈیوز بھیجیں</item>
+    </plurals>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">اس گفتگو کو حذف کریں؟</item>
+        <item quantity="other">ان گفتگوؤں کو حذف کریں؟</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="one">ایک ماہ</item>
+        <item quantity="other">%d مہینے</item>
+    </plurals>
+    <plurals name="notification_download_failures">
+        <item quantity="one">ایک گفتگو میں %d یغامات</item>
+        <item quantity="other">%d گفتگوؤں میں %d پیغامات</item>
+    </plurals>
+    <plurals name="notification_new_messages">
+        <item quantity="one">نیا پیغام</item>
+        <item quantity="other">%d نئے پیغامات</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="one">ایک گفتگو میں %d پیغامات</item>
+        <item quantity="other">%d گفتگوؤں میں %d پیغامات</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="one">%d دن</item>
+        <item quantity="other">%d دن</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="one">%d گھنٹہ</item>
+        <item quantity="other">%d گھنٹے</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="one">%d منٹ</item>
+        <item quantity="other">%d منٹ</item>
+    </plurals>
+    <plurals name="photos_saved_to_album">
+        <item quantity="one">%d تصویر &quot;%s&quot; البم میں محفوظ ہو گئی</item>
+        <item quantity="other">%d تصاویر &quot;%s&quot; البم میں محفوظ ہو گئیں</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one">%d رابطہ</item>
+        <item quantity="other">%d رابطے</item>
+    </plurals>
+    <plurals name="videos_saved_to_album">
+        <item quantity="one">%d ویڈیو &quot;%s&quot; البم میں محفوظ ہو گئی</item>
+        <item quantity="other">%d ویڈیوز &quot;%s&quot; البم میں محفوظ ہو گئیں</item>
+    </plurals>
+    <plurals name="wearable_participant_count">
+        <item quantity="one">%d شرکت کنندہ</item>
+        <item quantity="other">%d شرکت کنندگان</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="one">ایک ہفتہ</item>
+        <item quantity="other">%d ہفتے</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="one">ایک سال</item>
+        <item quantity="other">%d سال</item>
+    </plurals>
+</resources>

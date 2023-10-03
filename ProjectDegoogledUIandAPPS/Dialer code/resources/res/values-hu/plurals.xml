@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="one">perc</item>
+        <item quantity="other">perc</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="one">^1 fogadott hívás a következőtől: ^2</item>
+        <item quantity="other">^1 hívás, a legutóbbi egy fogadott hívás a következőtől: ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="one">^1 letiltott hívás a következőtől: ^2</item>
+        <item quantity="other">^1 hívás, a legutóbbi egy letiltott hívás a következőtől: ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="one">^1 nem fogadott hívás a következőtől: ^2</item>
+        <item quantity="other">^1 hívás, a legutóbbi egy nem fogadott hívás a következőtől: ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="one">^1 kimenő hívás a következőnek: ^2</item>
+        <item quantity="other">^1 hívás, a legutóbbi egy kimenő hívás a következőnek: ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="one">másodperc</item>
+        <item quantity="other">másodperc</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="one">Törli ezt a hangpostaüzenetet? </item>
+        <item quantity="other">Törli ezeket a hangpostaüzeneteket? </item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="one">Hangpostaüzenet</item>
+        <item quantity="other">%1$d hangpostaüzenet</item>
+    </plurals>
+    <plurals name="play_recordings">
+        <item quantity="one">Felvétel lejátszása</item>
+        <item quantity="other">Felvételek lejátszása</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="one">%1$s lap. %2$d olvasatlan elem.</item>
+        <item quantity="other">%1$s lap. %2$d olvasatlan elem.</item>
+    </plurals>
+</resources>

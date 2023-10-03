@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/powermenu_title">
+    <com.havoc.support.preferences.SystemSettingSwitchPreference android:title="@string/powermenu_reboot_title" android:key="powermenu_reboot" android:defaultValue="true"/>
+    <com.havoc.support.preferences.SystemSettingSwitchPreference android:title="@string/powermenu_advanced_reboot_title" android:key="powermenu_advanced_reboot" android:dependency="powermenu_reboot" android:defaultValue="false"/>
+    <com.havoc.support.preferences.SecureSettingSwitchPreference android:title="@string/powermenu_lockdown" android:key="lockdown_in_power_menu" android:defaultValue="false"/>
+    <com.havoc.support.preferences.SystemSettingSwitchPreference android:title="@string/powermenu_screenshot_title" android:key="powermenu_screenshot" android:defaultValue="false"/>
+    <com.havoc.support.preferences.SystemSettingSwitchPreference android:title="@string/powermenu_screenrecord_title" android:key="powermenu_screenrecord" android:defaultValue="false"/>
+    <com.havoc.support.preferences.SwitchPreference android:persistent="false" android:title="@string/powermenu_torch" android:key="powermenu_torch"/>
+    <PreferenceCategory android:title="@string/powermenu_category_visibility" android:key="powermenu_category_visibility">
+        <com.havoc.support.preferences.SwitchPreference android:title="@string/powermenu_lockscreen_title" android:key="powermenu_lockscreen" android:summary="@string/powermenu_lockscreen_summary" android:defaultValue="true"/>
+        <com.havoc.support.preferences.SwitchPreference android:title="@string/powermenu_reboot_title" android:key="powermenu_ls_reboot" android:summary="@string/powermenu_ls_reboot_summary" android:dependency="powermenu_reboot" android:defaultValue="true"/>
+        <com.havoc.support.preferences.SwitchPreference android:title="@string/powermenu_advanced_reboot_title" android:key="powermenu_ls_advanced_reboot" android:summary="@string/powermenu_ls_advanced_reboot_summary" android:dependency="powermenu_advanced_reboot" android:defaultValue="false"/>
+        <com.havoc.support.preferences.SwitchPreference android:title="@string/powermenu_screenshot_title" android:key="powermenu_ls_screenshot" android:summary="@string/powermenu_ls_screenshot_summary" android:dependency="powermenu_screenshot" android:defaultValue="false"/>
+        <com.havoc.support.preferences.SwitchPreference android:title="@string/powermenu_screenrecord_title" android:key="powermenu_ls_screenrecord" android:summary="@string/powermenu_ls_screenrecord_summary" android:dependency="powermenu_screenrecord" android:defaultValue="false"/>
+        <com.havoc.support.preferences.SwitchPreference android:title="@string/powermenu_torch" android:key="powermenu_ls_torch" android:summary="@string/powermenu_ls_torch_summary" android:dependency="powermenu_torch" android:defaultValue="false"/>
+    </PreferenceCategory>
+</PreferenceScreen>

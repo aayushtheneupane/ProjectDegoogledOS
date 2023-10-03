@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/editor" android:background="@color/google_black" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_gravity="center" android:id="@+id/video_view_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <VideoView android:layout_gravity="center" android:id="@+id/video_view" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ImageButton android:layout_gravity="center" android:id="@+id/play_button" android:background="@drawable/play_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/play_video"/>
+        <ImageButton android:layout_gravity="center" android:id="@+id/pause_button" android:background="@drawable/pause_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/pause_video"/>
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="bottom" android:background="@drawable/oneup_bottom_gradient" android:layout_width="match_parent" android:layout_height="@dimen/oneup_bottom_gradient_height"/>
+    <com.google.android.apps.photosgo.editor.videotrimming.fragment.VideoTrimView android:layout_gravity="bottom" android:id="@+id/video_trim_view" android:paddingLeft="14dp" android:paddingRight="14dp" android:layout_width="match_parent" android:layout_height="@dimen/photosgo_videotrimming_trimview_view_height" android:layout_marginLeft="8dp" android:layout_marginRight="8dp"/>
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:id="@+id/editor_appbar" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0dp">
+        <com.google.android.apps.photosgo.oneup.NonclickableToolbar android:layout_gravity="top" android:id="@+id/editor_top_toolbar" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" android:windowActionBarOverlay="true" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" style="?attr/actionBarStyle"/>
+    </com.google.android.material.appbar.AppBarLayout>
+</android.widget.FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <Preference android:icon="@null" android:title="@string/settings_my_info_title" android:key="myInfo"/>
+    <Preference android:icon="@null" android:title="@string/settings_accounts" android:key="accounts"/>
+    <com.android.contacts.preference.DefaultAccountPreference android:icon="@null" android:title="@string/default_editor_account" android:key="defaultAccount" android:dialogTitle="@string/default_editor_account"/>
+    <Preference android:icon="@null" android:title="@string/menu_contacts_filter" android:key="customContactsFilter"/>
+    <com.android.contacts.preference.SortOrderPreference android:icon="@null" android:title="@string/display_options_sort_list_by" android:key="sortOrder" android:dialogTitle="@string/display_options_sort_list_by"/>
+    <com.android.contacts.preference.DisplayOrderPreference android:icon="@null" android:title="@string/display_options_view_names_as" android:key="displayOrder" android:dialogTitle="@string/display_options_view_names_as"/>
+    <com.android.contacts.preference.PhoneticNameDisplayPreference android:icon="@null" android:title="@string/display_options_phonetic_name_fields" android:key="phoneticNameDisplay" android:dialogTitle="@string/display_options_phonetic_name_fields"/>
+    <Preference android:icon="@null" android:title="@string/menu_import" android:key="import"/>
+    <Preference android:icon="@null" android:title="@string/menu_export" android:key="export"/>
+    <Preference android:icon="@null" android:title="@string/menu_blocked_numbers" android:key="blockedNumbers"/>
+    <Preference android:icon="@null" android:title="@string/setting_about" android:key="about" android:order="@integer/about_contacts_order_number"/>
+</PreferenceScreen>

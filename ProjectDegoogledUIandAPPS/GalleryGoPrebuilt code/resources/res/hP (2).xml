@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:id="@+id/home_select" android:visible="false" android:orderInCategory="1" android:title="@string/select_photos" app:showAsAction="never"/>
+    <item android:icon="@drawable/quantum_gm_ic_create_new_folder_vd_theme_24" android:id="@+id/home_new_folder" android:orderInCategory="2" android:title="@string/nav_new_folder" app:showAsAction="never"/>
+    <item android:icon="@drawable/quantum_gm_ic_settings_vd_theme_24" android:id="@+id/home_settings" android:orderInCategory="3" android:title="@string/nav_settings" app:showAsAction="never"/>
+    <item android:id="@+id/home_trash" android:visible="false" android:orderInCategory="4" android:title="@string/nav_trash" app:showAsAction="never"/>
+    <item android:id="@+id/home_face_clustering_and_image_labeling" android:visible="false" android:orderInCategory="5" android:title="@string/nav_face_clustering_and_image_labeling" app:showAsAction="never"/>
+</menu>

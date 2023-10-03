@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/nav_bar">
+    <ListPreference android:persistent="false" android:entries="@array/nav_bar_layouts" android:title="@string/nav_bar_layout" android:key="layout" android:summary="%s" android:entryValues="@array/nav_bar_layouts_values"/>
+</PreferenceScreen>

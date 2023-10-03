@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_invalid_contact_error">
+        <item quantity="one">Ugyldig kontakt</item>
+        <item quantity="other">Ugyldige kontakter</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">Ett vedlegg er klart til å sendes</item>
+        <item quantity="other">%d vedlegg er klare til å sendes</item>
+    </plurals>
+    <plurals name="attachment_preview_close_content_description">
+        <item quantity="one">Forkast vedlegget</item>
+        <item quantity="other">Forkast vedlegg</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">Kunne ikke lagre %d vedlegg</item>
+        <item quantity="other">Kunne ikke lagre %d vedlegg</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one">%d vedlegg er lagret</item>
+        <item quantity="other">%d vedlegg er lagret</item>
+    </plurals>
+    <plurals name="attachments_saved_to_album">
+        <item quantity="one">%d tillegg er lagret i albumet «%s»</item>
+        <item quantity="other">%d tillegg er lagret i albumet «%s»</item>
+    </plurals>
+    <plurals name="attachments_saved_to_downloads">
+        <item quantity="one">%d tillegg er lagret i «Nedlastinger»</item>
+        <item quantity="other">%d tillegg er lagret i «Nedlastinger»</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_attachments">
+        <item quantity="one">Send vedlegg</item>
+        <item quantity="other">Send vedlegg</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_audio">
+        <item quantity="one">Send lydklipp</item>
+        <item quantity="other">Send lydklipp</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_photo">
+        <item quantity="one">Send bilde</item>
+        <item quantity="other">Send bilder</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_vcard">
+        <item quantity="one">Send kontaktkort</item>
+        <item quantity="other">Send kontaktkort</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_video">
+        <item quantity="one">Send video</item>
+        <item quantity="other">Send videoer</item>
+    </plurals>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">Vil du slette denne samtalen?</item>
+        <item quantity="other">Vil du slette disse samtalene?</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="one">én måned</item>
+        <item quantity="other">%d måneder</item>
+    </plurals>
+    <plurals name="notification_download_failures">
+        <item quantity="one">%d meldinger i én samtale</item>
+        <item quantity="other">%d meldinger i %d samtaler</item>
+    </plurals>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Ny melding</item>
+        <item quantity="other">%d nye meldinger</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="one">%d meldinger i én samtale</item>
+        <item quantity="other">%d meldinger i %d samtaler</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="one">%d dag</item>
+        <item quantity="other">dager</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="one">%d time</item>
+        <item quantity="other">%d timer</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="one">%d minutt</item>
+        <item quantity="other">%d minutter</item>
+    </plurals>
+    <plurals name="photos_saved_to_album">
+        <item quantity="one">%d bilde er lagret i albumet «%s»</item>
+        <item quantity="other">%d bilder er lagret i albumet «%s»</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one">%d kontakt</item>
+        <item quantity="other">%d kontakter</item>
+    </plurals>
+    <plurals name="videos_saved_to_album">
+        <item quantity="one">%d video er lagret i albumet «%s»</item>
+        <item quantity="other">%d videoer er lagret i albumet «%s»</item>
+    </plurals>
+    <plurals name="wearable_participant_count">
+        <item quantity="one">%d deltaker</item>
+        <item quantity="other">%d deltakere</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="one">én uke</item>
+        <item quantity="other">%d uker</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="one">ett år</item>
+        <item quantity="other">%d år</item>
+    </plurals>
+</resources>

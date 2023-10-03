@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:shape="rectangle">
+    <size android:height="36dp" android:width="36dp"/>
+    <solid android:color="@color/photosgo_topbar_button_color"/>
+    <corners android:radius="8dp"/>
+</shape>

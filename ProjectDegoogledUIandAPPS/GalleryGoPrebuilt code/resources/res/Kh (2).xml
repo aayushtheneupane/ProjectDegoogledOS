@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <android.widget.FrameLayout android:id="@+id/inner_view" android:paddingLeft="@dimen/photosgo_videotrimming_trimview_handle_halfsize" android:paddingRight="@dimen/photosgo_videotrimming_trimview_handle_halfsize" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.widget.FrameLayout android:id="@+id/video_thumbnail_view_container" android:clipChildren="true" android:clipToPadding="true" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.google.android.apps.photosgo.editor.videotrimming.fragment.VideoThumbnailView android:gravity="center" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/video_thumbnail_view" android:clipChildren="true" android:clipToPadding="true" android:layout_width="match_parent" android:layout_height="@dimen/photosgo_videotrimming_trimview_thumbnail_height"/>
+        </android.widget.FrameLayout>
+        <com.google.android.apps.photosgo.editor.videotrimming.fragment.TimelineGreyOverlayView android:layout_gravity="center_vertical" android:id="@+id/greyoverlay" android:layout_width="1dp" android:layout_height="@dimen/photosgo_videotrimming_trimview_thumbnail_height"/>
+        <com.google.android.apps.photosgo.editor.videotrimming.fragment.PlayheadView android:id="@+id/playhead" android:focusable="true" android:layout_width="0dp" android:layout_height="0dp" android:contentDescription="@string/photosgo_videotrimming_trimview_playhead"/>
+        <com.google.android.apps.photosgo.editor.videotrimming.fragment.TrimHandleView android:id="@+id/left_trim_handle" android:focusable="true" android:layout_width="0dp" android:layout_height="0dp" android:contentDescription="@string/photosgo_videotrimming_trimview_begin_handle" android:elevation="4dp"/>
+        <com.google.android.apps.photosgo.editor.videotrimming.fragment.TrimHandleView android:id="@+id/right_trim_handle" android:focusable="true" android:layout_width="0dp" android:layout_height="0dp" android:contentDescription="@string/photosgo_videotrimming_trimview_end_handle" android:elevation="4dp"/>
+    </android.widget.FrameLayout>
+</merge>

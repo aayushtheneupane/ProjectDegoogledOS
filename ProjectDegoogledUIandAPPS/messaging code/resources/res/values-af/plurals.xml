@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_invalid_contact_error">
+        <item quantity="one">Ongeldige kontak</item>
+        <item quantity="other">Ongeldige kontakte</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">Een aanhegsel is gereed om te stuur</item>
+        <item quantity="other">%d aanhegsels is gereed om te stuur</item>
+    </plurals>
+    <plurals name="attachment_preview_close_content_description">
+        <item quantity="one">Gooi aanhegsel weg</item>
+        <item quantity="other">Gooi aanhegsels weg</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">Kon %d aanhegsel nie stoor nie</item>
+        <item quantity="other">Kon %d aanhegsels nie stoor nie</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one">%d aanhegsel is gestoor</item>
+        <item quantity="other">%d aanhegsels is gestoor</item>
+    </plurals>
+    <plurals name="attachments_saved_to_album">
+        <item quantity="one">%d aanhegsel is na &quot;%s&quot;-album gestoor</item>
+        <item quantity="other">%d aanhegsels is na &quot;%s&quot;-album gestoor</item>
+    </plurals>
+    <plurals name="attachments_saved_to_downloads">
+        <item quantity="one">%d aanhegsel is na &quot;Aflaaie&quot; gestoor</item>
+        <item quantity="other">%d aanhegsels is na &quot;Aflaaie&quot; gestoor</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_attachments">
+        <item quantity="one">Stuur aanhegsel</item>
+        <item quantity="other">Stuur aanhegsels</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_audio">
+        <item quantity="one">Stuur oudio</item>
+        <item quantity="other">Stuur oudio&apos;s</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_photo">
+        <item quantity="one">Stuur foto</item>
+        <item quantity="other">Stuur foto&apos;s</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_vcard">
+        <item quantity="one">Stuur kontakkaart</item>
+        <item quantity="other">Stuur kontakkaarte</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_video">
+        <item quantity="one">Stuur video</item>
+        <item quantity="other">Stuur video&apos;s</item>
+    </plurals>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">Vee hierdie gesprek uit?</item>
+        <item quantity="other">Vee hierdie gesprekke uit?</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="one">&apos;n maand</item>
+        <item quantity="other">%d maande</item>
+    </plurals>
+    <plurals name="notification_download_failures">
+        <item quantity="one">%d boodskappe in een gesprek</item>
+        <item quantity="other">%d boodskappe in %d gesprekke</item>
+    </plurals>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Nuwe boodskap</item>
+        <item quantity="other">%d nuwe boodskappe</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="one">%d boodskappe in een gesprek</item>
+        <item quantity="other">%d boodskappe in %d gesprekke</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="one">%d dag</item>
+        <item quantity="other">%d dae</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="one">%d uur</item>
+        <item quantity="other">%d uur</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="one">%d min.</item>
+        <item quantity="other">%d min.</item>
+    </plurals>
+    <plurals name="photos_saved_to_album">
+        <item quantity="one">%d foto is na &quot;%s&quot;-album gestoor</item>
+        <item quantity="other">%d foto&apos;s is na &quot;%s&quot;-album gestoor</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one">%d kontak</item>
+        <item quantity="other">%d kontakte</item>
+    </plurals>
+    <plurals name="videos_saved_to_album">
+        <item quantity="one">%d video is na &quot;%s&quot;-album gestoor</item>
+        <item quantity="other">%d video&apos;s is na &quot;%s&quot;-album gestoor</item>
+    </plurals>
+    <plurals name="wearable_participant_count">
+        <item quantity="one">%d deelnemer</item>
+        <item quantity="other">%d deelnemers</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="one">&apos;n week</item>
+        <item quantity="other">%d weke</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="one">&apos;n jaar</item>
+        <item quantity="other">%d jaar</item>
+    </plurals>
+</resources>

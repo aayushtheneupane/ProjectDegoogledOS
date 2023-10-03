@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AppCompat.DayNight">
+    </style>
+    <style name="Theme.GoogleMaterial.DayNight.NoActionBar">
+    </style>
+    <style name="ThemeOverlay.AppCompat.DayNight">
+    </style>
+</resources>

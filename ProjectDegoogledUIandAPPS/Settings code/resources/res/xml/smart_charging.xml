@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/smart_charging_title" android:key="smart_charging_screen">
+    <com.havoc.support.preferences.CustomSeekBarPreference android:max="100" android:title="@string/smart_charging_level_title" android:key="smart_charging_level" android:defaultValue="80" settings:min="65" settings:units="%"/>
+    <com.havoc.support.preferences.CustomSeekBarPreference android:max="99" android:title="@string/smart_charging_resume_level_title" android:key="smart_charging_resume_level" android:defaultValue="60" settings:min="15" settings:units="%"/>
+    <com.havoc.support.preferences.SystemSettingSwitchPreference android:title="@string/smart_charging_reset_stats_title" android:key="smart_charging_reset_stats" android:summary="@string/smart_charging_reset_stats_summary" android:defaultValue="false"/>
+</PreferenceScreen>

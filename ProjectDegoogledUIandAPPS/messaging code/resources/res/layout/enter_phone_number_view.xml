@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditText xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:paddingLeft="24dp" android:paddingTop="16dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/enter_phone_number_hint" android:maxLines="1" android:singleLine="true" android:inputType="phone"/>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/pinned_header_list_layout" android:background="?attr/contact_browser_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/account_filter_header"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <include layout="@layout/contact_list_card"/>
+        <view android:id="@android:id/list" android:paddingTop="?attr/list_item_padding_top" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="?attr/contact_browser_list_padding_left" android:layout_marginRight="?attr/contact_browser_list_padding_right" android:fastScrollEnabled="true" android:layout_marginStart="?attr/contact_browser_list_padding_left" android:layout_marginEnd="?attr/contact_browser_list_padding_right" class="com.android.contacts.common.list.PinnedHeaderListView"/>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/search_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge"/>
+    </FrameLayout>
+</LinearLayout>

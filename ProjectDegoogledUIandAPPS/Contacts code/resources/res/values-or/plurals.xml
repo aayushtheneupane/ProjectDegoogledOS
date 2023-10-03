@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="contacts_count">
+        <item quantity="one">%d ଯୋଗାଯୋଗ</item>
+        <item quantity="other">%d ଜଣ ଯୋଗାଯୋଗ</item>
+    </plurals>
+    <plurals name="contacts_count_with_account">
+        <item quantity="one">%1$d ଯୋଗାଯୋଗ · %2$s</item>
+        <item quantity="other">%1$d ଜଣ ଯୋଗାଯୋଗ · %2$s</item>
+    </plurals>
+    <plurals name="contacts_deleted_toast">
+        <item quantity="one">ଯୋଗାଯୋଗଙ୍କୁ ଡିଲିଟ୍ କରିଦିଆଗଲା</item>
+        <item quantity="other">ଜଣ ଯୋଗାଯୋଗଙ୍କୁ ଡିଲିଟ୍ କରିଦିଆଗଲା</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_contact_count_fmt">
+        <item quantity="one">1 ଯୋଗାଯୋଗ</item>
+        <item quantity="other">%1$d ଜଣ ଯୋଗାଯୋଗ</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_template">
+        <item quantity="one">^1 ଯୋଗାଯୋଗ • ^2</item>
+        <item quantity="other">^1 ଜଣ ଯୋଗାଯୋଗ • ^2</item>
+    </plurals>
+    <plurals name="sim_import_success_toast_fmt">
+        <item quantity="one">1 SIMରେ ଥିବା ଯୋଗାଯୋଗ ଇମ୍ପୋର୍ଟ କରାଗଲା</item>
+        <item quantity="other">%d SIMରେ ଥିବା ଯୋଗାଯୋଗଗୁଡ଼ିକୁ ଇମ୍ପୋର୍ଟ କରାଗଲା</item>
+    </plurals>
+    <plurals name="title_share_via">
+        <item quantity="one">ମାଧ୍ୟମରେ ଯୋଗାଯୋଗ ସେୟାର୍ କରନ୍ତୁ</item>
+        <item quantity="other">ମାଧ୍ୟମରେ ଯୋଗାଯୋଗ ସେୟାର୍ କରନ୍ତୁ</item>
+    </plurals>
+</resources>

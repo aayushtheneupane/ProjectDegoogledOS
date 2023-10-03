@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_invalid_contact_error">
+        <item quantity="one">El contacte no és vàlid</item>
+        <item quantity="other">Els contactes no són vàlids</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">Ja es pot enviar un fitxer adjunt</item>
+        <item quantity="other">Ja es poden enviar %d fitxers adjunts</item>
+    </plurals>
+    <plurals name="attachment_preview_close_content_description">
+        <item quantity="one">Descarta el fitxer adjunt</item>
+        <item quantity="other">Descarta els fitxers adjunts</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">No s&apos;ha pogut desar %d fitxer adjunt</item>
+        <item quantity="other">No s&apos;han pogut desar %d fitxers adjunts</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one">S&apos;ha desat %d fitxer adjunt</item>
+        <item quantity="other">S&apos;han desat %d fitxers adjunts</item>
+    </plurals>
+    <plurals name="attachments_saved_to_album">
+        <item quantity="one">S&apos;ha desat %d fitxer adjunt a l&apos;àlbum %s</item>
+        <item quantity="other">S&apos;han desat %d fitxers adjunts a l&apos;àlbum %s</item>
+    </plurals>
+    <plurals name="attachments_saved_to_downloads">
+        <item quantity="one">S&apos;ha desat %d fitxer adjunt a Baixades</item>
+        <item quantity="other">S&apos;han desat %d fitxers adjunts a Baixades</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_attachments">
+        <item quantity="one">Envia el fitxer adjunt</item>
+        <item quantity="other">Envia els fitxers adjunts</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_audio">
+        <item quantity="one">Envia l&apos;àudio</item>
+        <item quantity="other">Envia els àudios</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_photo">
+        <item quantity="one">Envia la foto</item>
+        <item quantity="other">Envia les fotos</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_vcard">
+        <item quantity="one">Envia la targeta de contacte</item>
+        <item quantity="other">Envia les targetes de contacte</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_video">
+        <item quantity="one">Envia el vídeo</item>
+        <item quantity="other">Envia els vídeos</item>
+    </plurals>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">Vols suprimir aquesta conversa?</item>
+        <item quantity="other">Vols suprimir aquestes converses?</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="one">un mes</item>
+        <item quantity="other">%d mesos</item>
+    </plurals>
+    <plurals name="notification_download_failures">
+        <item quantity="one">%d missatges en una conversa</item>
+        <item quantity="other">%d missatges en %d converses</item>
+    </plurals>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Missatge nou</item>
+        <item quantity="other">%d missatges nous</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="one">%d missatges en una conversa</item>
+        <item quantity="other">%d missatges en %d converses</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="one">%d dia</item>
+        <item quantity="other">%d dies</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="one">%d hora</item>
+        <item quantity="other">%d hores</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="one">%d min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="photos_saved_to_album">
+        <item quantity="one">S&apos;ha desat %d foto a l&apos;àlbum %s</item>
+        <item quantity="other">S&apos;han desat %d fotos a l&apos;àlbum %s</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one">%d contacte</item>
+        <item quantity="other">%d contactes</item>
+    </plurals>
+    <plurals name="videos_saved_to_album">
+        <item quantity="one">S&apos;ha desat %d vídeo a l&apos;àlbum %s</item>
+        <item quantity="other">S&apos;han desat %d vídeos a l&apos;àlbum %s</item>
+    </plurals>
+    <plurals name="wearable_participant_count">
+        <item quantity="one">%d participant</item>
+        <item quantity="other">%d participants</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="one">una setmana</item>
+        <item quantity="other">%d setmanes</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="one">un any</item>
+        <item quantity="other">%d anys</item>
+    </plurals>
+</resources>

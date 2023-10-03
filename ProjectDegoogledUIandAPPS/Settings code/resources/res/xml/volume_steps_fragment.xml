@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/volume_steps_title">
+    <ListPreference android:entries="@array/volume_steps_entries" android:title="@string/volume_steps_alarm_title" android:key="volume_steps_alarm" android:entryValues="@array/volume_steps_entries"/>
+    <ListPreference android:entries="@array/volume_steps_entries" android:title="@string/volume_steps_dtmf_title" android:key="volume_steps_dtmf" android:entryValues="@array/volume_steps_entries"/>
+    <ListPreference android:entries="@array/volume_steps_entries" android:title="@string/volume_steps_music_title" android:key="volume_steps_music" android:entryValues="@array/volume_steps_entries"/>
+    <ListPreference android:entries="@array/volume_steps_entries" android:title="@string/volume_steps_notification_title" android:key="volume_steps_notification" android:entryValues="@array/volume_steps_entries"/>
+    <ListPreference android:entries="@array/volume_steps_entries" android:title="@string/volume_steps_ring_title" android:key="volume_steps_ring" android:entryValues="@array/volume_steps_entries"/>
+    <ListPreference android:entries="@array/volume_steps_entries" android:title="@string/volume_steps_system_title" android:key="volume_steps_system" android:entryValues="@array/volume_steps_entries"/>
+    <ListPreference android:entries="@array/volume_steps_entries" android:title="@string/volume_steps_voice_call_title" android:key="volume_steps_voice_call" android:entryValues="@array/volume_steps_entries"/>
+</PreferenceScreen>

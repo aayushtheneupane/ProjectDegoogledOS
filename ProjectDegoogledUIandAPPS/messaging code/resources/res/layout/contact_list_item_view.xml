@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.messaging.p041ui.contact.ContactListItemView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:background="?android:attr/selectableItemBackground" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ContactListItemViewStyle">
+    <TextView android:layout_gravity="center_vertical" android:id="@+id/alphabet_header" android:visibility="gone" android:layout_width="56dp" android:layout_height="wrap_content" style="@style/ContactListAlphabetHeader"/>
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.android.messaging.p041ui.ContactIconView android:id="@+id/contact_icon" android:clickable="true" android:layout_width="@dimen/contact_list_icon_size" android:layout_height="@dimen/contact_list_icon_size" android:importantForAccessibility="no" app:iconSize="0"/>
+        <ImageView android:id="@+id/contact_checkmark" android:visibility="gone" android:layout_width="@dimen/contact_list_icon_size" android:layout_height="@dimen/contact_list_icon_size" android:src="@drawable/ic_checkmark_circle_blue" android:contentDescription="@null" android:importantForAccessibility="no"/>
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ContactListItemLinearLayoutStyle">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:ellipsize="end" android:id="@+id/contact_name" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_weight="1" style="@style/ContactListItem"/>
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/work_profile_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_work_profile" android:scaleType="center"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:ellipsize="end" android:id="@+id/contact_details" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_weight="1" style="@style/ContactListItemDetail"/>
+            <TextView android:id="@+id/contact_detail_type" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ContactListItemDetailType"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.android.messaging.p041ui.contact.ContactListItemView>

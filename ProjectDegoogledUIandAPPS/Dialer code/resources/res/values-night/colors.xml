@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="block_report_spam_primary_text_color">#deffffff</color>
+    <color name="call_subject_divider">#282828</color>
+    <color name="call_subject_history_icon">#ffffff</color>
+    <color name="dialer_background_color">?unknown_ref: 10601d1</color>
+    <color name="dialer_divider_line_color">#282828</color>
+    <color name="feature_icon_unread_color">#777777</color>
+    <color name="google_grey_100">#3c4043</color>
+    <color name="google_grey_200">#5f6368</color>
+    <color name="google_grey_300">#80868b</color>
+    <color name="google_grey_400">#9aa0a6</color>
+    <color name="google_grey_50">#202124</color>
+    <color name="google_grey_500">#bdc1c6</color>
+    <color name="google_grey_600">#dadce0</color>
+    <color name="google_grey_700">#e8eaed</color>
+    <color name="google_grey_800">#f1f3f4</color>
+    <color name="google_grey_900">#f8f9fa</color>
+    <color name="ic_launcher_background">@color/dialer_theme_color</color>
+    <color name="incall_dialpad_background">?unknown_ref: 10601d1</color>
+    <color name="people_app_theme_color">?unknown_ref: 10601d1</color>
+    <color name="rtt_transcript_background_color">#232324</color>
+    <color name="rtt_transcript_primary_color">#92bcd1</color>
+    <color name="rtt_transcript_primary_color_dark">#576f7a</color>
+    <color name="shortcut_add_contact_background_color">?unknown_ref: 10601d1</color>
+    <color name="shortcut_add_contact_foreground_color">@android:color/link_text_dark</color>
+    <color name="statusbar_background_color">?android:attr/colorPrimary</color>
+    <color name="voicemail_icon_disabled_tint">#80ffffff</color>
+</resources>

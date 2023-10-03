@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="1">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+            <androidx.recyclerview.widget.RecyclerView android:id="@android:id/list" android:paddingTop="@dimen/action_bar_height" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@android:color/transparent"/>
+            <View android:layout_gravity="bottom" android:id="@+id/conversation_compose_divider" android:background="@drawable/conversation_compose_divider_gradient" android:layout_width="match_parent" android:layout_height="4dp" android:alpha="0" android:importantForAccessibility="no"/>
+            <include android:id="@+id/sim_selector" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/sim_selector_view"/>
+        </FrameLayout>
+        <include android:id="@+id/message_compose_view_container" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/compose_message_view"/>
+    </LinearLayout>
+</LinearLayout>

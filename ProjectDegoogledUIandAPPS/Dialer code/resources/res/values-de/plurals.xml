@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="one"> Minute</item>
+        <item quantity="other"> Minuten</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="one">^1 angenommener Anruf von ^2</item>
+        <item quantity="other">^1 Anrufe, der letzte ist ein verpasster Anruf von ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="one">^1 blockierter Anruf von ^2</item>
+        <item quantity="other">^1 Anrufe, der letzte ist ein blockierter Anruf von ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="one">^1 verpasster Anruf von ^2</item>
+        <item quantity="other">^1 Anrufe, der letzte ist ein verpasster Anruf von ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="one">^1 ausgehender Anruf an ^2</item>
+        <item quantity="other">^1 Anrufe, der letzte ist ein ausgehender Anruf an ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="one"> Sekunde</item>
+        <item quantity="other"> Sekunden</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="one">Diese Mailboxnachricht löschen? </item>
+        <item quantity="other">Diese Mailboxnachrichten löschen? </item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="one">Mailboxnachricht</item>
+        <item quantity="other">%1$d Mailboxnachrichten</item>
+    </plurals>
+    <plurals name="play_recordings">
+        <item quantity="one">Aufzeichnung wiedergeben</item>
+        <item quantity="other">Aufzeichnungen wiedergeben</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="one">Tab &quot;%1$s&quot;. %2$d ungelesenes Element.</item>
+        <item quantity="other">Tab &quot;%1$s&quot;. %2$d ungelesene Elemente.</item>
+    </plurals>
+</resources>

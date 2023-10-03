@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/network_traffic_state_title">
+    <com.havoc.support.preferences.SystemSettingListPreference android:entries="@array/network_traffic_location_entries" android:title="@string/network_traffic_location_title" android:key="network_traffic_location" android:defaultValue="0" android:entryValues="@array/network_traffic_location_values"/>
+    <com.havoc.support.preferences.SystemSettingListPreference android:entries="@array/network_traffic_mode_entries" android:title="@string/network_traffic_mode_title" android:key="network_traffic_mode" android:defaultValue="0" android:entryValues="@array/network_traffic_mode_values"/>
+    <com.havoc.support.preferences.SystemSettingSeekBarPreference android:max="10" android:title="@string/network_traffic_autohide_threshold_title" android:key="network_traffic_autohide_threshold" android:defaultValue="0" settings:min="0" settings:units="KB/s"/>
+    <com.havoc.support.preferences.SystemSettingSeekBarPreference android:max="10" android:title="@string/network_traffic_refresh_interval_title" android:key="network_traffic_refresh_interval" android:defaultValue="1" settings:min="1" settings:units="sec"/>
+</PreferenceScreen>

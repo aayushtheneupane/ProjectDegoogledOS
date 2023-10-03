@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/home_coordinator" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:id="@+id/folder_picker_appbar" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.support.p002v7.widget.Toolbar android:id="@+id/folder_picker_toolbar" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:id="@+id/folder_picker_content" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" app:layout_scrollFlags="15"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

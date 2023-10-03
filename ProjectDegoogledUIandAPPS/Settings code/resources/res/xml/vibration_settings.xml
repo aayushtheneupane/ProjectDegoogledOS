@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/vibration_preferences" android:key="vibration_preferences" app:keywords="@string/keywords_vibration_preferences">
+    <com.havoc.support.preferences.SwitchPreference android:title="@string/incall_feeedback_vibrate_title" android:key="incall_feeedback_vibrate" android:defaultValue="false"/>
+    <com.havoc.support.preferences.SwitchPreference android:title="@string/vibrate_when_ringing_title" android:key="vibrate_when_ringing" app:controller="com.android.settings.notification.VibrateWhenRingPreferenceController"/>
+    <com.havoc.support.preferences.SystemSettingSwitchPreference android:title="@string/vibrate_on_notifications_title" android:key="vibrate_on_notifications" android:defaultValue="true"/>
+    <Preference android:title="@string/vibration_intensity_ringer" android:key="ring_vibration_intensity" android:dependency="vibrate_when_ringing"/>
+    <Preference android:title="@string/vibration_intensity_notification" android:key="notification_vibration_intensity"/>
+    <PreferenceCategory android:title="@string/ringtone_vibration_pattern" android:key="vibration_patterns" android:dependency="vibrate_when_ringing" app:allowDividerAbove="true">
+        <com.android.settings.widget.RadioButtonPreference android:title="@string/pattern_dzzz_dzzz" android:key="pattern_dzzz_dzzz"/>
+        <com.android.settings.widget.RadioButtonPreference android:title="@string/pattern_dzzz_da" android:key="pattern_dzzz_da"/>
+        <com.android.settings.widget.RadioButtonPreference android:title="@string/pattern_mm_mm_mm" android:key="pattern_mm_mm_mm"/>
+        <com.android.settings.widget.RadioButtonPreference android:title="@string/pattern_da_da_dzzz" android:key="pattern_da_da_dzzz"/>
+        <com.android.settings.widget.RadioButtonPreference android:title="@string/pattern_da_dzzz_da" android:key="pattern_da_dzzz_da"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.android.dialer.app.settings.DefaultRingtonePreference android:persistent="false" android:title="@string/ringtone_title" android:key="@string/ringtone_preference_key" android:dialogTitle="@string/ringtone_title" android:ringtoneType="ringtone"/>
+    <SwitchPreference android:persistent="false" android:title="@string/vibrate_on_ring_title" android:key="@string/vibrate_on_preference_key" android:defaultValue="false"/>
+    <SwitchPreference android:persistent="false" android:title="@string/dtmf_tone_enable_title" android:key="@string/play_dtmf_preference_key" android:defaultValue="true"/>
+    <ListPreference android:entries="@array/dtmf_tone_length_entries" android:title="@string/dtmf_tone_length_title" android:key="@string/dtmf_tone_length_preference_key" android:entryValues="@array/dtmf_tone_length_entry_values"/>
+    <PreferenceCategory android:title="@string/incall_category_title" android:key="@string/incall_category_key">
+        <SwitchPreference android:title="@string/incall_enable_dnd_title" android:key="incall_enable_dnd" android:defaultValue="false"/>
+        <SwitchPreference android:title="@string/incall_vibrate_outgoing_title" android:key="@string/incall_vibrate_outgoing_key"/>
+        <SwitchPreference android:title="@string/incall_vibrate_call_waiting_title" android:key="@string/incall_vibrate_call_waiting_key"/>
+        <SwitchPreference android:title="@string/incall_vibrate_hangup_title" android:key="@string/incall_vibrate_hangup_key"/>
+        <SwitchPreference android:title="@string/incall_vibrate_45_title" android:key="@string/incall_vibrate_45_key" android:summary="@string/incall_vibrate_45_summary"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/call_recording_category_title" android:key="@string/call_recording_category_key">
+        <SwitchPreference android:title="@string/auto_call_recording_title" android:key="@string/auto_call_recording_key" android:defaultValue="false"/>
+        <ListPreference android:entries="@array/call_recording_encoder_entries" android:title="@string/call_recording_format" android:key="@string/call_recording_format_key" android:summary="%s" android:defaultValue="0" android:entryValues="@array/call_recording_encoder_values"/>
+    </PreferenceCategory>
+</PreferenceScreen>

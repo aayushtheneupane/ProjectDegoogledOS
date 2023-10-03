@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessbility_suggestion_dropdown_closed">কোনো পৰামর্শ নাই</string>
+    <string name="accessbility_suggestion_dropdown_opened">সম্পৰ্কসূচীৰ পৰামৰ্শবোৰ খোলা হ’ল</string>
+    <string name="action_label">উভতি যাওক</string>
+    <string name="chips_action_cancel">বাতিল কৰক</string>
+    <string name="chips_action_copy">প্ৰতিলিপি কৰক</string>
+    <string name="chips_permission_text">সম্পর্কসূচীৰ পৰামর্শসমূহৰ বাবে অনুমতি দিয়ক</string>
+    <string name="color_picker_default_title">এটা ৰং বাছনি কৰক</string>
+    <string name="color_swatch_description">ৰং %1$d</string>
+    <string name="color_swatch_description_selected">ৰং %1$d বাছনি কৰা হৈছে</string>
+    <string name="copy_email">ইমেইল ঠিকনা প্ৰতিলিপি কৰক</string>
+    <string name="copy_number">ফ\'ন নম্বৰ প্ৰতিলিপি কৰক</string>
+    <string name="dropdown_delete_button_desc">%sক প্ৰাপকসকলৰপৰা আঁতৰাওক</string>
+    <string name="failed">প্ৰতিচ্ছবি ল\'ড কৰিব পৰা নগ\'ল</string>
+    <string name="more_string">+%1$d</string>
+    <string name="photo_view_count">%dৰ %d</string>
+    <string name="retry">পুনৰ চেষ্টা কৰক</string>
+    <string name="show_emoticons_pref_summary">ইমটিকনৰ কীটো কীবৰ্ডত দেখাওক</string>
+    <string name="show_emoticons_pref_title">ইমটিকনৰ অনুমতি</string>
+    <string name="status_bar_notification_info_overflow">৯৯৯+</string>
+    <string name="swipe_to_delete_conversation_pref_summary">কথোপকথন মচিবলৈ সোঁ ফাললৈ স্ৱাইপ কৰক</string>
+    <string name="swipe_to_delete_conversation_pref_title">মচি পেলাবলৈ স্ৱাইপ কৰক</string>
+    <string name="titles">%s, %s</string>
+</resources>

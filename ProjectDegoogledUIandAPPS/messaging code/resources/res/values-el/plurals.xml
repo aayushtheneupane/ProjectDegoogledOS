@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_invalid_contact_error">
+        <item quantity="one">Μη έγκυρη επαφή</item>
+        <item quantity="other">Μη έγκυρες επαφές</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">Ένα συνημμένο έτοιμο για αποστολή</item>
+        <item quantity="other">%d συνημμένα έτοιμα για αποστολή</item>
+    </plurals>
+    <plurals name="attachment_preview_close_content_description">
+        <item quantity="one">Απόρριψη συνημμένου</item>
+        <item quantity="other">Απόρριψη συνημμένων</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">Δεν ήταν δυνατή η αποθήκευση %d συνημμένου αρχείου</item>
+        <item quantity="other">Δεν ήταν δυνατή η αποθήκευση %d συνημμένων αρχείων</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one">Αποθηκεύτηκε %d συνημμένο αρχείο</item>
+        <item quantity="other">Αποθηκεύτηκε %d συνημμένων αρχείων</item>
+    </plurals>
+    <plurals name="attachments_saved_to_album">
+        <item quantity="one">%d συνημμένο αποθηκεύτηκε στο λεύκωμα &quot;%s&quot;</item>
+        <item quantity="other">%d συνημμένα αποθηκεύτηκαν στο λεύκωμα &quot;%s&quot;</item>
+    </plurals>
+    <plurals name="attachments_saved_to_downloads">
+        <item quantity="one">%d συνημμένο αποθηκεύτηκε στις &quot;Λήψεις&quot;</item>
+        <item quantity="other">%d συνημμένα αποθηκεύτηκαν στις &quot;Λήψεις&quot;</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_attachments">
+        <item quantity="one">Αποστολή συνημμένου</item>
+        <item quantity="other">Αποστολή συνημμένων</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_audio">
+        <item quantity="one">Αποστολή αρχείου ήχου</item>
+        <item quantity="other">Αποστολή αρχείων ήχου</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_photo">
+        <item quantity="one">Αποστολή φωτογραφίας</item>
+        <item quantity="other">Αποστολή φωτογραφιών</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_vcard">
+        <item quantity="one">Αποστολή κάρτας επαφής</item>
+        <item quantity="other">Αποστολή καρτών επαφών</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_video">
+        <item quantity="one">Αποστολή αρχείου βίντεο</item>
+        <item quantity="other">Αποστολή αρχείων βίντεο</item>
+    </plurals>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">Διαγραφή αυτής της συνομιλίας;</item>
+        <item quantity="other">Διαγραφή αυτών των συνομιλιών;</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="one">ένας μήνας</item>
+        <item quantity="other">%d μήνες</item>
+    </plurals>
+    <plurals name="notification_download_failures">
+        <item quantity="one">%d μηνύματα σε μία συνομιλία</item>
+        <item quantity="other">%d μηνύματα σε %d συνομιλίες</item>
+    </plurals>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Νέο μήνυμα</item>
+        <item quantity="other">%d νέα μηνύματα</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="one">%d μηνύματα σε μία συνομιλία</item>
+        <item quantity="other">%d μηνύματα σε %d συνομιλίες</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="one">%d ημέρα</item>
+        <item quantity="other">%d ημέρες</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="one">%d ώρα</item>
+        <item quantity="other">%d ώρες</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="one">%d λεπτό</item>
+        <item quantity="other">%d λεπτά</item>
+    </plurals>
+    <plurals name="photos_saved_to_album">
+        <item quantity="one">%d φωτογραφία αποθηκεύτηκε στο λεύκωμα &quot;%s&quot;</item>
+        <item quantity="other">%d φωτογραφίες αποθηκεύτηκαν στο λεύκωμα &quot;%s&quot;</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one">%d επαφή</item>
+        <item quantity="other">%d επαφές</item>
+    </plurals>
+    <plurals name="videos_saved_to_album">
+        <item quantity="one">%d βίντεο αποθηκεύτηκε στο λεύκωμα &quot;%s&quot;</item>
+        <item quantity="other">%d βίντεο αποθηκεύτηκαν στο λεύκωμα &quot;%s&quot;</item>
+    </plurals>
+    <plurals name="wearable_participant_count">
+        <item quantity="one">%d συμμετέχων</item>
+        <item quantity="other">%d συμμετέχοντες</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="one">μία εβδομάδα</item>
+        <item quantity="other">%d εβδομάδες</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="one">ένα έτος</item>
+        <item quantity="other">%d έτη</item>
+    </plurals>
+</resources>

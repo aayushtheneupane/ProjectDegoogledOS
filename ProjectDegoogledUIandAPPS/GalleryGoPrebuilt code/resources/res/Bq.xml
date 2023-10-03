@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phenotype-registrations xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <phenotype-registration>
+        <configuration-package>com.google.android.apps.photosgo#dev
+        </configuration-package>
+        <log-sources>
+            <log-source>PHOTOS_GO_ANDROID_PRIMES
+            </log-source>
+        </log-sources>
+    </phenotype-registration>
+</phenotype-registrations>

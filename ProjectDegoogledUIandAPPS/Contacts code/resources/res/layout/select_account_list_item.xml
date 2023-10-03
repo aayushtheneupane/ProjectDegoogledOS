@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" class="com.android.contacts.widget.ActivityTouchLinearLayout">
+    <ImageView android:id="@+id/icon" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="center"/>
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:orientation="vertical" android:id="@+id/text" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="8dp" android:layout_weight="1">
+        <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="@color/dialtacts_primary_text_color" android:id="@+id/label" android:layout_width="match_parent" android:layout_height="wrap_content" android:includeFontPadding="false"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:id="@+id/number" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:includeFontPadding="false"/>
+    </LinearLayout>
+</view>

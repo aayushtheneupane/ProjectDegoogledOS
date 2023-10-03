@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/heads_up_notifications">
+    <ListPreference android:persistent="false" android:entries="@array/heads_up_time_out_entries" android:title="@string/heads_up_time_out_title" android:key="heads_up_time_out" android:entryValues="@array/heads_up_time_out_values"/>
+    <ListPreference android:persistent="false" android:entries="@array/heads_up_snooze_entries" android:title="@string/heads_up_snooze_title" android:key="heads_up_snooze_time" android:entryValues="@array/heads_up_snooze_values"/>
+    <com.havoc.support.preferences.SystemSettingSwitchPreference android:title="@string/show_media_heads_up_title" android:key="show_media_heads_up" android:summary="@string/show_media_heads_up_summary" android:defaultValue="false"/>
+    <com.havoc.support.preferences.SystemSettingSwitchPreference android:title="@string/less_boring_heads_up_title" android:key="less_boring_heads_up" android:summary="@string/less_boring_heads_up_summary" android:defaultValue="false"/>
+    <PreferenceCategory android:title="@string/heads_up_stoplist_title" android:key="stoplist_applications">
+        <Preference android:icon="@drawable/ic_menu_add_activated_tint" android:title="@string/add_heads_up_package" android:key="add_stoplist_packages" android:summary="@string/add_heads_up_stoplist_summary"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/heads_up_blacklist_title" android:key="blacklist_applications">
+        <Preference android:icon="@drawable/ic_menu_add_activated_tint" android:title="@string/add_heads_up_package" android:key="add_blacklist_packages" android:summary="@string/add_heads_up_blacklist_summary"/>
+    </PreferenceCategory>
+</PreferenceScreen>

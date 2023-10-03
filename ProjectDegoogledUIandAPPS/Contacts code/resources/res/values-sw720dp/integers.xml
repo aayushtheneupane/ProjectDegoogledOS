@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="contact_list_card_layout_weight">81</integer>
+    <integer name="contact_list_space_layout_weight">11</integer>
+    <integer name="snippet_length_before_tokenize">20</integer>
+</resources>

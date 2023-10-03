@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@drawable/chips_dropdown_background" android:padding="12dp" android:layout_width="match_parent" android:layout_height="72dp">
+    <com.android.messaging.p041ui.ContactIconView android:layout_gravity="center_vertical" android:id="@android:id/icon" android:layout_width="40dp" android:layout_height="40dp" android:importantForAccessibility="no" style="@style/ChipIconStyle"/>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:textSize="16sp" android:textColor="@drawable/chips_dropdown_text_color" android:ellipsize="middle" android:id="@android:id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:textAlignment="viewStart"/>
+        <TextView android:textSize="14sp" android:textColor="@drawable/chips_dropdown_text_color" android:ellipsize="middle" android:id="@android:id/text1" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:textAlignment="viewStart"/>
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@android:id/icon1" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="36dp" android:layout_height="48dp" android:contentDescription="@string/chips_delete_content_description" style="@style/ChipDeleteIconStyle"/>
+</LinearLayout>

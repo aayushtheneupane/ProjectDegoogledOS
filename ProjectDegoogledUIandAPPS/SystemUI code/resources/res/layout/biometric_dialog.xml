@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/background" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="center"/>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:background="@color/biometric_dialog_dim_color" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:id="@+id/space" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:contentDescription="@string/biometric_dialog_empty_space_description"/>
+        <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <View android:id="@+id/left_space" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+                <LinearLayout android:orientation="vertical" android:id="@+id/dialog" android:background="@drawable/biometric_dialog_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/biometric_dialog_border_padding" android:layout_marginRight="@dimen/biometric_dialog_border_padding" android:layout_marginBottom="@dimen/biometric_dialog_border_padding">
+                    <TextView android:textSize="20sp" android:textColor="?android:attr/textColorPrimary" android:gravity="right|center_horizontal" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:fontFamily="@android:string/permdesc_filter_events" android:layout_marginStart="24dp" android:layout_marginEnd="24dp"/>
+                    <TextView android:textSize="16sp" android:textColor="?android:attr/textColorPrimary" android:gravity="right|center_horizontal" android:id="@+id/subtitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginStart="24dp" android:layout_marginEnd="24dp"/>
+                    <TextView android:textSize="16sp" android:textColor="?android:attr/textColorPrimary" android:gravity="right|center_horizontal" android:id="@+id/description" android:paddingTop="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="24dp" android:layout_marginEnd="24dp"/>
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@+id/biometric_icon" android:layout_width="@dimen/biometric_dialog_biometric_icon_size" android:layout_height="@dimen/biometric_dialog_biometric_icon_size" android:layout_marginTop="24dp" android:scaleType="fitXY"/>
+                    <TextView android:textSize="12sp" android:textColor="@color/biometric_dialog_gray" android:gravity="center_horizontal" android:id="@+id/error" android:paddingTop="16dp" android:paddingBottom="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="24dp" android:layout_marginEnd="24dp" android:accessibilityLiveRegion="polite"/>
+                    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:paddingTop="24dp" android:layout_width="match_parent" android:layout_height="72dp" android:measureWithLargestChild="true" style="?android:attr/buttonBarStyle">
+                        <Space android:id="@+id/leftSpacer" android:visibility="visible" android:layout_width="12dp" android:layout_height="match_parent"/>
+                        <Button android:gravity="center" android:id="@+id/button2" android:layout_width="wrap_content" android:layout_height="match_parent" android:maxLines="2" style="@android:style/Animation.VoiceInteractionSession"/>
+                        <Space android:id="@+id/middleSpacer" android:visibility="visible" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+                        <Button android:gravity="center" android:id="@+id/button1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/biometric_dialog_confirm" android:maxLines="2" style="@android:style/Animation.VoiceActivity"/>
+                        <Button android:gravity="center" android:id="@+id/button_try_again" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/biometric_dialog_try_again" android:maxLines="2" style="@android:style/Animation.VoiceActivity"/>
+                        <Space android:id="@+id/rightSpacer" android:visibility="visible" android:layout_width="12dp" android:layout_height="match_parent"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <View android:id="@+id/right_space" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

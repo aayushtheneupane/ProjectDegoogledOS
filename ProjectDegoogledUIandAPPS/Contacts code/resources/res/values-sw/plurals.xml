@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="contacts_count">
+        <item quantity="one">Anwani %d</item>
+        <item quantity="other">Anwani %d</item>
+    </plurals>
+    <plurals name="contacts_count_with_account">
+        <item quantity="one">Anwani %1$d · %2$s</item>
+        <item quantity="other">Anwani %1$d · %2$s</item>
+    </plurals>
+    <plurals name="contacts_deleted_toast">
+        <item quantity="one">Anwani imefutwa</item>
+        <item quantity="other">Anwani zimefutwa</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_contact_count_fmt">
+        <item quantity="one">Anwani 1</item>
+        <item quantity="other">Anwani %1$d</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_template">
+        <item quantity="one">Anwani ^1 • ^2</item>
+        <item quantity="other">Anwani ^1 • ^2</item>
+    </plurals>
+    <plurals name="sim_import_success_toast_fmt">
+        <item quantity="one">Anwani 1 iliyokuwa kwenye SIM imeletwa</item>
+        <item quantity="other">Anwani %d zilizokuwa kwenye SIM zimeletwa</item>
+    </plurals>
+    <plurals name="title_share_via">
+        <item quantity="one">Shiriki anwani kupitia</item>
+        <item quantity="other">Shiriki anwani kupitia</item>
+    </plurals>
+</resources>

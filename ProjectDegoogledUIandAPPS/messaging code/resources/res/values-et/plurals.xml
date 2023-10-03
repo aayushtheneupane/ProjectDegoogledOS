@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_invalid_contact_error">
+        <item quantity="one">Sobimatu kontakt</item>
+        <item quantity="other">Sobimatud kontaktid</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">Üks manus on saatmiseks valmis</item>
+        <item quantity="other">%d manust on saatmiseks valmis</item>
+    </plurals>
+    <plurals name="attachment_preview_close_content_description">
+        <item quantity="one">Manusest loobumine</item>
+        <item quantity="other">Manustest loobumine</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">%d manust ei saanud salvestada</item>
+        <item quantity="other">%d manust ei saanud salvestada</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one">%d manus salvestati</item>
+        <item quantity="other">%d manust salvestati</item>
+    </plurals>
+    <plurals name="attachments_saved_to_album">
+        <item quantity="one">%d manus salvestati albumisse „%s”</item>
+        <item quantity="other">%d manust salvestati albumisse „%s”</item>
+    </plurals>
+    <plurals name="attachments_saved_to_downloads">
+        <item quantity="one">%d manus salvestati kausta „Allalaadimised”</item>
+        <item quantity="other">%d manust salvestati kausta „Allalaadimised”</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_attachments">
+        <item quantity="one">Saada manus</item>
+        <item quantity="other">Saada manused</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_audio">
+        <item quantity="one">Saada helifail</item>
+        <item quantity="other">Saada helifailid</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_photo">
+        <item quantity="one">Saada foto</item>
+        <item quantity="other">Saada fotod</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_vcard">
+        <item quantity="one">Saada kontaktikaart</item>
+        <item quantity="other">Saada kontaktikaardid</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_video">
+        <item quantity="one">Saada video</item>
+        <item quantity="other">Saada videod</item>
+    </plurals>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">Kas kustutada see vestlus?</item>
+        <item quantity="other">Kas kustutada need vestlused?</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="one">kuu</item>
+        <item quantity="other">%d kuud</item>
+    </plurals>
+    <plurals name="notification_download_failures">
+        <item quantity="one">%d sõnumit ühes vestluses</item>
+        <item quantity="other">%d sõnumit %d vestluses</item>
+    </plurals>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Uus sõnum</item>
+        <item quantity="other">%d uut sõnumit</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="one">%d sõnumit ühes vestluses</item>
+        <item quantity="other">%d sõnumit %d vestluses</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="one">%d päev</item>
+        <item quantity="other">%d päeva</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="one">%d tund</item>
+        <item quantity="other">%d tundi</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="one">%d min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="photos_saved_to_album">
+        <item quantity="one">%d foto salvestati albumisse „%s”</item>
+        <item quantity="other">%d fotot salvestati albumisse „%s”</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one">%d kontakt</item>
+        <item quantity="other">%d kontakti</item>
+    </plurals>
+    <plurals name="videos_saved_to_album">
+        <item quantity="one">%d video salvestati albumisse „%s”</item>
+        <item quantity="other">%d videot salvestati albumisse „%s”</item>
+    </plurals>
+    <plurals name="wearable_participant_count">
+        <item quantity="one">%d osaleja</item>
+        <item quantity="other">%d osalejat</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="one">nädal</item>
+        <item quantity="other">%d nädalat</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="one">aasta</item>
+        <item quantity="other">%d aastat</item>
+    </plurals>
+</resources>

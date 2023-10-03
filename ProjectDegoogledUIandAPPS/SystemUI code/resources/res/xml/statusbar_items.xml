@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/statusbar_items_title">
+    <com.android.systemui.tuner.StatusBarSwitch android:title="@string/status_bar_airplane" android:key="airplane"/>
+    <com.android.systemui.tuner.StatusBarSwitch android:title="@string/status_bar_alarm" android:key="alarm_clock"/>
+    <com.android.systemui.tuner.StatusBarSwitch android:title="@string/quick_settings_bluetooth_label" android:key="bluetooth"/>
+    <com.android.systemui.tuner.StatusBarSwitch android:title="@string/status_bar_camera" android:key="camera"/>
+    <com.android.systemui.tuner.StatusBarSwitch android:title="@string/status_bar_data_saver" android:key="data_saver"/>
+    <com.android.systemui.tuner.StatusBarSwitch android:title="@string/quick_settings_dnd_label" android:key="zen"/>
+    <com.android.systemui.tuner.StatusBarSwitch android:title="@string/status_bar_ethernet" android:key="ethernet"/>
+    <com.android.systemui.tuner.StatusBarSwitch android:title="@string/headset" android:key="headset"/>
+    <com.android.systemui.tuner.StatusBarSwitch android:title="@string/quick_settings_hotspot_label" android:key="hotspot"/>
+    <com.android.systemui.tuner.StatusBarSwitch android:title="@string/status_bar_location" android:key="location"/>
+    <com.android.systemui.tuner.StatusBarSwitch android:title="@string/status_bar_microphone" android:key="microphone"/>
+    <com.android.systemui.tuner.StatusBarSwitch android:title="@string/quick_settings_cellular_detail_title" android:key="mobile"/>
+    <com.android.systemui.tuner.StatusBarSwitch android:title="@string/status_bar_nfc" android:key="nfc"/>
+    <com.android.systemui.tuner.StatusBarSwitch android:title="@string/status_bar_roaming" android:key="roaming"/>
+    <com.android.systemui.tuner.StatusBarSwitch android:title="@string/quick_settings_cast_title" android:key="cast"/>
+    <com.android.systemui.tuner.TunerSwitch android:title="@string/status_bar_volte" android:key="volte" app:defValue="true"/>
+    <com.android.systemui.tuner.StatusBarSwitch android:title="0x1040790" android:key="volume"/>
+    <com.android.systemui.tuner.StatusBarSwitch android:title="@string/status_bar_vpn" android:key="vpn"/>
+    <com.android.systemui.tuner.TunerSwitch android:title="@string/status_bar_vowifi" android:key="vowifi" app:defValue="true"/>
+    <com.android.systemui.tuner.StatusBarSwitch android:title="@string/quick_settings_wifi_label" android:key="wifi"/>
+</PreferenceScreen>

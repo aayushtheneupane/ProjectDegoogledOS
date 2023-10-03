@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:state_enabled="true">
+        <layer-list>
+            <item android:id="@android:id/background">
+                <shape android:shape="line">
+                    <stroke android:width="2dp" android:color="@color/dialer_divider_line_color"/>
+                </shape>
+            </item>
+            <item android:id="@android:id/progress">
+                <clip>
+                    <shape android:shape="line">
+                        <stroke android:width="2dp" android:color="?android:attr/colorPrimary"/>
+                    </shape>
+                </clip>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item android:id="@android:id/background">
+                <shape android:shape="line">
+                    <stroke android:width="2dp" android:color="@color/dialer_divider_line_color"/>
+                </shape>
+            </item>
+            <item android:id="@android:id/progress">
+                <clip>
+                    <shape android:shape="line">
+                        <stroke android:width="2dp" android:color="@color/dialer_divider_line_color"/>
+                    </shape>
+                </clip>
+            </item>
+        </layer-list>
+    </item>
+</selector>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.messaging.p041ui.conversation.ConversationMessageView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ConversationMessageViewStyle">
+    <com.android.messaging.p041ui.ContactIconView android:layout_gravity="center_vertical" android:id="@+id/conversation_icon" android:paddingLeft="16px" android:paddingRight="16px" android:clickable="true" android:layout_width="@dimen/conversation_message_contact_icon_size" android:layout_height="@dimen/conversation_message_contact_icon_size" android:importantForAccessibility="no" app:iconSize="0"/>
+    <com.android.messaging.p041ui.conversation.ConversationMessageBubbleView android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/message_content" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@+id/message_attachments" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.android.messaging.p041ui.MultiAttachmentLayout android:id="@+id/multiple_attachments" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <com.android.messaging.p041ui.AsyncImageView android:layout_gravity="center_vertical" android:id="@+id/message_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true" android:minWidth="@dimen/conversation_message_photo_min_size" android:minHeight="@dimen/conversation_message_photo_min_size" android:contentDescription="@string/message_image_content_description" app:cornerRadius="@dimen/attachment_rounded_corner_radius" app:placeholderDrawable="@drawable/attachment_image_placeholder_background"/>
+        </LinearLayout>
+        <com.android.messaging.p041ui.conversation.MessageBubbleBackground android:orientation="vertical" android:id="@+id/message_text_and_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:forceDarkAllowed="false">
+            <LinearLayout android:orientation="vertical" android:id="@+id/message_title_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="noHideDescendants">
+                <TextView android:id="@+id/message_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ConversationMessageTitle"/>
+                <TextView android:id="@+id/mms_info" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ConversationMessageInfo"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/subject_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="noHideDescendants">
+                <TextView android:id="@+id/subject_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/conversation_message_view_subject_text" style="@style/ConversationMessage"/>
+                <TextView android:id="@+id/subject_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ConversationMessage"/>
+            </LinearLayout>
+            <TextView android:id="@+id/message_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" style="@style/ConversationMessage"/>
+            <com.android.messaging.p041ui.LineWrapLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/message_metadata" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="noHideDescendants">
+                <TextView android:id="@+id/message_sender_name" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4dp" style="@style/ConversationMessageStatus"/>
+                <TextView android:id="@+id/message_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ConversationMessageStatus"/>
+                <TextView android:id="@+id/sim_name" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" style="@style/MessageSimIndicator"/>
+                <ImageView android:layout_gravity="center" android:id="@+id/smsDeliveredBadge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sms_delivery_ok" style="@style/SmsDeliverdBadge"/>
+            </com.android.messaging.p041ui.LineWrapLayout>
+        </com.android.messaging.p041ui.conversation.MessageBubbleBackground>
+    </com.android.messaging.p041ui.conversation.ConversationMessageBubbleView>
+</com.android.messaging.p041ui.conversation.ConversationMessageView>

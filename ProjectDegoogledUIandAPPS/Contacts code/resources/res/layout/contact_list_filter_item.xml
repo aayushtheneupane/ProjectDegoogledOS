@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/contact_filter_item_min_height" android:paddingStart="@dimen/contact_filter_left_margin" android:paddingEnd="@dimen/contact_filter_right_margin" class="com.android.contacts.list.ContactListFilterView">
+    <ImageView android:id="@+id/icon" android:layout_width="@dimen/contact_filter_icon_size" android:layout_height="@dimen/contact_filter_icon_size" android:scaleType="fitCenter"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="-1dp" android:layout_weight="1" android:layout_marginStart="8dp">
+        <TextView android:textAppearance="?android:attr/textAppearanceListItem" android:textColor="@color/account_filter_text_color" android:ellipsize="end" android:id="@+id/accountType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceListItemSecondary" android:textColor="@color/account_filter_text_color" android:ellipsize="end" android:id="@+id/accountUserName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-3dp" android:singleLine="true"/>
+    </LinearLayout>
+    <RadioButton android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/radioButton" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</view>

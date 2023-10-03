@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="one">minut</item>
+        <item quantity="other">minuter</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="one">^1 besvarat samtal från ^2</item>
+        <item quantity="other">^1 samtal, det senaste är ett besvarat samtal från ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="one">^1 blockerat samtal från ^2</item>
+        <item quantity="other">^1 samtal, det senaste är ett blockerat samtal från ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="one">^1 missat samtal från ^2</item>
+        <item quantity="other">^1 samtal, det senaste är ett missat samtal från ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="one">^1 utgående samtal till ^2</item>
+        <item quantity="other">^1 samtal, det senaste är ett utgående samtal till ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="one">sekund</item>
+        <item quantity="other">sekunder</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="one">Vill du ta bort det här röstmeddelandet? </item>
+        <item quantity="other">Vill du ta bort dessa röstmeddelanden? </item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="one">röstmeddelande</item>
+        <item quantity="other">%1$d röstmeddelanden</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="one">Fliken %1$s. %2$d oläst post.</item>
+        <item quantity="other">Fliken %1$s. %2$d olästa poster.</item>
+    </plurals>
+</resources>

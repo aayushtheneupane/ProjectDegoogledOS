@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="contacts_count">
+        <item quantity="one">%d kontaktu</item>
+        <item quantity="other">%d kontaktu</item>
+    </plurals>
+    <plurals name="contacts_count_with_account">
+        <item quantity="one">%1$d kontaktu · %2$s</item>
+        <item quantity="other">%1$d kontaktu · %2$s</item>
+    </plurals>
+    <plurals name="contacts_deleted_toast">
+        <item quantity="one">Ezabatu da kontaktua</item>
+        <item quantity="other">Ezabatu dira kontaktuak</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_contact_count_fmt">
+        <item quantity="one">1 kontaktu</item>
+        <item quantity="other">%1$d kontaktu</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_template">
+        <item quantity="one">^1 kontaktu • ^2</item>
+        <item quantity="other">^1 kontaktu • ^2</item>
+    </plurals>
+    <plurals name="sim_import_success_toast_fmt">
+        <item quantity="one">SIM txarteleko 1 kontaktu inportatu da</item>
+        <item quantity="other">SIM txarteleko %d kontaktu inportatu dira</item>
+    </plurals>
+    <plurals name="title_share_via">
+        <item quantity="one">Partekatu kontaktua honen bidez</item>
+        <item quantity="other">Partekatu kontaktuak honen bidez</item>
+    </plurals>
+</resources>

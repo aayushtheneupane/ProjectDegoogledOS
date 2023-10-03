@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/battery_saver" android:key="battery_saver_page">
+    <Preference android:title="@string/battery_saver_schedule_settings_title" android:key="battery_saver_schedule" android:fragment="com.android.settings.fuelgauge.batterysaver.BatterySaverScheduleSettings" app:controller="com.android.settings.fuelgauge.batterysaver.BatterySaverSchedulePreferenceController" app:keywords="@string/keywords_battery_saver_schedule"/>
+    <com.havoc.support.preferences.SwitchPreference android:title="@string/battery_saver_sticky_title_new" android:key="battery_saver_sticky" android:summary="@string/summary_placeholder" app:controller="com.android.settings.fuelgauge.batterysaver.BatterySaverStickyPreferenceController" app:keywords="@string/keywords_battery_saver_sticky"/>
+    <com.android.settings.widget.TwoStateButtonPreference android:title="@string/battery_saver" android:selectable="false" android:key="battery_saver" android:summary="@string/battery_saver_turn_on_summary" app:controller="com.android.settings.fuelgauge.batterysaver.BatterySaverButtonPreferenceController" app:platform_slice="true" app:textOff="@string/battery_saver_button_turn_off" app:textOn="@string/battery_saver_button_turn_on"/>
+    <PreferenceCategory android:key="battery_saver_footer">
+        <com.android.settingslib.widget.FooterPreference android:title="@android:string/user_owner_label" android:selectable="false" android:key="battery_saver_footer_preference"/>
+    </PreferenceCategory>
+</PreferenceScreen>

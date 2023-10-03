@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingTop="@dimen/custom_dialog_layout_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/custom_dialog_layout_padding" android:paddingEnd="@dimen/custom_dialog_layout_padding">
+    <EditText android:id="@+id/custom_dialog_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/custom_dialog_layout" android:minWidth="@dimen/custom_dialog_min_width" android:minHeight="@dimen/dialog_edit_text_min_height" android:hint="@string/label_name_dialog_hint" android:lines="1" android:textAlignment="viewStart" android:layout_marginEnd="@dimen/custom_dialog_layout"/>
+</FrameLayout>

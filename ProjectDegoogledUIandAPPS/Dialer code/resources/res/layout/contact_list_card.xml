@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/list_card" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:background="?android:attr/colorBackground" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="@integer/contact_list_space_layout_weight"/>
+    <View android:background="?android:attr/colorBackground" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="@integer/contact_list_card_layout_weight" android:elevation="@dimen/contact_list_card_elevation"/>
+    <View android:background="?android:attr/colorBackground" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="@integer/contact_list_space_layout_weight"/>
+</LinearLayout>

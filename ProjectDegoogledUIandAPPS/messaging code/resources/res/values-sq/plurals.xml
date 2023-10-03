@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_invalid_contact_error">
+        <item quantity="one">Kontakt i pavlefshëm</item>
+        <item quantity="other">Kontakte të pavlefshme</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">Një bashkëngjitje gati për dërgim</item>
+        <item quantity="other">%d bashkëngjitje gati për dërgim</item>
+    </plurals>
+    <plurals name="attachment_preview_close_content_description">
+        <item quantity="one">Hiq bashkëngjitjen</item>
+        <item quantity="other">Hiq bashkëngjitjet</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">%d bashkëngjitje nuk mund të ruhej</item>
+        <item quantity="other">%d bashkëngjitje nuk mund të ruheshin</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one">%d bashkëngjitje u ruajt</item>
+        <item quantity="other">%d bashkëngjitje u ruajtën</item>
+    </plurals>
+    <plurals name="attachments_saved_to_album">
+        <item quantity="one">%d bashkëngjitje u ruajt tek albumi &quot;%s&quot;</item>
+        <item quantity="other">%d bashkëngjitje u ruajtën tek albumi&quot;%s&quot;</item>
+    </plurals>
+    <plurals name="attachments_saved_to_downloads">
+        <item quantity="one">%d bashkëngjitje u ruajt tek &quot;Shkarkimet&quot;</item>
+        <item quantity="other">%d bashkëngjitje u ruajtën tek &quot;Shkarkimet&quot;</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_attachments">
+        <item quantity="one">Dërgo bashkëngjitjen</item>
+        <item quantity="other">Dërgo bashkëngjitjet</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_audio">
+        <item quantity="one">Dërgo audion</item>
+        <item quantity="other">Dërgo audiot</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_photo">
+        <item quantity="one">Dërgo fotografinë</item>
+        <item quantity="other">Dërgo fotografitë</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_vcard">
+        <item quantity="one">Dërgo kartën e kontaktit</item>
+        <item quantity="other">Dërgo kartat e kontaktit</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_video">
+        <item quantity="one">Dërgo videon</item>
+        <item quantity="other">Dërgo videot</item>
+    </plurals>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">Fshije këtë bisedë?</item>
+        <item quantity="other">Fshiji këto biseda?</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="one">një muaj</item>
+        <item quantity="other">%d muaj</item>
+    </plurals>
+    <plurals name="notification_download_failures">
+        <item quantity="one">%d mesazhe në një bashkëbisedim</item>
+        <item quantity="other">%d mesazhe në %d bashkëbisedime</item>
+    </plurals>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Mesazh i ri</item>
+        <item quantity="other">%d mesazhe të reja</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="one">%d mesazhe në një bashkëbisedim</item>
+        <item quantity="other">%d mesazhe në %d bashkëbisedime</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="one">%d ditë</item>
+        <item quantity="other">%d ditë</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="one">%d orë</item>
+        <item quantity="other">%d orë</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="one">%d minutë</item>
+        <item quantity="other">%d minuta</item>
+    </plurals>
+    <plurals name="photos_saved_to_album">
+        <item quantity="one">%d fotografi u ruajt tek albumi &quot;%s&quot;</item>
+        <item quantity="other">%d fotografi u ruajtën tek albumi &quot;%s&quot;</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one">%d kontakt</item>
+        <item quantity="other">%d kontakte</item>
+    </plurals>
+    <plurals name="videos_saved_to_album">
+        <item quantity="one">%d video u ruajt tek albumi &quot;%s&quot;</item>
+        <item quantity="other">%d video u ruajtën tek albumi &quot;%s&quot;</item>
+    </plurals>
+    <plurals name="wearable_participant_count">
+        <item quantity="one">%d pjesëmarrës</item>
+        <item quantity="other">%d pjesëmarrës</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="one">një javë</item>
+        <item quantity="other">%d javë</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="one">një vit</item>
+        <item quantity="other">%d vite</item>
+    </plurals>
+</resources>

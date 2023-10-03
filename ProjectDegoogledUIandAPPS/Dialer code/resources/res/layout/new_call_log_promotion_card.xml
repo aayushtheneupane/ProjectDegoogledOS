@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="?android:attr/colorBackground" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:paddingTop="16dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16dp" android:paddingEnd="24dp">
+        <ImageView android:id="@+id/new_call_log_promotion_card_icon" android:layout_width="40dp" android:layout_height="40dp" android:importantForAccessibility="no" android:layout_marginEnd="16dp"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+            <TextView android:id="@+id/new_call_log_promotion_card_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" style="@style/Dialer.TextAppearance.Header2"/>
+            <TextView android:id="@+id/new_call_log_promotion_card_details" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:lineSpacingExtra="8dp" style="@style/Dialer.TextAppearance.Secondary"/>
+            <Button android:textSize="14sp" android:layout_gravity="end" android:id="@+id/new_call_log_promotion_card_ok" android:paddingLeft="14dp" android:paddingRight="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_marginBottom="2dp" android:text="@string/ok_got_it"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="#dbdbdb" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="8dp"/>
+</LinearLayout>

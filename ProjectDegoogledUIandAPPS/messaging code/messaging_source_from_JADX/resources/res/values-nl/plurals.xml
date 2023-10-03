@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_invalid_contact_error">
+        <item quantity="one">Ongeldig contact</item>
+        <item quantity="other">Ongeldige contacten</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">Eén bijlage klaar voor verzenden</item>
+        <item quantity="other">%d bijlagen klaar voor verzenden</item>
+    </plurals>
+    <plurals name="attachment_preview_close_content_description">
+        <item quantity="one">Bijlage verwijderen</item>
+        <item quantity="other">Bijlagen verwijderen</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">Kan %d bijlage niet opslaan</item>
+        <item quantity="other">Kan %d bijlagen niet opslaan</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one">%d bijlage opgeslagen</item>
+        <item quantity="other">%d bijlagen opgeslagen</item>
+    </plurals>
+    <plurals name="attachments_saved_to_album">
+        <item quantity="one">%d bijlage opgeslagen in het album &quot;%s&quot;</item>
+        <item quantity="other">%d bijlagen opgeslagen in het album &quot;%s&quot;</item>
+    </plurals>
+    <plurals name="attachments_saved_to_downloads">
+        <item quantity="one">%d bijlage opgeslagen in &quot;Downloads&quot;</item>
+        <item quantity="other">%d bijlagen opgeslagen in &quot;Downloads&quot;</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_attachments">
+        <item quantity="one">Bijlage verzenden</item>
+        <item quantity="other">Bijlagen verzenden</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_audio">
+        <item quantity="one">Audio-opname verzenden</item>
+        <item quantity="other">Audio-opnamen verzenden</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_photo">
+        <item quantity="one">Foto verzenden</item>
+        <item quantity="other">Foto&apos;s verzenden</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_vcard">
+        <item quantity="one">Contactkaart verzenden</item>
+        <item quantity="other">Contactkaarten verzenden</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_video">
+        <item quantity="one">Video verzenden</item>
+        <item quantity="other">Video&apos;s verzenden</item>
+    </plurals>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">Dit gesprek verwijderen?</item>
+        <item quantity="other">Deze gesprekken verwijderen?</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="one">één maand</item>
+        <item quantity="other">%d maanden</item>
+    </plurals>
+    <plurals name="notification_download_failures">
+        <item quantity="one">%d berichten in één gesprek</item>
+        <item quantity="other">%d berichten in %d gesprekken</item>
+    </plurals>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Nieuw bericht</item>
+        <item quantity="other">%d nieuwe berichten</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="one">%d berichten in één gesprek</item>
+        <item quantity="other">%d berichten in %d gesprekken</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="one">%d dag</item>
+        <item quantity="other">%d dagen</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="one">%d uur</item>
+        <item quantity="other">%d uur</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="one">%d min.</item>
+        <item quantity="other">%d min.</item>
+    </plurals>
+    <plurals name="photos_saved_to_album">
+        <item quantity="one">%d foto opgeslagen in het album &quot;%s&quot;</item>
+        <item quantity="other">%d foto&apos;s opgeslagen in het album &quot;%s&quot;</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one">%d contact</item>
+        <item quantity="other">%d contacten</item>
+    </plurals>
+    <plurals name="videos_saved_to_album">
+        <item quantity="one">%d video opgeslagen in het album &quot;%s&quot;</item>
+        <item quantity="other">%d video&apos;s opgeslagen in het album &quot;%s&quot;</item>
+    </plurals>
+    <plurals name="wearable_participant_count">
+        <item quantity="one">%d deelnemer</item>
+        <item quantity="other">%d deelnemers</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="one">één week</item>
+        <item quantity="other">%d weken</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="one">één jaar</item>
+        <item quantity="other">%d jaar</item>
+    </plurals>
+</resources>

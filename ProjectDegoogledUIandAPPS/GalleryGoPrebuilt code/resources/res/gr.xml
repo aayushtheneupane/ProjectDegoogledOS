@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:drawable="?attr/colorPrimary"/>
+    <item android:bottom="@dimen/launchscreens_product_logo_bottom">
+        <bitmap android:gravity="center" android:src="@drawable/product_logo_gallery_go_color_144"/>
+    </item>
+    <item android:bottom="@dimen/splash_bottom_padding">
+        <bitmap android:gravity="bottom" android:src="@drawable/googlelogo_dark20_color_132x44" android:tint="@color/google_logo_splash_tint"/>
+    </item>
+</layer-list>

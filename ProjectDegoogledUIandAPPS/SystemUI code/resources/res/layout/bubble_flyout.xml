@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <FrameLayout android:id="@+id/bubble_flyout_text_container" android:paddingLeft="@dimen/bubble_flyout_padding_x" android:paddingTop="@dimen/bubble_flyout_padding_y" android:paddingRight="@dimen/bubble_flyout_padding_x" android:paddingBottom="@dimen/bubble_flyout_padding_y" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:translationZ="@dimen/bubble_flyout_elevation">
+        <TextView android:textAppearance="@android:style/Preference.DeviceDefault.RingtonePreference" android:id="@+id/bubble_flyout_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:fontFamily="@android:string/permlab_receiveMms"/>
+    </FrameLayout>
+</merge>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="contacts_count">
+        <item quantity="one">%d kişi</item>
+        <item quantity="other">%d kişi</item>
+    </plurals>
+    <plurals name="contacts_count_with_account">
+        <item quantity="one">%1$d kişi · %2$s</item>
+        <item quantity="other">%1$d kişi · %2$s</item>
+    </plurals>
+    <plurals name="contacts_deleted_toast">
+        <item quantity="one">Kişi silindi</item>
+        <item quantity="other">Kişiler silindi</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_contact_count_fmt">
+        <item quantity="one">1 kişi</item>
+        <item quantity="other">%1$d kişi</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_template">
+        <item quantity="one">^1 kişi • ^2</item>
+        <item quantity="other">^1 kişi • ^2</item>
+    </plurals>
+    <plurals name="sim_import_success_toast_fmt">
+        <item quantity="one">1 SIM kişisi içe aktarıldı</item>
+        <item quantity="other">%d SIM kişisi içe aktarıldı</item>
+    </plurals>
+    <plurals name="title_share_via">
+        <item quantity="one">Kişiyi şunu kullanarak paylaş:</item>
+        <item quantity="other">Kişileri şunu kullanarak paylaş:</item>
+    </plurals>
+</resources>

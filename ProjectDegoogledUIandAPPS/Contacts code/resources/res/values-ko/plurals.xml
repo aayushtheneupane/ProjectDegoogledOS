@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="contacts_count">
+        <item quantity="one">연락처 %d개</item>
+        <item quantity="other">연락처 %d개</item>
+    </plurals>
+    <plurals name="contacts_count_with_account">
+        <item quantity="one">연락처 %1$d개 · %2$s</item>
+        <item quantity="other">연락처 %1$d개 · %2$s</item>
+    </plurals>
+    <plurals name="contacts_deleted_toast">
+        <item quantity="one">연락처 삭제됨</item>
+        <item quantity="other">연락처 삭제됨</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_contact_count_fmt">
+        <item quantity="one">연락처 1개</item>
+        <item quantity="other">연락처 %1$d개</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_template">
+        <item quantity="one">연락처 ^1개 • ^2</item>
+        <item quantity="other">연락처 ^1개 • ^2</item>
+    </plurals>
+    <plurals name="sim_import_success_toast_fmt">
+        <item quantity="one">SIM 연락처 1개를 가져옴</item>
+        <item quantity="other">SIM 연락처 %d개를 가져옴</item>
+    </plurals>
+    <plurals name="title_share_via">
+        <item quantity="one">연락처 공유에 사용할 애플리케이션:</item>
+        <item quantity="other">연락처 공유에 사용할 애플리케이션:</item>
+    </plurals>
+</resources>

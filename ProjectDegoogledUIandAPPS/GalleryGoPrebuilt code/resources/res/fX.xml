@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/editor" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.opengl.GLSurfaceView android:id="@+id/editor_surface" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="com.google.android.apps.photosgo.editor.ImageContainerBehavior"/>
+    <include layout="@layout/editor_top_bar_layout"/>
+    <com.google.android.apps.photosgo.editor.presets.PresetSelectionView android:layout_gravity="top" android:id="@+id/preset_selection_view" android:paddingLeft="@dimen/photos_photoeditor_presets_list_padding_horizontal" android:paddingRight="@dimen/photos_photoeditor_presets_list_padding_horizontal" android:visibility="invisible" android:scrollbars="none" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="@dimen/photos_photoeditor_presets_toolbar_height" app:layout_anchor="@+id/editor_bottom_bar"/>
+    <include layout="@layout/progress_indicator"/>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@+id/editor_bottom_bar" android:background="@android:color/transparent" android:paddingLeft="@dimen/editor_bottom_bar_padding" android:paddingRight="@dimen/editor_bottom_bar_padding" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.google.android.material.button.MaterialButton android:id="@+id/editor_rotate_button" android:text="@string/editor_rotate" android:layout_weight="1" app:icon="@drawable/quantum_gm_ic_rotate_90_degrees_ccw_vd_theme_24" style="@style/EditorBottomBarButton"/>
+        <com.google.android.material.button.MaterialButton android:id="@+id/editor_crop_button" android:text="@string/editor_crop" android:layout_weight="1" app:icon="@drawable/quantum_gm_ic_crop_vd_theme_24" style="@style/EditorBottomBarButton"/>
+        <ViewStub android:id="@+id/editor_exit_button" android:layout="@layout/preferred_editor_button" android:inflatedId="@+id/editor_exit_button" android:layout_weight="0.4" style="@style/EditorBottomBarButton"/>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

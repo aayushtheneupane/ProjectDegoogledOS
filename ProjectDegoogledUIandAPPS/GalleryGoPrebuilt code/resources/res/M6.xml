@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <solid android:color="@android:color/white"/>
+    <padding android:left="@dimen/photos_photoeditor_presets_icon_border_padding" android:top="@dimen/photos_photoeditor_presets_icon_border_padding" android:right="@dimen/photos_photoeditor_presets_icon_border_padding" android:bottom="@dimen/photos_photoeditor_presets_icon_border_padding"/>
+    <corners android:radius="@dimen/photos_photoeditor_presets_icon_border_corner_radius"/>
+</shape>

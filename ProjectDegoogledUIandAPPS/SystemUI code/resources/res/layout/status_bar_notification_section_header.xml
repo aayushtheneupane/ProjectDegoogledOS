@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.notification.stack.SectionHeaderView xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/notification_section_header_height">
+    <com.android.systemui.statusbar.notification.row.NotificationBackgroundView android:id="@+id/backgroundNormal" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.android.systemui.statusbar.notification.row.NotificationBackgroundView android:id="@+id/backgroundDimmed" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/content" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/status_bar_notification_section_header_contents"/>
+    </LinearLayout>
+    <com.android.systemui.statusbar.notification.FakeShadowView android:id="@+id/fake_shadow" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</com.android.systemui.statusbar.notification.stack.SectionHeaderView>

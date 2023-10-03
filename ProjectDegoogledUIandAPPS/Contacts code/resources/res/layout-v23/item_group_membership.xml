@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.editor.GroupMembershipView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/group_membership_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/kind_icon" android:src="@drawable/quantum_ic_label_vd_theme_24" style="@style/EditKindIconStyle"/>
+    <Button android:textSize="@dimen/editor_form_text_size" android:ellipsize="end" android:id="@+id/group_list" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/editor_padding_between_editor_views" android:minHeight="@dimen/editor_min_line_item_height" android:singleLine="true" android:textAlignment="viewStart" android:paddingEnd="@dimen/editor_spinner_right_padding" android:layout_marginEnd="@dimen/editor_delete_button_size" style="@style/SpinnerButtonStyle"/>
+</com.android.contacts.editor.GroupMembershipView>

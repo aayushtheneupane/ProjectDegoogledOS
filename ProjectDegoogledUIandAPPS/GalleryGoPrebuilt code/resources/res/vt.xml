@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/google_black" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.apps.photosgo.oneup.OneUpPagerView android:id="@+id/oneup_pager" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:layout_gravity="top" android:id="@+id/oneup_top_gradient" android:background="@drawable/oneup_top_gradient" android:layout_width="match_parent" android:layout_height="@dimen/oneup_top_gradient_height"/>
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:id="@+id/oneup_appbar" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0dp">
+        <com.google.android.apps.photosgo.oneup.NonclickableToolbar android:layout_gravity="top" android:id="@+id/oneup_top_toolbar" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" android:windowActionBarOverlay="true" app:popupTheme="@style/ThemeOverlay.AppCompat.DayNight" style="?attr/actionBarStyle">
+            <ViewStub android:layout_gravity="end" android:id="@+id/oneup_top_toolbar_badge" android:layout="@layout/oneup_badge_view" android:inflatedId="@+id/oneup_top_toolbar_badge" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+        </com.google.android.apps.photosgo.oneup.NonclickableToolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.google.android.apps.photosgo.oneup.OneUpActionsView android:layout_gravity="bottom" android:id="@+id/oneup_bottom_navigation" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/oneup_actions_view_height" app:labelVisibilityMode="1"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/date_and_time" android:key="date_time_settings_screen" app:keywords="@string/keywords_date_and_time">
+    <PreferenceCategory android:layout="@layout/preference_category_no_label" android:key="date_time_preference_category">
+        <com.android.settingslib.RestrictedSwitchPreference android:title="@string/date_time_auto" android:key="auto_time" app:useAdditionalSummary="true" app:userRestriction="no_config_date_time"/>
+        <com.android.settingslib.RestrictedPreference android:title="@string/date_time_set_date_title" android:key="date" android:summary="@string/summary_placeholder" app:userRestriction="no_config_date_time"/>
+        <com.android.settingslib.RestrictedPreference android:title="@string/date_time_set_time_title" android:key="time" android:summary="@string/summary_placeholder" app:userRestriction="no_config_date_time"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category_no_label" android:key="time_zone_preference_category">
+        <com.android.settingslib.RestrictedSwitchPreference android:title="@string/zone_auto_title" android:key="auto_zone" app:userRestriction="no_config_date_time"/>
+        <com.android.settingslib.RestrictedPreference android:title="@string/date_time_set_timezone_title" android:key="timezone" android:summary="@string/summary_placeholder" android:fragment="com.android.settings.datetime.timezone.TimeZoneSettings" app:keywords="@string/keywords_time_zone" app:userRestriction="no_config_date_time"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/time_format_category_title" android:key="time_format_preference_category" app:keywords="@string/keywords_time_format">
+        <com.havoc.support.preferences.SwitchPreference android:title="@string/date_time_24hour_auto" android:key="auto_24hour"/>
+        <com.havoc.support.preferences.SwitchPreference android:title="@string/date_time_24hour" android:key="24 hour"/>
+    </PreferenceCategory>
+</PreferenceScreen>

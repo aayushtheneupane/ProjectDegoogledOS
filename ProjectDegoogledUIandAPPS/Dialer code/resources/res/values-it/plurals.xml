@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="one">minuto</item>
+        <item quantity="other">minuti</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="one">^1 risposta a una chiamata di ^2</item>
+        <item quantity="other">^1 chiamate, l&apos;ultima è una risposta a una chiamata di ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="one">^1 chiamata bloccata da ^2</item>
+        <item quantity="other">^1 chiamate, l&apos;ultima è una chiamata bloccata da ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="one">^1 chiamata senza risposta da ^2</item>
+        <item quantity="other">^1 chiamate, l&apos;ultima è una chiamata senza risposta da ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="one">^1 chiamata in uscita a ^2</item>
+        <item quantity="other">^1 chiamate, l&apos;ultima è una chiamata in uscita a ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="one">secondo</item>
+        <item quantity="other">secondi</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="one">Eliminare questo messaggio vocale? </item>
+        <item quantity="other">Eliminare questi messaggi vocali? </item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="one">Messaggio in segreteria</item>
+        <item quantity="other">%1$d messaggi in segreteria</item>
+    </plurals>
+    <plurals name="play_recordings">
+        <item quantity="one">Riproduci registrazione</item>
+        <item quantity="other">Riproduci registrazioni</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="one">Scheda %1$s. %2$d elemento da leggere.</item>
+        <item quantity="other">Scheda %1$s. %2$d elementi da leggere.</item>
+    </plurals>
+</resources>

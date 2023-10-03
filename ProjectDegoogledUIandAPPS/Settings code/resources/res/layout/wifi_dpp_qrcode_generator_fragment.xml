@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include layout="@layout/wifi_dpp_fragment_header"/>
+            <ImageView android:id="@+id/qrcode_view" android:layout_width="@dimen/qrcode_size" android:layout_height="@dimen/qrcode_size" android:src="@android:color/transparent"/>
+            <TextView android:textAppearance="@style/TextAppearance.Material.Body1" android:textColor="?android:attr/textColorSecondary" android:id="@+id/password" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:textAlignment="center"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

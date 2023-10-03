@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_invalid_contact_error">
+        <item quantity="one">Oxhumana nabo abangavumelekile</item>
+        <item quantity="other">Oxhumana nabo abangavumelekile</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">%d okunamathiselwe kukulungele ukuthunyelwa</item>
+        <item quantity="other">%d okunamathiselwe kukulungele ukuthunyelwa</item>
+    </plurals>
+    <plurals name="attachment_preview_close_content_description">
+        <item quantity="one">Lahla okunamathiselwe</item>
+        <item quantity="other">Lahla okunamathiselwe</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">Ayikwazanga ukulondoloza okunamathiselwe okungu-%d</item>
+        <item quantity="other">Ayikwazanga ukulondoloza okunamathiselwe okungu-%d</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one">%d okunamathiselwe kulondoloziwe</item>
+        <item quantity="other">%d okunamathiselwe kulondoloziwe</item>
+    </plurals>
+    <plurals name="attachments_saved_to_album">
+        <item quantity="one">%d okunamathiselwe kulondolozwe ku-albhamu &quot;%s&quot;</item>
+        <item quantity="other">%d okunamathiselwe kulondolozwe ku-albhamu &quot;%s&quot;</item>
+    </plurals>
+    <plurals name="attachments_saved_to_downloads">
+        <item quantity="one">%d Okunamathiselwe kulondolozwe kokuthi &quot;Okulandiwe&quot;</item>
+        <item quantity="other">%d Okunamathiselwe kulondolozwe kokuthi &quot;Okulandiwe&quot;</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_attachments">
+        <item quantity="one">Thumela okunamathiselwe</item>
+        <item quantity="other">Thumela okunamathiselwe</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_audio">
+        <item quantity="one">Thumela imisindo</item>
+        <item quantity="other">Thumela imisindo</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_photo">
+        <item quantity="one">Thumela izithombe</item>
+        <item quantity="other">Thumela izithombe</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_vcard">
+        <item quantity="one">Thumela amakhadi oxhumana nabo</item>
+        <item quantity="other">Thumela amakhadi oxhumana nabo</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_video">
+        <item quantity="one">Thumela amavidiyo</item>
+        <item quantity="other">Thumela amavidiyo</item>
+    </plurals>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">Susa lezi zingxoxo?</item>
+        <item quantity="other">Susa lezi zingxoxo?</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="one">%dizinyanga</item>
+        <item quantity="other">%dizinyanga</item>
+    </plurals>
+    <plurals name="notification_download_failures">
+        <item quantity="one">%d imilayezo kwizingxoxo ezingu-%d</item>
+        <item quantity="other">%d imilayezo kwizingxoxo ezingu-%d</item>
+    </plurals>
+    <plurals name="notification_new_messages">
+        <item quantity="one">%d imilayezo emisha</item>
+        <item quantity="other">%d imilayezo emisha</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="one">%d imilayezo kwizingxoxo ezingu-%d</item>
+        <item quantity="other">%d imilayezo kwizingxoxo ezingu-%d</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="one">%d izinsuku</item>
+        <item quantity="other">%d izinsuku</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="one">%d amahora</item>
+        <item quantity="other">%d amahora</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="one">%d amaminithi</item>
+        <item quantity="other">%d amaminithi</item>
+    </plurals>
+    <plurals name="photos_saved_to_album">
+        <item quantity="one">%d izithombe zilondolozwe ku-albhamu &quot;%s&quot;</item>
+        <item quantity="other">%d izithombe zilondolozwe ku-albhamu &quot;%s&quot;</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one">%d oxhumana nabo</item>
+        <item quantity="other">%d oxhumana nabo</item>
+    </plurals>
+    <plurals name="videos_saved_to_album">
+        <item quantity="one">%d amavidiyo alondolozwe ku-albhamu &quot;%s&quot;</item>
+        <item quantity="other">%d amavidiyo alondolozwe ku-albhamu &quot;%s&quot;</item>
+    </plurals>
+    <plurals name="wearable_participant_count">
+        <item quantity="one">%d ababambiqhaza</item>
+        <item quantity="other">%d ababambiqhaza</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="one">%d amaviki</item>
+        <item quantity="other">%d amaviki</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="one">%d iminyaka</item>
+        <item quantity="other">%d iminyaka</item>
+    </plurals>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/privacy_dashboard_title" android:key="privacy_dashboard_page" app:initialExpandedChildrenCount="4">
+    <com.android.settingslib.widget.BarChartPreference android:title="@string/summary_placeholder" android:key="permission_bar_chart" app:controller="com.android.settings.privacy.PermissionBarChartPreferenceController"/>
+    <Preference android:title="@string/work_policy_privacy_settings" android:key="work_policy_info" android:summary="@string/work_policy_privacy_settings_summary" app:allowDividerAbove="true" app:controller="com.android.settings.privacy.WorkPolicyInfoPreferenceController"/>
+    <Preference android:title="@string/accessibility_usage_title" android:key="privacy_accessibility_usage" app:allowDividerAbove="true" app:controller="com.android.settings.privacy.AccessibilityUsagePreferenceController">
+        <intent android:action="android.intent.action.REVIEW_ACCESSIBILITY_SERVICES"/>
+    </Preference>
+    <Preference android:title="@string/app_permissions" android:key="privacy_manage_perms" app:allowDividerAbove="true" app:controller="com.android.settings.applications.AppPermissionsPreferenceController" app:keywords="@string/keywords_app_permissions">
+        <intent android:action="android.intent.action.MANAGE_PERMISSIONS"/>
+    </Preference>
+    <com.havoc.support.preferences.SwitchPreference android:title="@string/show_password" android:key="show_password" android:summary="@string/show_password_summary" app:controller="com.android.settings.security.ShowPasswordPreferenceController"/>
+    <com.havoc.support.preferences.SystemSettingSwitchPreference android:title="@string/show_permissions_hub" android:key="permissions_hub_enabled" android:summary="@string/show_permissions_hub_summary" android:defaultValue="true"/>
+    <com.havoc.support.preferences.SystemSettingListPreference android:entries="@array/clipboard_toast_info_entries" android:title="@string/clipboard_toast_info_title" android:key="clipboard_toast_info" android:defaultValue="0" android:entryValues="@array/clipboard_toast_info_values"/>
+    <com.android.settings.RestrictedListPreference android:title="@string/lock_screen_notifications_title" android:key="privacy_lock_screen_notifications" android:summary="@string/summary_placeholder" app:searchable="false"/>
+    <PreferenceCategory android:layout="@layout/preference_category_no_label" android:key="privacy_services"/>
+    <PreferenceCategory android:key="dashboard_tile_placeholder"/>
+    <PreferenceCategory android:title="@string/profile_section_header" android:key="privacy_work_profile_notifications_category" android:order="998" app:searchable="false">
+        <com.android.settings.RestrictedListPreference android:title="@string/locked_work_profile_notification_title" android:key="privacy_lock_screen_work_profile_notifications" android:summary="@string/summary_placeholder" android:order="999" app:searchable="false"/>
+    </PreferenceCategory>
+    <com.havoc.support.preferences.SwitchPreference android:title="@string/content_capture" android:key="content_capture" android:summary="@string/content_capture_summary" app:controller="com.android.settings.privacy.EnableContentCapturePreferenceController"/>
+    <com.android.settings.widget.MasterSwitchPreference android:title="@string/content_capture" android:key="content_capture_custom_settings" android:summary="@string/content_capture_summary" app:controller="com.android.settings.privacy.EnableContentCaptureWithServiceSettingsPreferenceController"/>
+</PreferenceScreen>

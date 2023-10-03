@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.common.widget.ActivityTouchLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="horizontal" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="64dp" android:paddingStart="24dp" android:paddingEnd="24dp">
+    <ImageView android:id="@+id/icon" android:layout_width="24dp" android:layout_height="24dp" android:scaleType="center"/>
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:orientation="vertical" android:id="@+id/text" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:paddingStart="24dp">
+        <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="?android:attr/textColorPrimary" android:id="@+id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="?android:attr/textColorSecondary" android:id="@+id/number" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="?android:attr/textColorSecondary" android:id="@+id/hint" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false"/>
+    </LinearLayout>
+</com.android.contacts.common.widget.ActivityTouchLinearLayout>

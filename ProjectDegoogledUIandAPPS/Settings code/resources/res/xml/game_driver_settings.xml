@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/game_driver_dashboard_title" android:key="game_driver_settings">
+    <ListPreference android:entries="@array/game_driver_all_apps_preference_values" android:title="@string/game_driver_all_apps_preference_title" android:key="game_driver_all_apps_preference" android:dialogTitle="@string/game_driver_all_apps_preference_title" android:entryValues="@array/game_driver_all_apps_preference_values" app:controller="com.android.settings.development.gamedriver.GameDriverEnableForAllAppsPreferenceController"/>
+    <PreferenceCategory android:title="@string/game_driver_app_preference_title" android:key="game_driver_category" app:controller="com.android.settings.development.gamedriver.GameDriverAppPreferenceController"/>
+    <com.android.settingslib.widget.FooterPreference android:title="@string/game_driver_footer_text" android:selectable="false" android:key="footer_preference" app:controller="com.android.settings.development.gamedriver.GameDriverFooterPreferenceController"/>
+</PreferenceScreen>

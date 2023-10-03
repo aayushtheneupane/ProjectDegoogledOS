@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:orientation="vertical" android:id="@+id/loading_view" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textAppearance="?attr/textAppearanceOverline" android:textColor="?attr/colorOnSurfaceVariant" android:layout_gravity="start" android:padding="16dp" android:layout_width="wrap_content" android:layout_height="48dp" android:text="@string/info_sheet_details_header"/>
+        <include android:layout_width="match_parent" android:layout_height="72dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" layout="@layout/infosheet_info_stub_view"/>
+        <include android:layout_width="match_parent" android:layout_height="72dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" layout="@layout/infosheet_info_stub_view"/>
+        <include android:layout_width="match_parent" android:layout_height="72dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" layout="@layout/infosheet_info_stub_view"/>
+        <include android:layout_width="match_parent" android:layout_height="72dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" layout="@layout/infosheet_info_stub_view"/>
+        <include android:layout_width="match_parent" android:layout_height="72dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" layout="@layout/infosheet_info_stub_view"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/list_view" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textAppearance="?attr/textAppearanceOverline" android:textColor="?attr/colorOnSurfaceVariant" android:layout_gravity="start" android:id="@+id/header_details" android:padding="16dp" android:layout_width="wrap_content" android:layout_height="48dp" android:text="@string/info_sheet_details_header"/>
+    </LinearLayout>
+</merge>

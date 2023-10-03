@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="contacts_count">
+        <item quantity="one">%d contacto</item>
+        <item quantity="other">%d contactos</item>
+    </plurals>
+    <plurals name="contacts_count_with_account">
+        <item quantity="one">%1$d contacto · %2$s</item>
+        <item quantity="other">%1$d contactos · %2$s</item>
+    </plurals>
+    <plurals name="contacts_deleted_toast">
+        <item quantity="one">Eliminouse o contacto</item>
+        <item quantity="other">Elimináronse os contactos</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_contact_count_fmt">
+        <item quantity="one">1 contacto</item>
+        <item quantity="other">%d contactos</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_template">
+        <item quantity="one">^1 contacto • ^2</item>
+        <item quantity="other">^1 contactos • ^2</item>
+    </plurals>
+    <plurals name="sim_import_success_toast_fmt">
+        <item quantity="one">Importouse 1 contacto da SIM</item>
+        <item quantity="other">Importáronse %d contactos da SIM</item>
+    </plurals>
+    <plurals name="title_share_via">
+        <item quantity="one">Compartir contacto mediante</item>
+        <item quantity="other">Compartir contactos mediante</item>
+    </plurals>
+</resources>

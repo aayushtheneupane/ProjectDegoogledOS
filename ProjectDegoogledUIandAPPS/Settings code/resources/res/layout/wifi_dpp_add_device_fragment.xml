@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include layout="@layout/wifi_dpp_fragment_header"/>
+            <ProgressBar android:id="@+id/indeterminate_bar" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:indeterminate="true" android:paddingStart="16dp" android:paddingEnd="16dp" style="?android:attr/progressBarStyleHorizontal"/>
+            <ImageView android:id="@+id/wifi_ap_picture_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wifi_dpp_success" android:scaleType="fitCenter" app:layout_constraintTop_toBottomOf="@+id/header"/>
+            <Button android:id="@+id/choose_different_network" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/wifi_dpp_choose_different_network" app:layout_constraintTop_toBottomOf="@+id/wifi_ap_picture_view" style="@style/SudGlifButton.Secondary"/>
+        </LinearLayout>
+    </ScrollView>
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" layout="@layout/wifi_dpp_fragment_footer"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

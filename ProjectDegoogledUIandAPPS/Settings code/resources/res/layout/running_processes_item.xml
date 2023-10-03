@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:attr/listPreferredItemHeight" android:columnCount="2" android:paddingStart="?android:attr/listPreferredItemPaddingStart" android:paddingEnd="?android:attr/listPreferredItemPaddingEnd">
+    <ImageView android:id="@+id/icon" android:layout_width="@android:dimen/app_icon_size" android:layout_height="@android:dimen/app_icon_size" android:scaleType="centerInside" android:contentDescription="@null" android:layout_rowSpan="2" android:layout_marginEnd="8dp"/>
+    <LinearLayout android:layout_gravity="fill_horizontal" android:layout_width="0dp" android:layout_marginTop="2dp">
+        <TextView android:textAppearance="@android:style/WindowTitleBackground.DeviceDefault" android:ellipsize="marquee" android:id="@+id/name" android:layout_width="0dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1" android:textAlignment="viewStart"/>
+        <TextView android:textAppearance="@android:style/Preference.DeviceDefault.PreferenceScreen" android:textColor="?android:attr/textColorSecondary" android:id="@+id/size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8dp"/>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="top|left|right|center_vertical|center_horizontal|fill_horizontal|center" android:layout_width="0dp">
+        <TextView android:textAppearance="@android:style/Preference.DeviceDefault.PreferenceScreen" android:textColor="?android:attr/textColorSecondary" android:id="@+id/description" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:textAlignment="viewStart"/>
+        <TextView android:textAppearance="@android:style/Preference.DeviceDefault.PreferenceScreen" android:textColor="?android:attr/textColorSecondary" android:id="@+id/uptime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8dp"/>
+    </LinearLayout>
+</GridLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="one">წუთი</item>
+        <item quantity="other">წუთი</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="one">^1 პასუხგაცემული ზარი ^2-ისგან</item>
+        <item quantity="other">^1 ზარი, ბოლო არის პასუხგაცემული ზარი ^2-ისგან</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="one">^1 დაბლოკილი ზარი ^2-ისგან</item>
+        <item quantity="other">^1 ზარი, ბოლო არის დაბლოკილი ზარი ^2-ისგან</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="one">^1 გამოტოვებული ზარი ^2-ისგან</item>
+        <item quantity="other">^1 ზარი, ბოლო არის გამოტოვებული ზარი ^2-ისგან</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="one">^1 გამავალი ზარი ^2-თან</item>
+        <item quantity="other">^1 ზარი, ბოლო არის გამავალი ზარი ^2-თან</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="one">წამი</item>
+        <item quantity="other">წამი</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="one">გსურთ ამ ხმოვანი შეტყობინების წაშლა? </item>
+        <item quantity="other">გსურთ ამ ხმოვანი შეტყობინებების წაშლა? </item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="one">ხმოვანი ფოსტა</item>
+        <item quantity="other">%1$d ხმოვანი ფოსტა</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="one">%1$s ცხრ. %2$d წაუკითხავი ერთეული.</item>
+        <item quantity="other">%1$s ცხრ. %2$d წაუკითხავი ერთეული.</item>
+    </plurals>
+</resources>

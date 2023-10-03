@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.messaging.p041ui.attachmentchooser.AttachmentGridItemView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/attachment_grid_image_cell_size">
+    <FrameLayout android:id="@+id/attachment_container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:background="?android:attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <CheckBox android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:id="@+id/checkbox" android:background="@null" android:paddingTop="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/gallery_checkbox_selector" android:contentDescription="@string/gallery_checkbox_content_description" style="@style/AttachmentGridItemViewCheckBoxStyle"/>
+</com.android.messaging.p041ui.attachmentchooser.AttachmentGridItemView>

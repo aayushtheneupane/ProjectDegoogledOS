@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BackgroundOnlyTheme">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowNoDisplay">false</item>
+    </style>
+    <style name="ConfirmAddDetailDialogTheme">
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+    <style name="ContactEditorAccountsChangedActivityTheme">
+        <item name="android:textColorPrimary">@color/primary_text_color</item>
+        <item name="android:textColorSecondary">@color/secondary_text_color</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:colorAccent">@color/primary_color</item>
+    </style>
+    <style name="ContactsAlertDialogTheme">
+        <item name="android:background">@color/background_primary</item>
+        <item name="android:colorAccent">@color/primary_color</item>
+    </style>
+    <style name="ContactsAlertDialogThemeAppCompat">
+        <item name="android:background">@color/background_primary</item>
+        <item name="android:colorAccent">@color/primary_color</item>
+        <item name="colorAccent">@color/primary_color</item>
+    </style>
+    <style name="ContactsToolbarStyle">
+        <item name="android:titleTextAppearance">@style/ContactsActionBarTitleTextAppCompat</item>
+        <item name="popupTheme">@style/PopupMenuStyleAppCompat</item>
+        <item name="titleTextAppearance">@style/ContactsActionBarTitleTextAppCompat</item>
+    </style>
+    <style name="ContextPopupMenuStyle">
+        <item name="android:popupBackground">@color/alert_background</item>
+    </style>
+    <style name="EditKindIconStyle">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:layout_marginTop">@dimen/editor_kind_icon_top_margin</item>
+        <item name="android:tint">@color/dialtacts_secondary_text_color</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">28dp</item>
+    </style>
+    <style name="LaunchScreenTheme">
+        <item name="android:windowBackground">@drawable/quantum_launchscreen_contacts</item>
+        <item name="android:colorPrimary">@color/background_primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_color</item>
+    </style>
+    <style name="ListViewStyle">
+        <item name="android:background">@color/background_primary</item>
+        <item name="android:overScrollMode">@null</item>
+    </style>
+    <style name="NonPhoneDialogTheme">
+    </style>
+    <style name="PeopleActivityTheme">
+        <item name="android:listSelector">?android:attr/listChoiceBackgroundIndicator</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="PeopleTheme">
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:textColorPrimary">@color/primary_text_color</item>
+        <item name="android:textColorSecondary">@color/secondary_text_color</item>
+        <item name="android:windowBackground">@color/background_primary</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:actionBarStyle">@style/ContactsActionBarStyle</item>
+        <item name="android:actionModeCloseDrawable">@drawable/quantum_ic_close_vd_theme_24</item>
+        <item name="android:actionOverflowButtonStyle">@style/ContactsActionBarOverflowQP</item>
+        <item name="android:popupMenuStyle">@style/PopupMenuStyle</item>
+        <item name="android:alertDialogTheme">@style/ContactsAlertDialogTheme</item>
+        <item name="android:colorPrimary">@color/primary_color</item>
+        <item name="android:colorPrimaryDark">@color/primary_color</item>
+        <item name="android:colorAccent">@color/primary_color</item>
+        <item name="android:popupTheme">@style/PopupMenuStyle</item>
+        <item name="?0x1010501">@style/ContextPopupMenuStyle</item>
+        <item name="contact_browser_background">@color/background_primary</item>
+        <item name="contact_browser_list_padding_left">0dp</item>
+        <item name="contact_browser_list_padding_right">0dp</item>
+        <item name="favorites_padding_bottom">0dp</item>
+        <item name="list_item_avatar_offset_top">-1dp</item>
+        <item name="list_item_background_color">@color/list_item_pinned_header_color</item>
+        <item name="list_item_gap_between_image_and_text">@dimen/contact_browser_list_item_gap_between_image_and_text</item>
+        <item name="list_item_gap_between_label_and_data">5dp</item>
+        <item name="list_item_header_height">30dp</item>
+        <item name="list_item_header_text_color">@color/people_app_theme_color</item>
+        <item name="list_item_header_text_indent">8dp</item>
+        <item name="list_item_header_text_size">14sp</item>
+        <item name="list_item_height">@dimen/contact_browser_list_item_height</item>
+        <item name="list_item_padding_bottom">@dimen/contact_browser_list_item_padding_top_or_bottom</item>
+        <item name="list_item_padding_left">0dp</item>
+        <item name="list_item_padding_right">32dp</item>
+        <item name="list_item_padding_top">@dimen/contact_browser_list_item_padding_top_or_bottom</item>
+        <item name="list_item_photo_size">@dimen/contact_browser_list_item_photo_size</item>
+        <item name="list_item_prefix_highlight_color">@color/people_app_theme_color</item>
+        <item name="list_item_presence_icon_margin">4dp</item>
+        <item name="list_item_presence_icon_size">16dp</item>
+        <item name="list_item_profile_photo_size">70dp</item>
+        <item name="list_item_text_indent">@dimen/contact_browser_list_item_text_indent</item>
+        <item name="list_item_text_offset_top">-2dp</item>
+        <item name="list_section_header_height">24dp</item>
+    </style>
+    <style name="PeopleThemeAppCompat">
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:textColorPrimary">@color/primary_text_color</item>
+        <item name="android:textColorSecondary">@color/secondary_text_color</item>
+        <item name="android:windowBackground">@color/background_primary</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:actionBarStyle">@style/ContactsActionBarStyleAppCompat</item>
+        <item name="android:actionButtonStyle">@style/ContactsActionButtonStyle</item>
+        <item name="android:actionModeCloseDrawable">@drawable/quantum_ic_close_vd_theme_24</item>
+        <item name="android:actionOverflowButtonStyle">@style/ContactsActionBarOverflowQP</item>
+        <item name="android:popupMenuStyle">@style/PopupMenuStyleAppCompat</item>
+        <item name="android:alertDialogTheme">@style/ContactsAlertDialogThemeAppCompat</item>
+        <item name="android:fastScrollThumbDrawable">@drawable/thumb_drawable</item>
+        <item name="android:fastScrollTrackDrawable">@null</item>
+        <item name="android:fastScrollTextColor">@android:color/white</item>
+        <item name="android:colorPrimary">@color/primary_color</item>
+        <item name="android:colorPrimaryDark">@color/primary_color</item>
+        <item name="android:colorAccent">@color/primary_color</item>
+        <item name="?0x1010501">@style/PopupMenuStyleAppCompat</item>
+        <item name="actionBarStyle">@style/ContactsActionBarStyleAppCompat</item>
+        <item name="actionButtonStyle">@style/ContactsActionButtonStyle</item>
+        <item name="actionOverflowButtonStyle">@style/ContactsActionBarOverflowQP</item>
+        <item name="alertDialogTheme">@style/ContactsAlertDialogThemeAppCompat</item>
+        <item name="colorAccent">@color/primary_color</item>
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_color</item>
+        <item name="contact_browser_background">@color/background_primary</item>
+        <item name="contact_browser_list_padding_left">0dp</item>
+        <item name="contact_browser_list_padding_right">0dp</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="favorites_padding_bottom">0dp</item>
+        <item name="list_item_avatar_offset_top">-1dp</item>
+        <item name="list_item_background_color">@color/list_item_pinned_header_color</item>
+        <item name="list_item_gap_between_image_and_text">@dimen/contact_browser_list_item_gap_between_image_and_text</item>
+        <item name="list_item_gap_between_indexer_and_image">@dimen/contact_browser_list_item_gap_between_indexer_and_image</item>
+        <item name="list_item_gap_between_label_and_data">5dp</item>
+        <item name="list_item_header_height">30dp</item>
+        <item name="list_item_header_text_color">@color/people_app_theme_color</item>
+        <item name="list_item_header_text_indent">8dp</item>
+        <item name="list_item_header_text_size">14sp</item>
+        <item name="list_item_height">@dimen/contact_browser_list_item_height</item>
+        <item name="list_item_padding_bottom">@dimen/contact_browser_list_item_padding_top_or_bottom</item>
+        <item name="list_item_padding_left">0dp</item>
+        <item name="list_item_padding_right">32dp</item>
+        <item name="list_item_padding_top">@dimen/contact_browser_list_item_padding_top_or_bottom</item>
+        <item name="list_item_photo_size">@dimen/contact_browser_list_item_photo_size</item>
+        <item name="list_item_prefix_highlight_color">@color/people_app_theme_color</item>
+        <item name="list_item_presence_icon_margin">4dp</item>
+        <item name="list_item_presence_icon_size">16dp</item>
+        <item name="list_item_profile_photo_size">70dp</item>
+        <item name="list_item_text_indent">@dimen/contact_browser_list_item_text_indent</item>
+        <item name="list_item_text_offset_top">-2dp</item>
+        <item name="list_section_header_height">24dp</item>
+        <item name="popupMenuStyle">@style/PopupMenuStyleAppCompat</item>
+        <item name="toolbarNavigationButtonStyle">@style/ContactToolbarNavigationButtonStyle</item>
+    </style>
+    <style name="PopupMenuStyle">
+    </style>
+    <style name="PopupMenuStyleAppCompat">
+    </style>
+    <style name="SelectableItem">
+        <item name="android:background">@color/background_primary</item>
+    </style>
+    <style name="Theme.AppCompat.DayNight">
+    </style>
+    <style name="Theme.AppCompat.DayNight.DarkActionBar">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog.MinWidth">
+    </style>
+    <style name="Theme.AppCompat.DayNight.DialogWhenLarge">
+    </style>
+    <style name="Theme.AppCompat.DayNight.NoActionBar">
+    </style>
+    <style name="Theme.CallSubjectDialogTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:windowElevation">0dp</item>
+    </style>
+    <style name="Theme.MaterialComponents.DayNight">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.Dialog">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.DialogWhenLarge">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar">
+    </style>
+    <style name="ThemeOverlay.AppCompat.DayNight">
+    </style>
+</resources>

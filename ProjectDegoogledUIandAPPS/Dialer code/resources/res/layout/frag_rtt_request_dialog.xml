@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:textSize="16sp" android:textColor="#de000000" android:id="@+id/details" android:paddingTop="20dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24dp" android:paddingEnd="24dp"/>
+    <TextView android:textSize="14sp" android:textColor="#8a000000" android:id="@+id/more_information" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/rtt_request_dialog_more_information" android:paddingStart="24dp" android:paddingEnd="24dp"/>
+    <LinearLayout android:orientation="horizontal" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Space android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+        <Button android:textColor="#757575" android:layout_gravity="end" android:id="@+id/rtt_button_decline_request" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rtt_button_decline_request" android:fontFamily="sans-serif-medium" android:paddingStart="16dp" android:paddingEnd="16dp" android:stateListAnimator="@null" android:backgroundTint="?unknown_attr_ref: 10104e2" style="@style/Widget.AppCompat.Button"/>
+        <Button android:textColor="@android:color/white" android:layout_gravity="end" android:id="@+id/rtt_button_accept_request" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rtt_button_accept_request" android:fontFamily="sans-serif-medium" android:paddingStart="16dp" android:paddingEnd="16dp" android:stateListAnimator="@null" android:backgroundTint="?android:attr/colorPrimary" style="@style/Widget.AppCompat.Button"/>
+    </LinearLayout>
+</LinearLayout>

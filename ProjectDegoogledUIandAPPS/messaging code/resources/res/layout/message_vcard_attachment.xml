@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.messaging.p041ui.PersonItemView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:paddingTop="@dimen/message_text_top_padding" android:paddingBottom="@dimen/message_text_bottom_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MessageVcardAttachmentStyle"/>

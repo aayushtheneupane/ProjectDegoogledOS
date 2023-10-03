@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photosgo.editor.presets.PresetItemView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/preset_item" android:paddingLeft="@dimen/photos_photoeditor_presets_list_item_spacing" android:paddingRight="@dimen/photos_photoeditor_presets_list_item_spacing" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/preset_item_image" android:background="@drawable/preset_icon_background" android:layout_width="@dimen/photos_photoeditor_presets_item_image_size" android:layout_height="@dimen/photos_photoeditor_presets_item_image_size" android:foreground="?attr/selectableItemBackground"/>
+</com.google.android.apps.photosgo.editor.presets.PresetItemView>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="one">λεπτό</item>
+        <item quantity="other">λεπτά</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="one">^1 απαντημένη κλήση από ^2</item>
+        <item quantity="other">^1 κλήσεις, η πιο πρόσφατη είναι απαντημένη που έγινε από ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="one">^1 αποκλεισμένη κλήση από ^2</item>
+        <item quantity="other">^1 κλήσεις, η πιο πρόσφατη είναι αποκλεισμένη που έγινε από ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="one">^1 αναπάντητη κλήση από ^2</item>
+        <item quantity="other">^1 κλήσεις, η πιο πρόσφατη είναι αναπάντητη από ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="one">^1 εξερχόμενη κλήση προς ^2</item>
+        <item quantity="other">^1 κλήση, η πιο πρόσφατη είναι εξερχόμενη προς ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="one">δευτερόλεπτο</item>
+        <item quantity="other">δευτερόλεπτα</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="one">Διαγραφή αυτού του μηνύματος αυτόματου τηλεφωνητή; </item>
+        <item quantity="other">Διαγραφή αυτών των μηνυμάτων αυτόματου τηλεφωνητή; </item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="one">Μήνυμα αυτόματου τηλεφωνητή</item>
+        <item quantity="other">%1$d Μηνύματα αυτόμ. τηλεφωνητή</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="one">Καρτέλα %1$s. %2$d μη αναγνωσμένο στοιχείο.</item>
+        <item quantity="other">Καρτέλα %1$s. %2$d μη αναγνωσμένα στοιχεία.</item>
+    </plurals>
+</resources>

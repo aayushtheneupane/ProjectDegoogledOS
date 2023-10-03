@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_invalid_contact_error">
+        <item quantity="one">Ugyldige kontaktpersoner</item>
+        <item quantity="other">Ugyldige kontaktpersoner</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">%d vedhæftede filer er klar til at blive sendt</item>
+        <item quantity="other">%d vedhæftede filer er klar til at blive sendt</item>
+    </plurals>
+    <plurals name="attachment_preview_close_content_description">
+        <item quantity="one">Kassér vedhæftede filer</item>
+        <item quantity="other">Kassér vedhæftede filer</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">%d vedhæftede filer kunne ikke gemmes</item>
+        <item quantity="other">%d vedhæftede filer kunne ikke gemmes</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one">%d vedhæftede filer blev gemt</item>
+        <item quantity="other">%d vedhæftede filer blev gemt</item>
+    </plurals>
+    <plurals name="attachments_saved_to_album">
+        <item quantity="one">%d vedhæftede filer blev gemt i albummet &quot;%s&quot;</item>
+        <item quantity="other">%d vedhæftede filer blev gemt i albummet &quot;%s&quot;</item>
+    </plurals>
+    <plurals name="attachments_saved_to_downloads">
+        <item quantity="one">%d vedhæftede filer blev gemt under &quot;Downloads&quot;</item>
+        <item quantity="other">%d vedhæftede filer blev gemt under &quot;Downloads&quot;</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_attachments">
+        <item quantity="one">Send vedhæftede filer</item>
+        <item quantity="other">Send vedhæftede filer</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_audio">
+        <item quantity="one">Send lydoptagelser</item>
+        <item quantity="other">Send lydoptagelser</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_photo">
+        <item quantity="one">Send billeder</item>
+        <item quantity="other">Send billeder</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_vcard">
+        <item quantity="one">Send visitkort</item>
+        <item quantity="other">Send visitkort</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_video">
+        <item quantity="one">Send videoer</item>
+        <item quantity="other">Send videoer</item>
+    </plurals>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">Vil du slette disse samtaler?</item>
+        <item quantity="other">Vil du slette disse samtaler?</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="one">%d måneder</item>
+        <item quantity="other">%d måneder</item>
+    </plurals>
+    <plurals name="notification_download_failures">
+        <item quantity="one">%d beskeder i %d samtaler</item>
+        <item quantity="other">%d beskeder i %d samtaler</item>
+    </plurals>
+    <plurals name="notification_new_messages">
+        <item quantity="one">%d nye beskeder</item>
+        <item quantity="other">%d nye beskeder</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="one">%d beskeder i %d samtaler</item>
+        <item quantity="other">%d beskeder i %d samtaler</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="one">%d dage</item>
+        <item quantity="other">%d dage</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="one">%d timer</item>
+        <item quantity="other">%d timer</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="one">%d min.</item>
+        <item quantity="other">%d min.</item>
+    </plurals>
+    <plurals name="photos_saved_to_album">
+        <item quantity="one">%d billeder blev gemt i albummet &quot;%s&quot;</item>
+        <item quantity="other">%d billeder blev gemt i albummet &quot;%s&quot;</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one">%d kontaktpersoner</item>
+        <item quantity="other">%d kontaktpersoner</item>
+    </plurals>
+    <plurals name="videos_saved_to_album">
+        <item quantity="one">%d videoer blev gemt i albummet &quot;%s&quot;</item>
+        <item quantity="other">%d videoer blev gemt i albummet &quot;%s&quot;</item>
+    </plurals>
+    <plurals name="wearable_participant_count">
+        <item quantity="one">%d deltagere</item>
+        <item quantity="other">%d deltagere</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="one">%d uger</item>
+        <item quantity="other">%d uger</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="one">%d år</item>
+        <item quantity="other">%d år</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:orientation="vertical" android:paddingTop="10dp" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16dp" android:paddingEnd="16dp">
+    <TextView android:gravity="center_horizontal" android:id="@+id/large_delete_textbox" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/large_delete_warning" android:textAlignment="center"/>
+    <com.google.android.libraries.material.progress.MaterialProgressBar android:gravity="center_horizontal" android:id="@+id/progress_bar" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Widget.GoogleLib.Progress.Linear.Determinate"/>
+    <com.google.android.material.button.MaterialButton android:layout_gravity="end" android:id="@+id/stop_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/stop_button_text" app:icon="@drawable/quantum_gm_ic_close_vd_theme_24" style="@style/Widget.GoogleMaterial.Button.Icon"/>
+</LinearLayout>

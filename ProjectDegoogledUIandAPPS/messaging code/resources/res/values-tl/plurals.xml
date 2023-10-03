@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_invalid_contact_error">
+        <item quantity="one">Mga di-wastong contact</item>
+        <item quantity="other">Mga di-wastong contact</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">%d attachment ang handa nang ipadala</item>
+        <item quantity="other">%d na attachment ang handa nang ipadala</item>
+    </plurals>
+    <plurals name="attachment_preview_close_content_description">
+        <item quantity="one">I-discard ang mga attachment</item>
+        <item quantity="other">I-discard ang mga attachment</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">Hindi ma-save ang %d attachment</item>
+        <item quantity="other">Hindi ma-save ang %d na attachment</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one">%d attachment ang na-save</item>
+        <item quantity="other">%d na attachment ang na-save</item>
+    </plurals>
+    <plurals name="attachments_saved_to_album">
+        <item quantity="one">%d attachment ang naka-save sa album na &quot;%s&quot;</item>
+        <item quantity="other">%d na attachment ang naka-save sa album na &quot;%s&quot;</item>
+    </plurals>
+    <plurals name="attachments_saved_to_downloads">
+        <item quantity="one">%d attachment ang naka-save sa &quot;Mga Download&quot;</item>
+        <item quantity="other">%d na attachment ang naka-save sa &quot;Mga Download&quot;</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_attachments">
+        <item quantity="one">Ipadala ang mga attachment</item>
+        <item quantity="other">Ipadala ang mga attachment</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_audio">
+        <item quantity="one">Ipadala ang mga audio</item>
+        <item quantity="other">Ipadala ang mga audio</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_photo">
+        <item quantity="one">Ipadala ang mga larawan</item>
+        <item quantity="other">Ipadala ang mga larawan</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_vcard">
+        <item quantity="one">Ipadala ang mga contact card</item>
+        <item quantity="other">Ipadala ang mga contact card</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_video">
+        <item quantity="one">Ipadala ang mga video</item>
+        <item quantity="other">Ipadala ang mga video</item>
+    </plurals>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">I-delete ang mga pag-uusap na ito?</item>
+        <item quantity="other">I-delete ang mga pag-uusap na ito?</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="one">%d buwan</item>
+        <item quantity="other">%d na buwan</item>
+    </plurals>
+    <plurals name="notification_download_failures">
+        <item quantity="one">%d mensahe sa %d pag-uusap</item>
+        <item quantity="other">%d na mensahe sa %d na pag-uusap</item>
+    </plurals>
+    <plurals name="notification_new_messages">
+        <item quantity="one">%d bagong mensahe</item>
+        <item quantity="other">%d na bagong mensahe</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="one">%d mensahe sa %d pag-uusap</item>
+        <item quantity="other">%d na mensahe sa %d na pag-uusap</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="one">%d araw</item>
+        <item quantity="other">%d na araw</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="one">%d oras</item>
+        <item quantity="other">%d na oras</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="one">%d min</item>
+        <item quantity="other">%d na min</item>
+    </plurals>
+    <plurals name="photos_saved_to_album">
+        <item quantity="one">%d larawan ang naka-save sa album na &quot;%s&quot;</item>
+        <item quantity="other">%d na larawan ang naka-save sa album na &quot;%s&quot;</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one">%d contact</item>
+        <item quantity="other">%d na contact</item>
+    </plurals>
+    <plurals name="videos_saved_to_album">
+        <item quantity="one">%d video ang naka-save sa album na &quot;%s&quot;</item>
+        <item quantity="other">%d na video ang naka-save sa album na &quot;%s&quot;</item>
+    </plurals>
+    <plurals name="wearable_participant_count">
+        <item quantity="one">%d kalahok</item>
+        <item quantity="other">%d na kalahok</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="one">%d linggo</item>
+        <item quantity="other">%d na linggo</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="one">%d taon</item>
+        <item quantity="other">%d na taon</item>
+    </plurals>
+</resources>

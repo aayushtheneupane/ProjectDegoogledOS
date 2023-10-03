@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="one">minute</item>
+        <item quantity="other">minutes</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="one">^1 answered call from ^2</item>
+        <item quantity="other">^1 calls, the latest of which is an answered call from ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="one">^1 blocked call from ^2</item>
+        <item quantity="other">^1 calls, the latest of which is a blocked call from ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="one">^1 missed call from ^2</item>
+        <item quantity="other">^1 calls, the latest of which is a missed call from ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="one">^1 outgoing call to ^2</item>
+        <item quantity="other">^1 calls, the latest of which is an outgoing call to ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="one">second</item>
+        <item quantity="other">seconds</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="one">Delete this voicemail? </item>
+        <item quantity="other">Delete these voicemails? </item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="one">Voicemail</item>
+        <item quantity="other">%1$d Voicemails</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="one">%1$s tab. %2$d unread item.</item>
+        <item quantity="other">%1$s tab. %2$d unread items.</item>
+    </plurals>
+</resources>

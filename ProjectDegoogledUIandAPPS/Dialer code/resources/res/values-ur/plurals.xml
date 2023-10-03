@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="one">منٹ</item>
+        <item quantity="other">منٹس</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="one">^2 کی جانب سے ^1 جواب دی گئی کالز</item>
+        <item quantity="other">^1 کالز، تازہ ترین ^2 کی جانب سے جواب دی گئی کال ہے</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="one">^2 کی جانب سے ^1 مسدود کردہ کال</item>
+        <item quantity="other">^1 کالز، تازہ ترین ^2 کی جانب سے مسدود کردہ کال ہے</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="one">^2 کی جانب سے ^1 چھوٹی ہوئی کال</item>
+        <item quantity="other">^1 کالز، تازہ ترین ^2 کی جانب سے چھوٹی ہوئی کال ہے</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="one">^2 کو باہر جانے والی ^1 کال</item>
+        <item quantity="other">^1 کالز، تازہ ترین ^2 کو باہر جانے والی کال ہے</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="one">سیکنڈ</item>
+        <item quantity="other">سیکنڈز</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="one">اس صوتی میل کو حذف کریں؟ </item>
+        <item quantity="other">ان صوتی میلز کو حذف کریں؟ </item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="one">صوتی میل</item>
+        <item quantity="other">%1$d صوتی میلز</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="one">%1$s ٹیب۔ %2$d بغیر پڑھی ہوئی آئٹم۔</item>
+        <item quantity="other">%1$s ٹیب۔ %2$d بغیر پڑھی ہوئی آئٹمز۔</item>
+    </plurals>
+</resources>

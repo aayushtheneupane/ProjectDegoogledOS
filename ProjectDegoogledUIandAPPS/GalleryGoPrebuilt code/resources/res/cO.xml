@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:enabled="false" android:layout_gravity="center_vertical" android:id="@+id/editor_top_bar_save" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="36dp">
+    <FrameLayout android:background="@drawable/photosgo_topbar_button_ripple" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <TextView android:textAppearance="?attr/textAppearanceButton" android:textColor="@color/google_white" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/save_copy" android:drawablePadding="2dp" android:drawableStart="@drawable/quantum_gm_ic_done_vd_theme_24"/>
+    </FrameLayout>
+</FrameLayout>

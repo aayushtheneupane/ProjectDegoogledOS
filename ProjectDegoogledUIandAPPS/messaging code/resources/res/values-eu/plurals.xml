@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_invalid_contact_error">
+        <item quantity="one">Kontaktuak ez du balio</item>
+        <item quantity="other">Kontaktuek ez dute balio</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">Eranskin bat bidaltzeko prest dago</item>
+        <item quantity="other">%d eranskin bidaltzeko prest daude</item>
+    </plurals>
+    <plurals name="attachment_preview_close_content_description">
+        <item quantity="one">Baztertu eranskina</item>
+        <item quantity="other">Baztertu eranskinak</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">Ezin izan da gorde %d eranskin</item>
+        <item quantity="other">Ezin izan dira gorde %d eranskin</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one">Gorde da %d eranskin</item>
+        <item quantity="other">Gorde dira %d eranskin</item>
+    </plurals>
+    <plurals name="attachments_saved_to_album">
+        <item quantity="one">%d eranskin gorde da &quot;%s&quot; albumean</item>
+        <item quantity="other">%d eranskin gorde dira &quot;%s&quot; albumean</item>
+    </plurals>
+    <plurals name="attachments_saved_to_downloads">
+        <item quantity="one">%d eranskin gorde da &quot;Deskargak&quot; atalean</item>
+        <item quantity="other">%d eranskin gorde dira &quot;Deskargak&quot; atalean</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_attachments">
+        <item quantity="one">Bidali eranskina</item>
+        <item quantity="other">Bidali eranskinak</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_audio">
+        <item quantity="one">Bidali audioa</item>
+        <item quantity="other">Bidali audioak</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_photo">
+        <item quantity="one">Bidali argazkia</item>
+        <item quantity="other">Bidali argazkiak</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_vcard">
+        <item quantity="one">Bidali kontaktu-txartela</item>
+        <item quantity="other">Bidali kontaktu-txartelak</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_video">
+        <item quantity="one">Bidali bideoa</item>
+        <item quantity="other">Bidali bideoak</item>
+    </plurals>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">Elkarrizketa ezabatu nahi duzu?</item>
+        <item quantity="other">Elkarrizketa hauek ezabatu nahi dituzu?</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="one">Hilabete</item>
+        <item quantity="other">%d hilabete</item>
+    </plurals>
+    <plurals name="notification_download_failures">
+        <item quantity="one">%d mezu daude elkarrizketa batean</item>
+        <item quantity="other">%d mezu daude %d elkarrizketatan</item>
+    </plurals>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Mezu berria</item>
+        <item quantity="other">%d mezu berri</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="one">%d mezu daude elkarrizketa batean</item>
+        <item quantity="other">%d mezu daude %d elkarrizketatan</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="one">%d egun</item>
+        <item quantity="other">%d egun</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="one">%d ordu</item>
+        <item quantity="other">%d ordu</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="one">%d min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="photos_saved_to_album">
+        <item quantity="one">%d argazki gorde da &quot;%s&quot; albumean</item>
+        <item quantity="other">%d argazki gorde dira &quot;%s&quot; albumean</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one">%d kontaktu</item>
+        <item quantity="other">%d kontaktu</item>
+    </plurals>
+    <plurals name="videos_saved_to_album">
+        <item quantity="one">%d bideo gorde da &quot;%s&quot; albumean</item>
+        <item quantity="other">%d bideo gorde dira &quot;%s&quot; albumean</item>
+    </plurals>
+    <plurals name="wearable_participant_count">
+        <item quantity="one">%d parte-hartzaile</item>
+        <item quantity="other">%d parte-hartzaile</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="one">Astebete</item>
+        <item quantity="other">%d aste</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="one">Urtebete</item>
+        <item quantity="other">%d urte</item>
+    </plurals>
+</resources>

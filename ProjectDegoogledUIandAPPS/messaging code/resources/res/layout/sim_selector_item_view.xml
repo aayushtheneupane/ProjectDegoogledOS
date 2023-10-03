@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.messaging.p041ui.conversation.SimSelectorItemView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:background="?android:attr/selectableItemBackground" android:padding="12dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/details_container" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/SimSelectorItemLinearLayoutStyle">
+        <TextView android:ellipsize="end" android:id="@+id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" style="@style/SimSelectorItem"/>
+        <TextView android:ellipsize="end" android:id="@+id/details" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" style="@style/SimSelectorItemDetail"/>
+    </LinearLayout>
+    <com.android.messaging.p041ui.conversation.SimIconView android:layout_gravity="center_vertical" android:id="@+id/sim_icon" android:layout_width="@dimen/sim_selector_icon_size" android:layout_height="@dimen/sim_selector_icon_size" android:importantForAccessibility="no" android:elevation="3dp" app:iconSize="0"/>
+</com.android.messaging.p041ui.conversation.SimSelectorItemView>

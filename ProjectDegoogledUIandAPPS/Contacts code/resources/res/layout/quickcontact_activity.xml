@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.widget.MultiShrinkScroller xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/multiscroller" android:focusable="true" android:focusableInTouchMode="true" android:descendantFocusability="afterDescendants" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:id="@+id/transparent_view" android:layout_width="match_parent" android:layout_height="@dimen/quickcontact_starting_empty_height" android:contentDescription="@string/quickcontact_transparent_view_description"/>
+        <FrameLayout android:id="@+id/toolbar_parent" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include layout="@layout/quickcontact_header"/>
+        </FrameLayout>
+        <include layout="@layout/quickcontact_content"/>
+    </LinearLayout>
+    <include layout="@layout/quickcontact_title_and_phoneticname"/>
+</com.android.contacts.widget.MultiShrinkScroller>

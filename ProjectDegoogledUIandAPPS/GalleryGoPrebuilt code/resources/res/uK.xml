@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photosgo.oneup.photo.carousel.CarouselItemView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/carousel_item" android:paddingLeft="@dimen/carousel_item_spacing" android:paddingRight="@dimen/carousel_item_spacing" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@+id/carousel_item_dot" android:paddingBottom="@dimen/carousel_item_dot_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/carousel_item_dot"/>
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/carousel_item_image" android:background="@drawable/carousel_item_background" android:layout_width="@dimen/carousel_item_image_size" android:layout_height="@dimen/carousel_item_image_size" android:foreground="?attr/selectableItemBackground"/>
+</com.google.android.apps.photosgo.oneup.photo.carousel.CarouselItemView>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/confirm_lock_background_base"/>
+    <com.android.internal.widget.LinearLayoutWithDefaultTouchRecepient android:orientation="horizontal" android:id="@+id/topLayout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textColor="?android:attr/colorAccent" android:id="@+id/headerText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="32dp" android:layout_marginEnd="32dp" style="@android:style/AlertDialog.DeviceDefault"/>
+            <TextView android:id="@+id/sud_layout_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginStart="32dp" android:layout_marginEnd="32dp" style="@android:style/Preference.DeviceDefault.PreferenceScreen"/>
+            <Button android:id="@+id/cancelButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/cancel" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" style="@style/Widget.Material.Button.Borderless"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:clipChildren="false" android:clipToPadding="false" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <View android:id="@+id/leftSpacer" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.4"/>
+            <FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <com.android.internal.widget.LockPatternView android:layout_gravity="center" android:id="@+id/lockPattern" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <TextView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/errorText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24dp" android:accessibilityLiveRegion="polite" style="@style/TextAppearance.ErrorText"/>
+            </FrameLayout>
+            <View android:id="@+id/rightSpacer" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+        </LinearLayout>
+    </com.android.internal.widget.LinearLayoutWithDefaultTouchRecepient>
+</FrameLayout>

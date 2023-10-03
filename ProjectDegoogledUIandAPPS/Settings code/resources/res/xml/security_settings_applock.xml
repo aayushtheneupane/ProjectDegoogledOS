@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/applock_title">
+    <SwitchPreference android:title="@string/applock_show_only_on_wake" android:key="show_only_on_wake" android:order="-999" android:defaultValue="false" android:summaryOn="@string/applock_show_only_on_wake_on_summary" android:summaryOff="@string/applock_show_only_on_wake_off_summary"/>
+    <Preference android:icon="@drawable/ic_info_outline_24dp" android:key="applock_notification_info" android:summary="@string/applock_notification_info" android:order="-998" app:allowDividerAbove="true"/>
+    <PreferenceCategory android:title="@string/applock_locked_apps" android:key="locked_apps" android:order="-997"/>
+    <PreferenceCategory android:title="@string/applock_unlocked_apps" android:key="unlocked_apps" android:order="500"/>
+</PreferenceScreen>

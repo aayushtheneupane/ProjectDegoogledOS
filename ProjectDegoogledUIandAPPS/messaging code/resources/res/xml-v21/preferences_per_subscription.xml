@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/mms_messaging_category_pref_title" android:key="@string/mms_messaging_category_pref_key">
+        <Preference android:title="@string/group_mms_pref_title" android:key="@string/group_mms_pref_key"/>
+        <com.android.messaging.p041ui.appsettings.PhoneNumberPreference android:title="@string/mms_phone_number_pref_title" android:key="@string/mms_phone_number_pref_key"/>
+        <SwitchPreference android:title="@string/auto_retrieve_mms_pref_title" android:key="@string/auto_retrieve_mms_pref_key" android:summary="@string/auto_retrieve_mms_pref_summary" android:defaultValue="@bool/auto_retrieve_mms_pref_default"/>
+        <SwitchPreference android:title="@string/auto_retrieve_mms_when_roaming_pref_title" android:key="@string/auto_retrieve_mms_when_roaming_pref_key" android:summary="@string/auto_retrieve_mms_when_roaming_pref_summary" android:dependency="@string/auto_retrieve_mms_pref_key" android:defaultValue="@bool/auto_retrieve_mms_when_roaming_pref_default"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/advanced_category_pref_title" android:key="@string/advanced_category_pref_key">
+        <SwitchPreference android:title="@string/delivery_reports_pref_title" android:key="@string/delivery_reports_pref_key" android:summary="@string/delivery_reports_pref_summary" android:defaultValue="@bool/delivery_reports_pref_default"/>
+        <Preference android:title="@string/wireless_alerts_title" android:key="@string/wireless_alerts_key"/>
+        <PreferenceScreen android:title="@string/sms_apns_title" android:key="@string/sms_apns_key"/>
+    </PreferenceCategory>
+</PreferenceScreen>

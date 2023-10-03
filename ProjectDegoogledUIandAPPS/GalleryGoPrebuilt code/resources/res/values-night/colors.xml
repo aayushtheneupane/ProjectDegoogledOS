@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="category_disabled_color">#99202124</color>
+    <color name="category_placeholder_icon_color">@color/google_grey700</color>
+    <color name="google_logo_splash_tint">@color/google_grey500</color>
+    <color name="grid_failed_load_icon">@color/google_grey500</color>
+    <color name="home_navigation">@color/google_grey400</color>
+    <color name="home_navigation_bar_background">#f52e2e2e</color>
+    <color name="home_navigation_ripple">#338ab4f8</color>
+    <color name="home_navigation_selected">@color/google_blue300</color>
+    <color name="photosgo_placeholder_background_color">@color/google_grey800</color>
+</resources>

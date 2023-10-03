@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/widget_conversation_list_item" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="match_parent" style="@style/WidgetConversationListItemStyle">
+    <FrameLayout android:id="@+id/avatarFrame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <ImageView android:id="@+id/avatarView" android:layout_width="@dimen/contact_icon_view_normal_size" android:layout_height="@dimen/contact_icon_view_normal_size" android:scaleType="fitXY" android:layout_centerVertical="true" android:contentDescription="@null" android:importantForAccessibility="no" style="@style/WidgetConversationListItemAvatar"/>
+        <ImageView android:id="@+id/conversation_failed_status_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_failed_status_red" android:contentDescription="@null" android:importantForAccessibility="no" style="@style/WidgetConversationItemFailed"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" style="@style/WidgetConversationListItemBody">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_alignParentTop="true">
+                <TextView android:textAppearance="?android:attr/textAppearanceMediumInverse" android:textSize="18sp" android:textColor="@color/widget_text_color" android:ellipsize="marquee" android:id="@+id/from" android:layout_width="0dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1" style="@style/WidgetConversationListItemFrom"/>
+                <TextView android:textAppearance="?android:attr/textAppearanceSmallInverse" android:textSize="12sp" android:textColor="@color/widget_text_color" android:id="@+id/date" android:paddingTop="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/WidgetConversationListItemDate"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <TextView android:textAppearance="?android:attr/textAppearanceSmallInverse" android:textSize="13sp" android:textColor="@color/widget_text_color" android:ellipsize="end" android:id="@+id/snippet" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:maxLines="2" android:layout_alignParentBottom="true"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/errorBlock" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <TextView android:textAppearance="?android:attr/textAppearanceSmallInverse" android:textSize="13sp" android:textColor="@color/widget_text_color" android:ellipsize="end" android:id="@+id/errorSnippet" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+            <TextView android:textAppearance="?android:attr/textAppearanceSmallInverse" android:textSize="13sp" android:textColor="@color/conversation_list_error" android:ellipsize="end" android:id="@+id/errorText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:maxLines="2"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

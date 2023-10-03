@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:paddingTop="48dp" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:paddingStart="48dp" android:paddingEnd="48dp">
+        <TextView android:textAppearance="@style/TextAppearance.DeviceDefault.DialogWindowTitle" android:gravity="center" android:id="@+id/headerText" android:layout_width="match_parent" android:layout_height="wrap_content" android:lines="2" android:accessibilityLiveRegion="polite"/>
+        <TextView android:gravity="center" android:id="@+id/hintText" android:layout_width="match_parent" android:layout_height="wrap_content" android:lines="2"/>
+        <TextView android:textColor="@android:color/holo_red_dark" android:gravity="center" android:id="@+id/errorText" android:layout_width="match_parent" android:layout_height="wrap_content" android:lines="2"/>
+        <EditText android:textSize="24sp" android:gravity="center" android:layout_gravity="center" android:id="@+id/pin_entry" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="numberPassword" android:imeOptions="actionUnspecified|actionNone|actionSend|actionNext|flagNoExtractUi"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/cancel_button" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/change_pin_cancel_label" android:layout_weight="1"/>
+        <Button android:id="@+id/next_button" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/change_pin_continue_label" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

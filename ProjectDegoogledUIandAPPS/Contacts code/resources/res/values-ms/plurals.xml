@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="contacts_count">
+        <item quantity="one">%d kenalan</item>
+        <item quantity="other">%d kenalan</item>
+    </plurals>
+    <plurals name="contacts_count_with_account">
+        <item quantity="one">%1$d kenalan · %2$s</item>
+        <item quantity="other">%1$d kenalan · %2$s</item>
+    </plurals>
+    <plurals name="contacts_deleted_toast">
+        <item quantity="one">Kenalan dipadamkan</item>
+        <item quantity="other">Kenalan dipadamkan</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_contact_count_fmt">
+        <item quantity="one">1 kenalan</item>
+        <item quantity="other">%1$d kenalan</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_template">
+        <item quantity="one">^1 kenalan • ^2</item>
+        <item quantity="other">^1 kenalan • ^2</item>
+    </plurals>
+    <plurals name="sim_import_success_toast_fmt">
+        <item quantity="one">1 kenalan SIM diimport</item>
+        <item quantity="other">%d kenalan SIM diimport</item>
+    </plurals>
+    <plurals name="title_share_via">
+        <item quantity="one">Kongsi kenalan melalui</item>
+        <item quantity="other">Kongsi kenalan melalui</item>
+    </plurals>
+</resources>

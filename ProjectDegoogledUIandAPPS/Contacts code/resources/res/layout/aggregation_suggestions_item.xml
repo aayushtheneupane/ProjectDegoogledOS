@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:background="?android:attr/selectableItemBackground" android:paddingLeft="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:paddingStart="8dp" class="com.android.contacts.editor.AggregationSuggestionView">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0px" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/aggregation_suggestion_name" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="?android:attr/textColorSecondary" android:id="@+id/aggregation_suggestion_data" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/aggregation_suggestion_photo" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="fitCenter"/>
+</view>

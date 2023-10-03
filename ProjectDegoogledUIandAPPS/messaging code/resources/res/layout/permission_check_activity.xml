@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/permission_check_activity_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:paddingTop="96dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/required_permissions_promo" style="@style/PromoScreenTextStyle.CenterAligned"/>
+    <TextView android:id="@+id/enable_permission_procedure" android:paddingTop="16dp" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/enable_permission_procedure" android:contentDescription="@string/enable_permission_procedure_description" style="@style/PromoScreenTextStyle.CenterAligned"/>
+    <ImageView android:paddingTop="40dp" android:layout_width="match_parent" android:layout_height="0dp" android:src="@drawable/permissions" android:scaleType="centerInside" android:layout_weight="1" android:importantForAccessibility="no"/>
+    <View android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="48dp">
+        <TextView android:id="@+id/exit" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/exit" android:layout_weight="1" style="@style/PromoScreenButtonStyle"/>
+        <TextView android:id="@+id/next" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/next_with_arrow" android:layout_weight="1" android:contentDescription="@string/next" style="@style/PromoScreenButtonStyle"/>
+        <TextView android:id="@+id/settings" android:visibility="gone" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/settings_with_arrow" android:layout_weight="1" android:contentDescription="@string/settings" style="@style/PromoScreenButtonStyle"/>
+    </LinearLayout>
+</LinearLayout>

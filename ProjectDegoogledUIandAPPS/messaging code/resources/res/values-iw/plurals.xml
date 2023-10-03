@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_invalid_contact_error">
+        <item quantity="one">איש קשר לא חוקי</item>
+        <item quantity="two">אנשי קשר לא חוקיים</item>
+        <item quantity="many">אנשי קשר לא חוקיים</item>
+        <item quantity="other">אנשי קשר לא חוקיים</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">יש קובץ מצורף אחד המוכן לשליחה</item>
+        <item quantity="two">יש %d קבצים מצורפים המוכנים לשליחה</item>
+        <item quantity="many">יש %d קבצים מצורפים המוכנים לשליחה</item>
+        <item quantity="other">יש %d קבצים מצורפים המוכנים לשליחה</item>
+    </plurals>
+    <plurals name="attachment_preview_close_content_description">
+        <item quantity="one">מחק את הקובץ המצורף</item>
+        <item quantity="two">מחק את הקבצים המצורפים</item>
+        <item quantity="many">מחק את הקבצים המצורפים</item>
+        <item quantity="other">מחק את הקבצים המצורפים</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">לא ניתן היה לשמור קובץ מצורף %d</item>
+        <item quantity="two">לא ניתן היה לשמור %d קבצים מצורפים</item>
+        <item quantity="many">לא ניתן היה לשמור %d קבצים מצורפים</item>
+        <item quantity="other">לא ניתן היה לשמור %d קבצים מצורפים</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one">קובץ מצורף %d נשמר</item>
+        <item quantity="two">%d קבצים מצורפים נשמרו</item>
+        <item quantity="many">%d קבצים מצורפים נשמרו</item>
+        <item quantity="other">%d קבצים מצורפים נשמרו</item>
+    </plurals>
+    <plurals name="attachments_saved_to_album">
+        <item quantity="one">קובץ מצורף %d נשמר באלבום &quot;%s&quot;</item>
+        <item quantity="two">%d קבצים מצורפים נשמרו באלבום &quot;%s&quot;</item>
+        <item quantity="many">%d קבצים מצורפים נשמרו באלבום &quot;%s&quot;</item>
+        <item quantity="other">%d קבצים מצורפים נשמרו באלבום &quot;%s&quot;</item>
+    </plurals>
+    <plurals name="attachments_saved_to_downloads">
+        <item quantity="one">קובץ מצורף %d נשמר ב&quot;הורדות&quot;</item>
+        <item quantity="two">%d קבצים מצורפים נשמרו ב&quot;הורדות&quot;</item>
+        <item quantity="many">%d קבצים מצורפים נשמרו ב&quot;הורדות&quot;</item>
+        <item quantity="other">%d קבצים מצורפים נשמרו ב&quot;הורדות&quot;</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_attachments">
+        <item quantity="one">שלח את הקובץ המצורף</item>
+        <item quantity="two">שלח את הקבצים המצורפים</item>
+        <item quantity="many">שלח את הקבצים המצורפים</item>
+        <item quantity="other">שלח את הקבצים המצורפים</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_audio">
+        <item quantity="one">שלח את הקלטת האודיו</item>
+        <item quantity="two">שלח את הקלטות האודיו</item>
+        <item quantity="many">שלח את הקלטות האודיו</item>
+        <item quantity="other">שלח את הקלטות האודיו</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_photo">
+        <item quantity="one">שלח את התמונה</item>
+        <item quantity="two">שלח את התמונות</item>
+        <item quantity="many">שלח את התמונות</item>
+        <item quantity="other">שלח את התמונות</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_vcard">
+        <item quantity="one">שלח את כרטיס איש הקשר</item>
+        <item quantity="two">שלח את כרטיסי אנשי הקשר</item>
+        <item quantity="many">שלח את כרטיסי אנשי הקשר</item>
+        <item quantity="other">שלח את כרטיסי אנשי הקשר</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_video">
+        <item quantity="one">שלח את הסרטון</item>
+        <item quantity="two">שלח את הסרטונים</item>
+        <item quantity="many">שלח את הסרטונים</item>
+        <item quantity="other">שלח את הסרטונים</item>
+    </plurals>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">האם למחוק את השיחה הזו?</item>
+        <item quantity="two">האם למחוק את השיחות האלו?</item>
+        <item quantity="many">האם למחוק את השיחות האלו?</item>
+        <item quantity="other">האם למחוק את השיחות האלו?</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="one">חודש</item>
+        <item quantity="two">%d חודשים</item>
+        <item quantity="many">%d חודשים</item>
+        <item quantity="other">%d חודשים</item>
+    </plurals>
+    <plurals name="notification_download_failures">
+        <item quantity="one">%d הודעות בשיחה אחת</item>
+        <item quantity="two">%d הודעות ב-%d שיחות</item>
+        <item quantity="many">%d הודעות ב-%d שיחות</item>
+        <item quantity="other">%d הודעות ב-%d שיחות</item>
+    </plurals>
+    <plurals name="notification_new_messages">
+        <item quantity="one">הודעה חדשה</item>
+        <item quantity="two">%d הודעות חדשות</item>
+        <item quantity="many">%d הודעות חדשות</item>
+        <item quantity="other">%d הודעות חדשות</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="one">%d הודעות בשיחה אחת</item>
+        <item quantity="two">%d הודעות ב-%d שיחות</item>
+        <item quantity="many">%d הודעות ב-%d שיחות</item>
+        <item quantity="other">%d הודעות ב-%d שיחות</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="one">יום %d</item>
+        <item quantity="two">%d ימים</item>
+        <item quantity="many">%d ימים</item>
+        <item quantity="other">%d ימים</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="one">שעה %d</item>
+        <item quantity="two">%d שעות</item>
+        <item quantity="many">%d שעות</item>
+        <item quantity="other">%d שעות</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="one">דקה %d</item>
+        <item quantity="two">%d דקות</item>
+        <item quantity="many">%d דקות</item>
+        <item quantity="other">%d דקות</item>
+    </plurals>
+    <plurals name="photos_saved_to_album">
+        <item quantity="one">תמונה %d נשמרה באלבום &quot;%s&quot;</item>
+        <item quantity="two">%d תמונות נשמרו באלבום &quot;%s&quot;</item>
+        <item quantity="many">%d תמונות נשמרו באלבום &quot;%s&quot;</item>
+        <item quantity="other">%d תמונות נשמרו באלבום &quot;%s&quot;</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one">איש קשר %d</item>
+        <item quantity="two">%d אנשי קשר</item>
+        <item quantity="many">%d אנשי קשר</item>
+        <item quantity="other">%d אנשי קשר</item>
+    </plurals>
+    <plurals name="videos_saved_to_album">
+        <item quantity="one">סרטון %d נשמר באלבום &quot;%s&quot;</item>
+        <item quantity="two">%d סרטונים נשמרו באלבום &quot;%s&quot;</item>
+        <item quantity="many">%d סרטונים נשמרו באלבום &quot;%s&quot;</item>
+        <item quantity="other">%d סרטונים נשמרו באלבום &quot;%s&quot;</item>
+    </plurals>
+    <plurals name="wearable_participant_count">
+        <item quantity="one">משתתף %d</item>
+        <item quantity="two">%d משתתפים</item>
+        <item quantity="many">%d משתתפים</item>
+        <item quantity="other">%d משתתפים</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="one">שבוע</item>
+        <item quantity="two">שבועות</item>
+        <item quantity="many">שבועות%d</item>
+        <item quantity="other">שבועות</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="one">שנה</item>
+        <item quantity="two">שנים</item>
+        <item quantity="many">שנים%d</item>
+        <item quantity="other">שנים</item>
+    </plurals>
+</resources>

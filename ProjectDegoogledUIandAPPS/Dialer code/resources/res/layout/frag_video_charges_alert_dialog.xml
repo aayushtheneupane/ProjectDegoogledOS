@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:paddingTop="24dp" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24dp" android:paddingEnd="24dp">
+        <TextView android:textSize="16sp" android:textColor="?android:attr/textColorPrimary" android:id="@+id/message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:text="@string/videocall_charges_alert_dialog_description"/>
+        <CheckBox android:textSize="14sp" android:textColor="?android:attr/textColorPrimary" android:id="@+id/do_not_show" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/do_not_show_again" android:buttonTint="?android:attr/colorPrimary"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/new_folder_contents">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/new_folder_layout" android:background="@drawable/rounded_corners" android:layout_width="0dp" android:layout_height="0dp" android:foreground="@drawable/folder_ripple" app:layout_constraintDimensionRatio="1:1" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quantum_gm_ic_add_vd_theme_24" android:tint="@color/google_default_color_primary_google" android:contentDescription="@string/new_folder_button_title"/>
+    </LinearLayout>
+    <TextView android:textAppearance="?attr/textAppearanceSubhead2" android:paddingTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/new_folder_button_title" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/new_folder_layout"/>
+</merge>

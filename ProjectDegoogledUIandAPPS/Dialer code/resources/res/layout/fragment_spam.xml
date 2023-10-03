@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingTop="16dp" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/answer_message_margin_start_end" android:paddingEnd="@dimen/answer_message_margin_start_end" android:elevation="@dimen/answer_data_elevation">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/spam_container_background" android:padding="16dp" android:layout_width="match_parent" android:layout_height="204dp" android:outlineProvider="background">
+        <ImageView android:id="@+id/spam_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="18dp" android:src="@drawable/quantum_ic_image_white_24" android:tint="?attr/colorIcon"/>
+        <TextView android:id="@+id/spam_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/spam_photo_text" style="@style/Dialer.TextAppearance.Secondary2"/>
+    </LinearLayout>
+</FrameLayout>

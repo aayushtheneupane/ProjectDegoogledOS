@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.google.android.apps.photosgo.devicefolders.FolderView android:id="@+id/folder_grid_item" android:paddingBottom="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="8dp" android:paddingEnd="8dp"/>
+    <com.google.android.apps.photosgo.devicefolders.NewFolderView android:id="@+id/new_folder_item" android:paddingBottom="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="8dp" android:paddingEnd="8dp"/>
+    <ViewStub android:id="@+id/promo_stub" android:layout="@layout/promo" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</merge>

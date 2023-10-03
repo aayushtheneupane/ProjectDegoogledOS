@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="contacts_count">
+        <item quantity="one">รายชื่อติดต่อ %d ราย</item>
+        <item quantity="other">รายชื่อติดต่อ %d ราย</item>
+    </plurals>
+    <plurals name="contacts_count_with_account">
+        <item quantity="one">รายชื่อติดต่อ %1$d ราย · %2$s</item>
+        <item quantity="other">รายชื่อติดต่อ %1$d ราย · %2$s</item>
+    </plurals>
+    <plurals name="contacts_deleted_toast">
+        <item quantity="one">รายชื่อติดต่อที่ลบแล้ว</item>
+        <item quantity="other">รายชื่อติดต่อที่ลบแล้ว</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_contact_count_fmt">
+        <item quantity="one">ผู้ติดต่อ 1 คน</item>
+        <item quantity="other">ผู้ติดต่อ %1$d คน</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_template">
+        <item quantity="one">ผู้ติดต่อ ^1 คน • ^2</item>
+        <item quantity="other">ผู้ติดต่อ ^1 คน • ^2</item>
+    </plurals>
+    <plurals name="sim_import_success_toast_fmt">
+        <item quantity="one">นำเข้าผู้ติดต่อ 1 รายจากซิมแล้ว</item>
+        <item quantity="other">นำเข้าผู้ติดต่อ %d รายจากซิมแล้ว</item>
+    </plurals>
+    <plurals name="title_share_via">
+        <item quantity="one">แชร์ผู้ติดต่อผ่านทาง</item>
+        <item quantity="other">แชร์ผู้ติดต่อผ่านทาง</item>
+    </plurals>
+</resources>

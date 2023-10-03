@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="contacts_count">
+        <item quantity="one">%d contact</item>
+        <item quantity="other">%d na contact</item>
+    </plurals>
+    <plurals name="contacts_count_with_account">
+        <item quantity="one">%1$d contact · %2$s</item>
+        <item quantity="other">%1$d na contact · %2$s</item>
+    </plurals>
+    <plurals name="contacts_deleted_toast">
+        <item quantity="one">Na-delete na ang mga contact</item>
+        <item quantity="other">Na-delete na ang mga contact</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_contact_count_fmt">
+        <item quantity="one">%1$d contact</item>
+        <item quantity="other">%1$d na contact</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_template">
+        <item quantity="one">^1 contact • ^2</item>
+        <item quantity="other">^1 na contact • ^2</item>
+    </plurals>
+    <plurals name="sim_import_success_toast_fmt">
+        <item quantity="one">%d contact sa SIM ang na-import</item>
+        <item quantity="other">%d na contact sa SIM ang na-import</item>
+    </plurals>
+    <plurals name="title_share_via">
+        <item quantity="one">Ibahagi ang mga contact sa pamamagitan ng</item>
+        <item quantity="other">Ibahagi ang mga contact sa pamamagitan ng</item>
+    </plurals>
+</resources>

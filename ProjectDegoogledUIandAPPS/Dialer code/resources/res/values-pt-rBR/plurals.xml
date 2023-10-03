@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="one">minuto</item>
+        <item quantity="other">minutos</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="one">^1 chamada atendida de ^2</item>
+        <item quantity="other">^1 chamadas, 1 atendida de ^2 (a última)</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="one">^1 chamada bloqueada de ^2</item>
+        <item quantity="other">^1 chamadas, 1 bloqueada de ^2 (a última)</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="one">^1 chamada perdida de ^2</item>
+        <item quantity="other">^1 chamadas, 1 perdida de ^2 (a última)</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="one">^1 chamada realizada para ^2</item>
+        <item quantity="other">^1 chamadas, 1 realizada para ^2 (a última)</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="one">segundo</item>
+        <item quantity="other">segundos</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="one">Excluir este correio de voz? </item>
+        <item quantity="other">Excluir estes correios de voz? </item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="one">%1$d Correio de voz</item>
+        <item quantity="other">%1$d Correios de voz</item>
+    </plurals>
+    <plurals name="play_recordings">
+        <item quantity="one">Reproduzir a gravação</item>
+        <item quantity="other">Reproduzir gravações</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="one">Guia &quot;%1$s&quot;. %2$d item não lido.</item>
+        <item quantity="other">Guia &quot;%1$s&quot;. %2$d itens não lidos.</item>
+    </plurals>
+</resources>

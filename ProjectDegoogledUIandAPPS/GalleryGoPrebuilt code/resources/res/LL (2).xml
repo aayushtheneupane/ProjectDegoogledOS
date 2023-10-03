@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/processing_overlay" android:background="@drawable/processing_overlay_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="8dp">
+    <com.google.android.libraries.material.progress.MaterialProgressBar android:layout_width="18dp" android:layout_height="18dp" android:indeterminate="true" app:mtrlColor="@color/google_white" style="@style/Widget.GoogleLib.Progress.Circular.Indeterminate.Small"/>
+    <TextView android:textAppearance="?attr/textAppearanceSubtitle2" android:textColor="@color/google_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/oneup_processing_label" android:layout_marginStart="8dp"/>
+</LinearLayout>

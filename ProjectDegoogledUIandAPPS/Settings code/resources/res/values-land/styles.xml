@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SudCardTitle">
+        <item name="android:maxLines">6</item>
+    </style>
+    <style name="Theme.ConfirmDeviceCredentials">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="Widget.Design.TabLayout">
+        <item name="tabGravity">1</item>
+        <item name="tabMode">1</item>
+    </style>
+</resources>

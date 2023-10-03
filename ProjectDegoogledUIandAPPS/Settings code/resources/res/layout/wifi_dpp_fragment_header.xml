@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:paddingStart="16dp" android:paddingEnd="16dp" style="@style/EntityHeader">
+    <ImageView android:id="@android:id/icon" android:layout_width="@dimen/wifi_dpp_fragment_icon_width_height" android:layout_height="@dimen/wifi_dpp_fragment_icon_width_height" android:scaleType="fitCenter"/>
+    <ImageView android:id="@+id/devices_check_circle_green_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_devices_check_circle_green" android:scaleType="fitCenter"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/title_summary_container" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:gravity="center_horizontal" android:id="@android:id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:textAlignment="center" android:paddingStart="32dp" android:paddingEnd="32dp" style="@style/TextAppearance.EntityHeaderTitle"/>
+        <TextView android:gravity="center_horizontal" android:id="@android:id/summary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:singleLine="false" android:textAlignment="center" android:paddingStart="32dp" android:paddingEnd="32dp" style="@style/TextAppearance.EntityHeaderSummary"/>
+    </LinearLayout>
+</LinearLayout>

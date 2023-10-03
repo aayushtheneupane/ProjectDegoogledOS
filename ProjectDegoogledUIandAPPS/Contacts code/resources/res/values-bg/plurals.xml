@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="contacts_count">
+        <item quantity="one">%d контакт</item>
+        <item quantity="other">%d контакта</item>
+    </plurals>
+    <plurals name="contacts_count_with_account">
+        <item quantity="one">%1$d контакт · %2$s</item>
+        <item quantity="other">%1$d контакта · %2$s</item>
+    </plurals>
+    <plurals name="contacts_deleted_toast">
+        <item quantity="one">Контактът е изтрит</item>
+        <item quantity="other">Контактите са изтрити</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_contact_count_fmt">
+        <item quantity="one">1 контакт</item>
+        <item quantity="other">%1$d контакта</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_template">
+        <item quantity="one">^1 контакт • ^2</item>
+        <item quantity="other">^1 контакта • ^2</item>
+    </plurals>
+    <plurals name="sim_import_success_toast_fmt">
+        <item quantity="one">1 контакт в SIM картата бе импортиран</item>
+        <item quantity="other">%d контакта в SIM картата бяха импортирани</item>
+    </plurals>
+    <plurals name="title_share_via">
+        <item quantity="one">Споделяне на контакта чрез</item>
+        <item quantity="other">Споделяне на контактите чрез</item>
+    </plurals>
+</resources>

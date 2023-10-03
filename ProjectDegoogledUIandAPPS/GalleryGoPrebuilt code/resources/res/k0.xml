@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:background="@android:color/black" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/auto_enhance_original_image" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/auto_enhance_original_image_description"/>
+    <com.google.android.material.button.MaterialButton android:layout_gravity="top|center_vertical|center_horizontal|center" android:id="@+id/auto_enhance_original_label" android:text="@string/auto_enhance_original_label_text" style="@style/AutoEnhanceTooltip"/>
+    <ImageView android:id="@+id/auto_enhance_enhanced_image" android:visibility="invisible" android:longClickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/auto_enhance_enhanced_image_description"/>
+    <com.google.android.material.button.MaterialButton android:layout_gravity="top|center_vertical|center_horizontal|center" android:id="@+id/auto_enhance_compare_button" android:text="@string/auto_enhance_press_to_compare_text" app:layout_anchor="@+id/auto_enhance_bottom_bar" app:layout_anchorGravity="31" style="@style/AutoEnhanceTooltip"/>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@+id/auto_enhance_bottom_bar" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/auto_enhance_bottom_bar_padding" android:paddingEnd="@dimen/auto_enhance_bottom_bar_padding" style="@style/ButtonBar">
+        <com.google.android.material.button.MaterialButton android:id="@+id/auto_enhance_cancel_button" android:text="@string/auto_enhance_confirmation_negative_text" style="@style/AutoEnhanceBottomBarButton"/>
+        <Space android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1"/>
+        <com.google.android.material.button.MaterialButton android:id="@+id/auto_enhance_replace_button" android:text="@string/auto_enhance_confirmation_positive_text" style="@style/AutoEnhanceBottomBarButton"/>
+    </LinearLayout>
+    <include layout="@layout/progress_indicator"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

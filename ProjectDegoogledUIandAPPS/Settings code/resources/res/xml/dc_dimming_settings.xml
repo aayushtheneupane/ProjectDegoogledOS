@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/dc_dimming_title" android:key="dc_dimming_title" app:keywords="@string/keywords_display_dc_dimming">
+    <DropDownPreference android:title="@string/dc_dimming_auto_mode_title" android:key="dc_dimming_auto_mode" android:summary="%s"/>
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/dc_dimming_brightness_slider" android:title="@string/dc_dimming_brightness_title" android:selectable="false" android:key="dc_dimming_brightness"/>
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/dc_dimming_activation_button" android:title="@string/dc_dimming_title" android:selectable="false" android:key="dc_dimming_button"/>
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/dc_dimming_restoration_button" android:title="@string/dc_dimming_title" android:selectable="false" android:key="dc_dimming_restore_button"/>
+    <PreferenceCategory android:key="dc_dimming_footer_category">
+        <com.android.settingslib.widget.FooterPreference/>
+    </PreferenceCategory>
+</PreferenceScreen>

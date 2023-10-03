@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/info_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/info_image" android:background="@drawable/infosheet_stub_circle_bg" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginTop="16dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <View android:id="@+id/info_title" android:background="@drawable/infosheet_stub_textbox_bg" android:layout_width="140dp" android:layout_height="18dp" android:layout_marginTop="18dp" android:layout_marginStart="16dp" app:layout_constraintStart_toEndOf="@+id/info_image" app:layout_constraintTop_toTopOf="0"/>
+    <View android:id="@+id/info_description" android:background="@drawable/infosheet_stub_textbox_bg" android:layout_width="118dp" android:layout_height="18dp" android:layout_marginTop="4dp" android:layout_marginStart="16dp" app:layout_constraintStart_toEndOf="@+id/info_image" app:layout_constraintTop_toBottomOf="@+id/info_title"/>
+</android.support.constraint.ConstraintLayout>

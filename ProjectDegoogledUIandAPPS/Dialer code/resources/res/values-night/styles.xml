@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AlertDialogTheme">
+        <item name="android:textColorPrimary">@color/dialer_primary_text_color</item>
+        <item name="android:textColorSecondary">@color/dialer_secondary_text_color</item>
+        <item name="android:colorAccent">@color/dialer_theme_color</item>
+        <item name="colorAccent">@color/dialer_theme_color</item>
+    </style>
+    <style name="BottomNavigationBarStyle">
+        <item name="background">@android:color/sliding_tab_text_color_shadow</item>
+    </style>
+    <style name="CallDetailsActionItemStyle">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">clip_horizontal</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:drawablePadding">28dp</item>
+        <item name="android:paddingStart">28dp</item>
+        <item name="android:paddingEnd">28dp</item>
+    </style>
+    <style name="CallLogActionStyle">
+        <item name="android:gravity">clip_horizontal</item>
+        <item name="android:orientation">@null</item>
+        <item name="android:background">?unknown_ref: 10601da</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/call_log_action_height</item>
+    </style>
+    <style name="CallLogCardStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:baselineAligned">false</item>
+        <item name="cardBackgroundColor">?unknown_ref: 10601da</item>
+        <item name="cardCornerRadius">2dp</item>
+    </style>
+    <style name="DialerButtonTextStyle">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+    <style name="Dialpad.Themed">
+        <item name="dialpad_background">?unknown_ref: 10601da</item>
+        <item name="dialpad_text_color">?android:attr/textColorSecondary</item>
+        <item name="dialpad_text_color_primary">?android:attr/colorPrimary</item>
+        <item name="dialpad_text_color_secondary">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="DialtactsActionBarTabTextStyle">
+        <item name="android:textSize">@dimen/tab_text_size</item>
+        <item name="android:textColor">?attr/colorTextOnUnthemedDarkBackground</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="DialtactsSearchBarThemeOverlay">
+        <item name="android:background">?unknown_ref: 10601d1</item>
+    </style>
+    <style name="DialtactsTheme">
+    </style>
+    <style name="MainActivityTheme">
+    </style>
+    <style name="MainActivityTheme.Dark">
+    </style>
+    <style name="Theme.AppCompat.DayNight">
+    </style>
+    <style name="Theme.AppCompat.DayNight.DarkActionBar">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog.MinWidth">
+    </style>
+    <style name="Theme.AppCompat.DayNight.DialogWhenLarge">
+    </style>
+    <style name="Theme.AppCompat.DayNight.NoActionBar">
+    </style>
+</resources>

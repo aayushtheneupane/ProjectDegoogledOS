@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photosgo.category.CategoryView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="?attr/selectableItemBackground" android:layout_width="wrap_content" android:layout_height="@dimen/category_height" android:minWidth="@dimen/category_min_width" android:paddingStart="@dimen/category_padding" android:paddingEnd="@dimen/category_padding"/>

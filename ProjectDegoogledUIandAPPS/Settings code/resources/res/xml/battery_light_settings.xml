@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/battery_light_settings">
+    <com.havoc.support.preferences.SystemSettingSwitchPreference android:title="@string/battery_light_allow_on_dnd_title" android:key="battery_light_allow_on_dnd" android:summary="@string/battery_light_allow_on_dnd_summary" android:defaultValue="false"/>
+    <com.havoc.support.preferences.SystemSettingSwitchPreference android:title="@string/battery_light_low_blinking_title" android:key="battery_light_low_blinking" android:summary="@string/battery_light_low_blinking_summary" android:defaultValue="false"/>
+    <PreferenceCategory android:title="@string/battery_light_cat" android:key="battery_light_cat">
+        <com.havoc.support.colorpicker.ColorPickerPreference android:title="@string/battery_light_low_color" android:key="battery_light_low_color" android:defaultValue="ffff0000" isledPicker="true"/>
+        <com.havoc.support.colorpicker.ColorPickerPreference android:title="@string/battery_light_medium_color" android:key="battery_light_medium_color" android:defaultValue="ffffff00" isledPicker="true"/>
+        <com.havoc.support.colorpicker.ColorPickerPreference android:title="@string/battery_light_full_color" android:key="battery_light_full_color" android:defaultValue="ffffff00" isledPicker="true"/>
+        <com.havoc.support.colorpicker.ColorPickerPreference android:title="@string/battery_light_reallyfull_color" android:key="battery_light_reallyfull_color" android:defaultValue="ff00ff00" isledPicker="true"/>
+    </PreferenceCategory>
+</PreferenceScreen>

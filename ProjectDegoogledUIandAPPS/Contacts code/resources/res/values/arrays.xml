@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="letter_tile_colors">
+        <item>#db4437</item>
+        <item>#e91e63</item>
+        <item>#9c27b0</item>
+        <item>#673ab7</item>
+        <item>#3f51b5</item>
+        <item>#4285f4</item>
+        <item>#039be5</item>
+        <item>#0097a7</item>
+        <item>#009688</item>
+        <item>#0f9d58</item>
+        <item>#689f38</item>
+        <item>#ef6c00</item>
+        <item>#ff5722</item>
+        <item>#757575</item>
+    </array>
+    <array name="letter_tile_colors_dark">
+        <item>#c53929</item>
+        <item>#c2185b</item>
+        <item>#7b1fa2</item>
+        <item>#512da8</item>
+        <item>#303f9f</item>
+        <item>#3367d6</item>
+        <item>#0277bd</item>
+        <item>#006064</item>
+        <item>#00796b</item>
+        <item>#0b8043</item>
+        <item>#33691e</item>
+        <item>#e65100</item>
+        <item>#e64a19</item>
+        <item>#424242</item>
+    </array>
+</resources>

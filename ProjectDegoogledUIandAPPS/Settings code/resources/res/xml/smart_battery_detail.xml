@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/smart_battery_manager_title_custom" android:key="smart_battery_detail" app:searchable="false">
+    <com.android.settings.widget.VideoPreference android:title="@string/summary_placeholder" android:key="auto_awesome_battery" app:animation="@raw/auto_awesome_battery" app:controller="com.android.settings.widget.VideoPreferenceController" app:preview="@drawable/auto_awesome_battery"/>
+    <com.havoc.support.preferences.SwitchPreference android:title="@string/smart_battery_title_custom" android:key="smart_battery" android:summary="@string/smart_battery_summary" app:allowDividerAbove="true" app:controller="com.android.settings.fuelgauge.SmartBatteryPreferenceController"/>
+    <com.havoc.support.preferences.SwitchPreference android:title="@string/battery_auto_restriction_title" android:key="auto_restriction" android:summary="@string/battery_auto_restriction_summary" app:controller="com.android.settings.fuelgauge.AutoRestrictionPreferenceController"/>
+    <Preference android:title="@string/restricted_app_title" android:key="restricted_app"/>
+</PreferenceScreen>

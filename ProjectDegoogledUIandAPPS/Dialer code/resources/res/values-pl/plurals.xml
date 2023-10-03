@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="one">minuta</item>
+        <item quantity="few">minuty</item>
+        <item quantity="many">minut</item>
+        <item quantity="other">minuty</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="one">^1 odebrane połączenie od: ^2</item>
+        <item quantity="few">^1 połączenia – ostatnie to odebrane połączenie od: ^2</item>
+        <item quantity="many">^1 połączeń – ostatnie to odebrane połączenie od: ^2</item>
+        <item quantity="other">^1 połączenia – ostatnie to odebrane połączenie od: ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="one">^1 zablokowane połączenie od: ^2</item>
+        <item quantity="few">^1 połączenia – ostatnie to zablokowane połączenie od: ^2</item>
+        <item quantity="many">^1 połączeń – ostatnie to zablokowane połączenie od: ^2</item>
+        <item quantity="other">^1 połączenia – ostatnie to zablokowane połączenie od: ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="one">^1 nieodebrane połączenie od: ^2</item>
+        <item quantity="few">^1 nieodebrane połączenia od: ^2</item>
+        <item quantity="many">^1 nieodebranych połączeń od: ^2</item>
+        <item quantity="other">^1 nieodebranego połączenia od: ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="one">^1 połączenie wychodzące z: ^2</item>
+        <item quantity="few">^1 połączenia – ostatnie to połączenie wychodzące z: ^2</item>
+        <item quantity="many">^1 połączeń – ostatnie to połączenie wychodzące z: ^2</item>
+        <item quantity="other">^1 połączenia – ostatnie to połączenie wychodzące z: ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="one">sekunda</item>
+        <item quantity="few">sekundy</item>
+        <item quantity="many">sekund</item>
+        <item quantity="other">sekundy</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="one">Usunąć tę wiadomość głosową? </item>
+        <item quantity="few">Usunąć te wiadomości głosowe? </item>
+        <item quantity="many">Usunąć te wiadomości głosowe? </item>
+        <item quantity="other">Usunąć te wiadomości głosowe? </item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="one">Wiadomość głosowa</item>
+        <item quantity="few">%1$d wiadomości głosowe</item>
+        <item quantity="many">%1$d wiadomości głosowych</item>
+        <item quantity="other">Wiadomości głosowe: %1$d</item>
+    </plurals>
+    <plurals name="play_recordings">
+        <item quantity="one">Odtwórz nagranie</item>
+        <item quantity="few">Odtwórz nagrania</item>
+        <item quantity="many">Odtwórz nagrania</item>
+        <item quantity="other">Odtwórz nagrania</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="one">Karta %1$s. %2$d nieprzeczytany element.</item>
+        <item quantity="few">Karta %1$s. %2$d nieprzeczytane elementy.</item>
+        <item quantity="many">Karta %1$s. %2$d nieprzeczytanych elementów.</item>
+        <item quantity="other">Karta %1$s. %2$d nieprzeczytanego elementu.</item>
+    </plurals>
+</resources>

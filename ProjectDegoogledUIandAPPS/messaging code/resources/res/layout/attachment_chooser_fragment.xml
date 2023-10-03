@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.messaging.p041ui.attachmentchooser.AttachmentGridView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:id="@+id/grid" android:padding="6dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:horizontalSpacing="6dp" android:verticalSpacing="6dp" android:stretchMode="columnWidth" android:columnWidth="@dimen/attachment_grid_image_cell_size" android:numColumns="auto_fit"/>

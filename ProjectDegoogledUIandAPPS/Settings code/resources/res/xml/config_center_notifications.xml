@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/notifications_title">
+    <PreferenceCategory android:title="@string/notification_lights" android:key="notification_lights">
+        <com.havoc.support.preferences.SystemSettingMasterSwitchPreference android:title="@string/battery_light_settings" android:key="battery_light_enabled" android:summary="@string/battery_light_settings_summary" android:defaultValue="true" android:fragment="com.havoc.config.center.fragments.BatteryLightSettings"/>
+        <Preference android:title="@string/notification_light_settings" android:key="notification_light" android:summary="@string/notification_light_settings_summary" android:fragment="com.android.settings.applications.manageapplications.ManageApplications">
+            <extra android:name="classname" android:value="com.android.settings.Settings$NotificationAppListActivity"/>
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/notification_flash_title" android:key="notification_flash">
+        <com.havoc.support.preferences.SystemSettingListPreference android:entries="@array/flashlight_on_call_entries" android:title="@string/flashlight_on_call_title" android:key="flashlight_on_call" android:defaultValue="0" android:entryValues="@array/flashlight_on_call_values"/>
+        <com.havoc.support.preferences.SystemSettingSwitchPreference android:title="@string/flashlight_on_call_wait_title" android:key="flashlight_on_call_waiting" android:summary="@string/flashlight_on_call_wait_summary" android:defaultValue="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/notification_screen_title" android:key="notification_screen">
+        <com.havoc.support.preferences.SystemSettingMasterSwitchPreference android:title="@string/pulse_ambient_light_title" android:key="ambient_notification_light" android:summary="@string/pulse_ambient_light_summary" android:defaultValue="false" android:fragment="com.havoc.config.center.fragments.EdgeLight"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/notification_stat" android:key="notification_stat">
+        <com.havoc.support.preferences.GlobalSettingMasterSwitchPreference android:title="@string/heads_up_notifications" android:key="heads_up_notifications_enabled" android:summary="@string/heads_up_notifications_summary" android:defaultValue="true" android:fragment="com.havoc.config.center.fragments.HeadsUp"/>
+        <com.havoc.support.preferences.SystemSettingMasterSwitchPreference android:title="@string/ticker_screen_title" android:key="status_bar_show_ticker" android:summary="@string/ticker_screen_summary" android:defaultValue="false" android:fragment="com.havoc.config.center.fragments.Ticker"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/notification_messages" android:key="notification_messages">
+        <com.havoc.support.preferences.SystemSettingSwitchPreference android:title="@string/enable_fc_notifications_title" android:key="enable_fc_notifications" android:summary="@string/enable_fc_notifications_summary" android:defaultValue="true"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/notification_misc" android:key="notification_misc">
+        <com.havoc.support.preferences.SystemSettingSwitchPreference android:title="@string/notification_guts_kill_app_button_title" android:key="notification_guts_kill_app_button" android:summary="@string/notification_guts_kill_app_button_summary" android:defaultValue="false"/>
+        <com.havoc.support.preferences.SystemSettingSwitchPreference android:title="@string/notification_sound_vib_screen_on_title" android:key="notification_sound_vib_screen_on" android:summary="@string/notification_sound_vib_screen_on_summary" android:defaultValue="true"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/sensor_block_title">
+    <PreferenceCategory android:title="@string/sensor_block_app_picker_title" android:key="sensor_block_applications">
+        <Preference android:icon="@drawable/ic_menu_add_white" android:title="@string/add_sensor_block_package_title" android:key="add_sensor_block_packages"/>
+    </PreferenceCategory>
+</PreferenceScreen>

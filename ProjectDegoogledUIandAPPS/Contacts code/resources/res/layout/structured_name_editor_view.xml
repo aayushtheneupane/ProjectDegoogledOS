@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.editor.StructuredNameEditorView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/editor_min_line_item_height">
+    <include android:id="@+id/spinner" android:visibility="gone" layout="@layout/edit_spinner"/>
+    <ImageView android:id="@+id/kind_icon" android:src="@drawable/quantum_ic_person_vd_theme_24" android:contentDescription="@string/header_name_entry" style="@style/EditKindIconStyle"/>
+    <include layout="@layout/edit_field_list_with_anchor_view"/>
+    <include android:id="@+id/expansion_view_container" android:visibility="gone" layout="@layout/name_edit_expansion_view"/>
+    <include android:id="@+id/delete_button_container" android:visibility="gone" layout="@layout/edit_delete_button"/>
+</com.android.contacts.editor.StructuredNameEditorView>

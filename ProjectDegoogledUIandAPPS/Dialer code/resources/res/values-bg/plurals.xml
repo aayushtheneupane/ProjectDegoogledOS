@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="one">минута</item>
+        <item quantity="other">минути</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="one">^1 отговорено обаждане от ^2</item>
+        <item quantity="other">^1 обаждания, последното е отговорено обаждане от ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="one">^1 блокирано обаждане от ^2</item>
+        <item quantity="other">^1 обаждания, последното е блокирано обаждане от ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="one">^1 пропуснато обаждане от ^2</item>
+        <item quantity="other">^1 обаждания, последното е пропуснато обаждане от ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="one">^1 изходящо обаждане до ^2</item>
+        <item quantity="other">^1 обаждания, последното е изходящо обаждане до ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="one">секунда</item>
+        <item quantity="other">секунди</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="one">Да се изтрие ли това гласово съобщение? </item>
+        <item quantity="other">Да се изтрият ли тези гласови съобщения? </item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="one">Гласово съобщение</item>
+        <item quantity="other">%1$d гласови съобщения</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="one">Раздел „%1$s“. %2$d непрочетен елемент.</item>
+        <item quantity="other">Раздел „%1$s“. %2$d непрочетени елемента.</item>
+    </plurals>
+</resources>

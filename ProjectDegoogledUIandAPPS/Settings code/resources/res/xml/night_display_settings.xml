@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/night_display_title" android:key="night_display_title" app:keywords="@string/keywords_display_night_display">
+    <DropDownPreference android:title="@string/night_display_auto_mode_title" android:key="night_display_auto_mode" android:summary="%s" app:controller="com.android.settings.display.NightDisplayAutoModePreferenceController"/>
+    <Preference android:title="@string/night_display_start_time_title" android:key="night_display_start_time" app:controller="com.android.settings.display.NightDisplayCustomStartTimePreferenceController"/>
+    <Preference android:title="@string/night_display_end_time_title" android:key="night_display_end_time" app:controller="com.android.settings.display.NightDisplayCustomEndTimePreferenceController"/>
+    <com.android.settings.widget.SeekBarPreference android:title="@string/night_display_temperature_title" android:key="night_display_temperature" app:controller="com.android.settings.display.NightDisplayIntensityPreferenceController" app:keywords="@string/keywords_display_night_display" app:unavailableSliceSubtitle="@string/night_display_not_currently_on"/>
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/night_display_activation_button" android:title="@string/night_display_title" android:selectable="false" android:key="night_display_activated" app:controller="com.android.settings.display.NightDisplayActivationPreferenceController" app:keywords="@string/keywords_display_night_display"/>
+    <PreferenceCategory android:key="night_display_footer_category">
+        <com.android.settingslib.widget.FooterPreference/>
+    </PreferenceCategory>
+</PreferenceScreen>

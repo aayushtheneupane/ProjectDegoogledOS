@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_invalid_contact_error">
+        <item quantity="one">مخاطب نامعتبر</item>
+        <item quantity="other">مخاطبین نامعتبر</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">‏%d پیوست آماده ارسال است</item>
+        <item quantity="other">‏%d پیوست آماده ارسال است</item>
+    </plurals>
+    <plurals name="attachment_preview_close_content_description">
+        <item quantity="one">صرف‌‌نظر از پیوست</item>
+        <item quantity="other">صرف‌‌نظر از پیوست‌ها</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">‏%d پیوست ذخیره نشد</item>
+        <item quantity="other">‏%d پیوست ذخیره نشد</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one">‏%d پیوست ذخیره شد</item>
+        <item quantity="other">‏%d پیوست ذخیره شد</item>
+    </plurals>
+    <plurals name="attachments_saved_to_album">
+        <item quantity="one">%d پیوست در آلبوم «%s» ذخیره شد</item>
+        <item quantity="other">%d پیوست در آلبوم «%s» ذخیره شد</item>
+    </plurals>
+    <plurals name="attachments_saved_to_downloads">
+        <item quantity="one">%d پیوست در «دانلودها» ذخیره شد</item>
+        <item quantity="other">%d پیوست در «دانلودها» ذخیره شد</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_attachments">
+        <item quantity="one">ارسال پیوست</item>
+        <item quantity="other">ارسال پیوست‌ها</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_audio">
+        <item quantity="one">ارسال فایل صوتی</item>
+        <item quantity="other">ارسال فایل‌های صوتی</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_photo">
+        <item quantity="one">ارسال عکس</item>
+        <item quantity="other">ارسال عکس‌ها</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_vcard">
+        <item quantity="one">ارسال کارت تماس</item>
+        <item quantity="other">ارسال کارت‌های تماس</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_video">
+        <item quantity="one">ارسال ویدیو</item>
+        <item quantity="other">ارسال ویدیوها</item>
+    </plurals>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">این مکالمه حذف شود؟</item>
+        <item quantity="other">این مکالمه‌ها حذف شود؟</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="one">‏%d ماه</item>
+        <item quantity="other">‏%d ماه</item>
+    </plurals>
+    <plurals name="notification_download_failures">
+        <item quantity="one">‏%d پیام در %d مکالمه</item>
+        <item quantity="other">‏%d پیام در %d مکالمه</item>
+    </plurals>
+    <plurals name="notification_new_messages">
+        <item quantity="one">%d پیام جدید</item>
+        <item quantity="other">%d پیام جدید</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="one">‏%d پیام در %d مکالمه</item>
+        <item quantity="other">‏%d پیام در %d مکالمه</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="one">‏%d روز</item>
+        <item quantity="other">‏%d روز</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="one">‏%d ساعت</item>
+        <item quantity="other">‏%d ساعت</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="one">‏%d دقیقه</item>
+        <item quantity="other">‏%d دقیقه</item>
+    </plurals>
+    <plurals name="photos_saved_to_album">
+        <item quantity="one">%d عکس در آلبوم «%s» ذخیره شد</item>
+        <item quantity="other">%d عکس در آلبوم «%s» ذخیره شد</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one">%d مخاطب</item>
+        <item quantity="other">%d مخاطب</item>
+    </plurals>
+    <plurals name="videos_saved_to_album">
+        <item quantity="one">%d ویدیو در آلبوم «%s» ذخیره شد</item>
+        <item quantity="other">%d ویدیو در آلبوم «%s» ذخیره شد</item>
+    </plurals>
+    <plurals name="wearable_participant_count">
+        <item quantity="one">‏%d شرکت‌کننده</item>
+        <item quantity="other">‏%d شرکت‌کننده</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="one">‏%d هفته</item>
+        <item quantity="other">‏%d هفته</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="one">‏%d سال</item>
+        <item quantity="other">‏%d سال</item>
+    </plurals>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/feature_flags_dashboard_title" android:key="feature_flags_settings">
+    <PreferenceCategory android:layout="@layout/preference_category_no_label" android:title="@string/summary_placeholder" android:key="feature_flag_category" app:controller="com.android.settings.development.featureflags.FeatureFlagsPreferenceController"/>
+</PreferenceScreen>

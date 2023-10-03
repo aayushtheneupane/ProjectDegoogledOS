@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <android.support.constraint.ConstraintLayout android:id="@+id/image_container" android:paddingBottom="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="4dp" android:paddingEnd="4dp">
+        <ImageView android:id="@+id/people_image" android:layout_width="0dp" android:layout_height="0dp" android:scaleType="centerCrop" android:contentDescription="@string/person" app:layout_constraintDimensionRatio="1:1" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <ViewStub android:id="@+id/hide_container" android:layout="@layout/people_grid_hide_container" android:inflatedId="@+id/hide_container" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    </android.support.constraint.ConstraintLayout>
+    <TextView android:textAppearance="?attr/textAppearanceCaption" android:id="@+id/footer_text" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/people_grid_item_footer_min_height" android:text="@string/people_fragment_description" android:textAlignment="center" android:paddingStart="4dp" android:paddingEnd="4dp" android:breakStrategy="2"/>
+</merge>

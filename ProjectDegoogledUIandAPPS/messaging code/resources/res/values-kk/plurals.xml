@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_invalid_contact_error">
+        <item quantity="one">Жарамсыз контакті</item>
+        <item quantity="other">Жарамсыз контактілер</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">Бір тіркеме жіберуге дайын</item>
+        <item quantity="other">%d тіркеме жіберуге дайын</item>
+    </plurals>
+    <plurals name="attachment_preview_close_content_description">
+        <item quantity="one">Тіркемені алып тастау</item>
+        <item quantity="other">Тіркемелерді алып тастау</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">%d тіркемені сақтау мүмкін болмады</item>
+        <item quantity="other">%d тіркемені сақтау мүмкін болмады</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one">%d тіркеме сақталды</item>
+        <item quantity="other">%d тіркеме сақталды</item>
+    </plurals>
+    <plurals name="attachments_saved_to_album">
+        <item quantity="one">%d тіркеме «%s» альбомына сақталды</item>
+        <item quantity="other">%d тіркеме «%s» альбомына сақталды</item>
+    </plurals>
+    <plurals name="attachments_saved_to_downloads">
+        <item quantity="one">%d тіркеме «Жүктеулер» ішіне сақталды</item>
+        <item quantity="other">%d тіркеме «Жүктеулер» ішіне сақталды</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_attachments">
+        <item quantity="one">Тіркеме жіберу</item>
+        <item quantity="other">Тіркемелер жіберу</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_audio">
+        <item quantity="one">Аудио жіберу</item>
+        <item quantity="other">Аудиолар жіберу</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_photo">
+        <item quantity="one">Фотосурет жіберу</item>
+        <item quantity="other">Фотосуреттер жіберу</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_vcard">
+        <item quantity="one">Контакті карточкасын жіберу</item>
+        <item quantity="other">Контакті карточкаларын жіберу</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_video">
+        <item quantity="one">Бейне жіберу</item>
+        <item quantity="other">Бейнелер жіберу</item>
+    </plurals>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">Осы сөйлесуді жою қажет пе?</item>
+        <item quantity="other">Осы сөйлесулерді жою қажет пе?</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="one">ай</item>
+        <item quantity="other">%d ай</item>
+    </plurals>
+    <plurals name="notification_download_failures">
+        <item quantity="one">бір сөйлесуде %d хабар</item>
+        <item quantity="other">%d сөйлесуде %d хабар</item>
+    </plurals>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Жаңа хабар</item>
+        <item quantity="other">%d жаңа хабар</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="one">бір сөйлесуде %d хабар</item>
+        <item quantity="other">%d сөйлесуде %d хабар</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="one">%d күн</item>
+        <item quantity="other">%d күн</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="one">%d сағат</item>
+        <item quantity="other">%d сағат</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="one">%d мин.</item>
+        <item quantity="other">%d мин.</item>
+    </plurals>
+    <plurals name="photos_saved_to_album">
+        <item quantity="one">%d фотосурет «%s» альбомына сақталды</item>
+        <item quantity="other">%d фотосурет «%s» альбомына сақталды</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one">%d контакт</item>
+        <item quantity="other">%d контакт</item>
+    </plurals>
+    <plurals name="videos_saved_to_album">
+        <item quantity="one">%d бейне «%s» альбомына сақталды</item>
+        <item quantity="other">%d бейне «%s» альбомына сақталды</item>
+    </plurals>
+    <plurals name="wearable_participant_count">
+        <item quantity="one">%d қатысушы</item>
+        <item quantity="other">%d қатысушы</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="one">апта</item>
+        <item quantity="other">%d апта</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="one">жыл</item>
+        <item quantity="other">%d жыл</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="36dp" android:layout_height="12dp" android:layout_margin="8dp">
+    <View android:id="@+id/color_preview_start" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <View android:id="@+id/color_preview_between" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <View android:id="@+id/color_preview_end" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+</LinearLayout>

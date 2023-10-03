@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.android.messaging.p041ui.AsyncImageView android:layout_gravity="center_horizontal" android:id="@+id/map_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_weight="1"/>
+    <TextView android:textSize="16sp" android:textStyle="bold" android:ellipsize="end" android:id="@+id/place_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+    <TextView android:textSize="14sp" android:ellipsize="end" android:id="@+id/place_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2"/>
+    <TextView android:textSize="14sp" android:id="@+id/place_notes" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</merge>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/buttons_title">
+    <PreferenceCategory android:title="@string/hardware_keys_title" android:key="hw_keys">
+        <com.havoc.support.preferences.SecureSettingSwitchPreference android:title="@string/hardware_keys_disable_title" android:key="hardware_keys_enable" android:summary="@string/hardware_keys_disable_summary" android:defaultValue="true"/>
+        <com.havoc.support.preferences.SystemSettingSwitchPreference android:title="@string/swap_navigation_keys_title" android:key="swap_navigation_keys" android:summary="@string/swap_navigation_keys_title_summary" android:dependency="hardware_keys_enable" android:defaultValue="false"/>
+        <com.havoc.support.preferences.SystemSettingSwitchPreference android:title="@string/anbi_title" android:key="anbi_enabled_option" android:summary="@string/anbi_summary" android:dependency="hardware_keys_enable" android:defaultValue="false"/>
+        <Preference android:title="@string/button_backlight_title" android:key="button_backlight" android:summary="@string/button_backlight_summary" android:dependency="hardware_keys_enable" android:fragment="com.havoc.config.center.fragments.ButtonBrightness"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/navigation_title" android:key="navigation_keys">
+        <com.havoc.support.preferences.SwitchPreference android:title="@string/navigation_bar_title" android:key="force_show_navbar" android:summary="@string/navigation_bar_summary"/>
+        <Preference android:title="@string/system_navigation_title" android:key="gesture_system_navigation" android:dependency="force_show_navbar" android:fragment="com.android.settings.gestures.SystemNavigationGestureSettings" settings:controller="com.android.settings.gestures.SystemNavigationPreferenceController"/>
+        <ListPreference android:persistent="false" android:entries="@array/nav_bar_layouts" android:title="@string/nav_bar_layout" android:key="nav_bar_layout" android:summary="%s" android:dependency="force_show_navbar" android:defaultValue="default" android:entryValues="@array/nav_bar_layouts_values"/>
+        <com.havoc.support.preferences.SecureSettingSwitchPreference android:title="@string/navbar_invert_layout_title" android:key="sysui_nav_bar_inverse" android:summary="@string/navbar_invert_layout_summary" android:dependency="force_show_navbar" android:defaultValue="false"/>
+        <com.havoc.support.preferences.SystemSettingSwitchPreference android:title="@string/navigation_bar_ime_space_title" android:key="navigation_bar_ime_space" android:summary="@string/navigation_bar_ime_space_summary" android:dependency="force_show_navbar" android:defaultValue="true"/>
+        <com.havoc.support.preferences.SystemSettingSwitchPreference android:title="@string/navigation_bar_arrow_keys_title" android:key="navigation_bar_menu_arrow_keys" android:summary="@string/navigation_bar_arrow_keys_summary" android:dependency="force_show_navbar" android:defaultValue="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/hardware_keys_power_category" android:key="hardware_keys_power">
+        <Preference android:title="@string/powermenu_title" android:key="power_menu" android:summary="@string/powermenu_summary" android:fragment="com.havoc.config.center.fragments.PowerMenu"/>
+        <ListPreference android:entries="@array/torch_power_button_gesture_entries" android:title="@string/torch_power_button_gesture_title" android:key="torch_power_button_gesture" android:entryValues="@array/torch_power_button_gesture_values"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/volume_title" android:key="volume_rocker">
+        <com.havoc.support.preferences.SystemSettingSwitchPreference android:title="@string/swap_volume_buttons_title" android:key="swap_volume_buttons" android:summary="@string/swap_volume_buttons_summary" android:defaultValue="false"/>
+        <com.havoc.support.preferences.SystemSettingSwitchPreference android:title="@string/volume_rocker_music_controls_title" android:key="volume_button_music_control" android:summary="@string/volume_rocker_music_controls_summary" android:defaultValue="false"/>
+        <com.havoc.support.preferences.SystemSettingSwitchPreference android:title="@string/volume_rocker_wake_title" android:key="volume_rocker_wake" android:summary="@string/volume_rocker_wake_summary" android:defaultValue="false"/>
+        <com.havoc.support.preferences.SystemSettingSwitchPreference android:title="@string/volume_answer_call_title" android:key="volume_answer_call" android:summary="@string/volume_answer_call_summary" android:defaultValue="false"/>
+        <com.havoc.support.preferences.SystemSettingListPreference android:entries="@array/volume_key_cursor_control_entries" android:title="@string/volume_key_cursor_control_title" android:key="volume_key_cursor_control" android:summary="%s" android:defaultValue="0" android:entryValues="@array/volume_key_cursor_control_values"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/back_gesture_title" android:key="back_gesture">
+        <com.havoc.support.preferences.SecureSettingSwitchPreference android:title="@string/back_arrow_gesture_title" android:key="show_back_arrow_gesture" android:summary="@string/back_arrow_gesture_summary" android:defaultValue="true"/>
+        <com.havoc.support.preferences.SystemSettingListPreference android:entries="@array/back_swipe_type_entries" android:title="@string/back_swipe_type_title" android:key="back_swipe_type" android:defaultValue="0" android:entryValues="@array/back_swipe_type_values"/>
+        <com.havoc.support.preferences.SystemSettingListPreference android:entries="@array/long_back_swipe_timeout_entries" android:title="@string/long_back_swipe_timeout_title" android:key="long_back_swipe_timeout" android:defaultValue="2000" android:entryValues="@array/long_back_swipe_timeout_values"/>
+        <ListPreference android:entries="@array/active_edge_actions_entries" android:title="@string/left_swipe_actions_title" android:key="left_swipe_actions" android:defaultValue="0" android:entryValues="@array/active_edge_actions_values"/>
+        <Preference android:title="@string/left_swipe_app_action_title" android:key="left_swipe_app_action" android:summary="@string/back_swipe_app_select_summary">
+            <intent android:targetPackage="com.android.systemui" android:action="android.intent.action.MAIN" android:targetClass="com.android.systemui.statusbar.phone.LeftBackSwipeCustomApp"/>
+        </Preference>
+        <ListPreference android:entries="@array/active_edge_actions_entries" android:title="@string/right_swipe_actions_title" android:key="right_swipe_actions" android:defaultValue="0" android:entryValues="@array/active_edge_actions_values"/>
+        <Preference android:title="@string/right_swipe_app_action_title" android:key="right_swipe_app_action" android:summary="@string/back_swipe_app_select_summary">
+            <intent android:targetPackage="com.android.systemui" android:action="android.intent.action.MAIN" android:targetClass="com.android.systemui.statusbar.phone.RightBackSwipeCustomApp"/>
+        </Preference>
+        <com.havoc.support.preferences.SystemSettingSwitchPreference android:title="@string/back_gesture_haptic_title" android:key="back_gesture_haptic" android:summary="@string/back_gesture_haptic_summary" android:defaultValue="true"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/back_key_title" android:key="back_key">
+        <ListPreference android:entries="@array/action_entries" android:title="@string/long_press_title" android:key="back_key_long_press" android:entryValues="@array/action_values"/>
+        <Preference android:title="@string/long_press_custom_app_title" android:key="back_key_long_press_custom_app" android:summary="">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.havoc.config.center.fragments.navbar.BackLongPress"/>
+        </Preference>
+        <ListPreference android:entries="@array/action_entries" android:title="@string/double_tap_title" android:key="back_key_double_tap" android:entryValues="@array/action_values"/>
+        <Preference android:title="@string/double_tap_custom_app_title" android:key="back_key_double_tap_custom_app" android:summary="">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.havoc.config.center.fragments.navbar.BackDoubleTap"/>
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/home_key_title" android:key="home_key">
+        <ListPreference android:entries="@array/action_entries" android:title="@string/long_press_title" android:key="home_key_long_press" android:entryValues="@array/action_values"/>
+        <Preference android:title="@string/long_press_custom_app_title" android:key="home_key_long_press_custom_app" android:summary="">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.havoc.config.center.fragments.navbar.HomeLongPress"/>
+        </Preference>
+        <ListPreference android:entries="@array/action_entries" android:title="@string/double_tap_title" android:key="home_key_double_tap" android:entryValues="@array/action_values"/>
+        <Preference android:title="@string/double_tap_custom_app_title" android:key="home_key_double_tap_custom_app" android:summary="">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.havoc.config.center.fragments.navbar.HomeDoubleTap"/>
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/app_switch_key_title" android:key="app_switch_key">
+        <ListPreference android:entries="@array/action_entries" android:title="@string/long_press_title" android:key="app_switch_key_long_press" android:entryValues="@array/action_values"/>
+        <Preference android:title="@string/long_press_custom_app_title" android:key="app_switch_key_long_press_custom_app" android:summary="">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.havoc.config.center.fragments.navbar.AppSwitchLongPress"/>
+        </Preference>
+        <ListPreference android:entries="@array/action_entries" android:title="@string/double_tap_title" android:key="app_switch_key_double_tap" android:entryValues="@array/action_values"/>
+        <Preference android:title="@string/double_tap_custom_app_title" android:key="app_switch_key_double_tap_custom_app" android:summary="">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.havoc.config.center.fragments.navbar.AppSwitchDoubleTap"/>
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/menu_key_title" android:key="menu_key">
+        <ListPreference android:entries="@array/action_entries" android:title="@string/long_press_title" android:key="menu_key_long_press" android:entryValues="@array/action_values"/>
+        <ListPreference android:entries="@array/action_entries" android:title="@string/double_tap_title" android:key="menu_key_double_tap" android:entryValues="@array/action_values"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/assist_key_title" android:key="assist_key">
+        <ListPreference android:entries="@array/action_entries" android:title="@string/long_press_title" android:key="assist_key_long_press" android:entryValues="@array/action_values"/>
+        <ListPreference android:entries="@array/action_entries" android:title="@string/double_tap_title" android:key="assist_key_double_tap" android:entryValues="@array/action_values"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/camera_key_title" android:key="camera_key">
+        <ListPreference android:entries="@array/action_entries" android:title="@string/long_press_title" android:key="camera_key_long_press" android:entryValues="@array/action_values"/>
+        <ListPreference android:entries="@array/action_entries" android:title="@string/double_tap_title" android:key="camera_key_double_tap" android:entryValues="@array/action_values"/>
+    </PreferenceCategory>
+    <com.android.settingslib.widget.FooterPreference android:title="@string/gesture_nav_tweaks_footer_info"/>
+</PreferenceScreen>

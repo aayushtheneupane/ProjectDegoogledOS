@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="horizontal" android:id="@+id/favorite_remove_view" android:background="?android:attr/colorPrimary" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="@dimen/expanded_search_bar_height" android:contentDescription="@string/speed_dial_remove_favorites" android:importantForAccessibility="no">
+    <ImageView android:id="@+id/remove_view_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:src="@drawable/quantum_ic_close_vd_theme_24" android:tint="?attr/colorIconOnUnthemedDarkBackground"/>
+    <TextView android:textSize="16sp" android:textColor="?attr/colorTextOnUnthemedDarkBackground" android:id="@+id/remove_view_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/speed_dial_remove_favorites"/>
+</LinearLayout>

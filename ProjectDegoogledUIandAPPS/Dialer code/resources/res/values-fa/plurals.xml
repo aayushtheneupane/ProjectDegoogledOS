@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="one">دقیقه</item>
+        <item quantity="other">دقیقه</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="one">^1 تماس، آخرین مورد تماس پاسخ داده شده‌ای از ^2 است</item>
+        <item quantity="other">^1 تماس، آخرین مورد تماس پاسخ داده شده‌ای از ^2 است</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="one">^1 تماس، آخرین مورد تماس مسدودشده‌ای از ^2 است</item>
+        <item quantity="other">^1 تماس، آخرین مورد تماس مسدودشده‌ای از ^2 است</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="one">^1 تماس، آخرین مورد تماس بی‌پاسخی از ^2 است</item>
+        <item quantity="other">^1 تماس، آخرین مورد تماس بی‌پاسخی از ^2 است</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="one">^1 تماس، آخرین مورد تماسی خروجی با ^2 است</item>
+        <item quantity="other">^1 تماس، آخرین مورد تماسی خروجی با ^2 است</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="one">ثانیه</item>
+        <item quantity="other">ثانیه</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="one">این پست‌های صوتی حذف شوند؟ </item>
+        <item quantity="other">این پست‌های صوتی حذف شوند؟ </item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="one">%1$d پست صوتی</item>
+        <item quantity="other">%1$d پست صوتی</item>
+    </plurals>
+    <plurals name="play_recordings">
+        <item quantity="one">پخش فایل ضبط شده</item>
+        <item quantity="other">پخش فایهای ضبط شده</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="one">برگه «%1$s». %2$d مورد خوانده‌نشده.</item>
+        <item quantity="other">برگه «%1$s». %2$d مورد خوانده‌نشده.</item>
+    </plurals>
+</resources>

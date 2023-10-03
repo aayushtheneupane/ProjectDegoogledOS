@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:height="77dp" android:width="220dp" android:autoMirrored="true" android:viewportWidth="220" android:viewportHeight="77">
+    <path android:fillColor="@drawable/$ic_empty_state_camera__0" android:pathData="m-32,75 l44,-3h58v4z" android:strokeAlpha="0.6" android:fillAlpha="0.6" android:fillType="1"/>
+    <path android:fillColor="#eff0f2" android:pathData="m150.743,76h7.675c3.159,0 5.718,-2.555 5.718,-5.706v-52.681c0,-3.151 -2.56,-5.706 -5.718,-5.706h-7.675z" android:fillType="1"/>
+    <path android:fillColor="#dfe1e5" android:pathData="m150.743,76h-90.31c-1.895,0 -3.434,-1.534 -3.434,-3.427v-57.239c0,-1.894 1.539,-3.427 3.434,-3.427h25.237l6.048,-10.303c0.614,-1.05 1.743,-1.695 2.962,-1.695h22.52c1.21,0 2.331,0.637 2.95,1.676l6.155,10.322h24.439c1.898,0 3.434,1.533 3.434,3.427v57.239c0,1.893 -1.536,3.427 -3.434,3.427" android:fillType="1"/>
+    <path android:fillColor="@drawable/$ic_empty_state_camera__1" android:pathData="m57.086,43.181 l-0.077,29.383c-0.004,1.896 1.534,3.436 3.434,3.436h36.047l19.443,-10.506 -38.714,-38.64z" android:fillType="1"/>
+    <path android:fillColor="#eff0f2" android:pathData="m126.364,12.249h11.238l-6.218,-10.64c-0.616,-1.053 -1.745,-1.7 -2.966,-1.7h-9.266z" android:fillType="1"/>
+    <path android:fillColor="#babfc5" android:pathData="m105.933,67.575c14.018,0 25.383,-11.344 25.383,-25.337 0,-13.992 -11.365,-25.334 -25.383,-25.334h-8.756v50.527z" android:fillType="1"/>
+    <path android:fillColor="#eff0f2" android:pathData="m71.964,42.239c0,-13.992 11.365,-25.336 25.384,-25.336 14.019,0 25.383,11.344 25.383,25.336 0,13.993 -11.364,25.337 -25.383,25.337 -14.019,0 -25.384,-11.344 -25.384,-25.337" android:fillType="1"/>
+    <path android:fillColor="#cdd0d5" android:pathData="m78.794,42.239c0,-10.227 8.306,-18.519 18.554,-18.519 10.246,0 18.554,8.292 18.554,18.519 0,10.228 -8.308,18.521 -18.554,18.521 -10.247,0 -18.554,-8.292 -18.554,-18.521" android:fillType="1"/>
+    <path android:fillColor="@drawable/$ic_empty_state_camera__2" android:pathData="m87.035,42.144c0,8.889 6.274,16.316 14.643,18.108 8.159,-1.947 14.224,-9.274 14.224,-18.012 0,-8.889 -6.275,-16.316 -14.646,-18.108 -8.158,1.949 -14.221,9.274 -14.221,18.012" android:strokeAlpha="0.8" android:fillAlpha="0.8" android:fillType="1"/>
+    <path android:fillColor="#dadce0" android:pathData="m87.458,42.239c0,-5.452 4.428,-9.87 9.89,-9.87s9.89,4.418 9.89,9.87c0,5.453 -4.428,9.871 -9.89,9.871s-9.89,-4.418 -9.89,-9.871" android:fillType="1"/>
+    <path android:fillColor="#bdc1c6" android:pathData="m93.085,42.239c0,-2.351 1.908,-4.255 4.262,-4.255 2.355,0 4.264,1.904 4.264,4.255 0,2.352 -1.909,4.256 -4.264,4.256 -2.355,0 -4.262,-1.904 -4.262,-4.256" android:fillType="1"/>
+    <path android:fillColor="#fff" android:pathData="m100.427,34.355c0,-3.035 2.464,-5.496 5.507,-5.496 3.041,0 5.507,2.461 5.507,5.496 0,3.037 -2.466,5.496 -5.507,5.496 -3.042,0 -5.507,-2.46 -5.507,-5.496" android:strokeAlpha="0.7" android:fillAlpha="0.7" android:fillType="1"/>
+    <path android:fillColor="#fff" android:pathData="m140.566,23.814h4.289c2.062,0 3.734,-1.667 3.734,-3.725 0,-2.059 -1.672,-3.727 -3.734,-3.727h-4.289z" android:fillType="1"/>
+    <path android:fillColor="#babfc5" android:pathData="m136.213,23.814h4.32v-7.452h-4.32c-2.063,0 -3.734,1.667 -3.734,3.727 0,2.058 1.67,3.725 3.734,3.725" android:fillType="1"/>
+    <path android:fillColor="#babfc5" android:pathData="m76.092,6.921h-8.31c-1.578,0 -2.858,1.277 -2.858,2.853v2.317h14.027v-2.317c0,-1.576 -1.279,-2.853 -2.858,-2.853" android:fillType="1"/>
+</vector>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/screen_title">
+    <PreferenceCategory android:title="@string/cutout_category_title" android:key="cutout_category">
+        <com.havoc.support.preferences.SystemSettingListPreference android:entries="@array/display_cutout_mode_entries" android:title="@string/display_cutout_mode_title" android:key="display_cutout_mode" android:defaultValue="0" android:entryValues="@array/display_cutout_mode_values"/>
+        <com.havoc.support.preferences.SystemSettingSwitchPreference android:title="@string/stock_statusbar_in_hide" android:key="stock_statusbar_in_hide" android:summary="@string/stock_statusbar_in_hide_summary" android:defaultValue="true"/>
+        <Preference android:title="@string/display_cutout_force_fullscreen_title" android:key="display_cutout_force_fullscreen_settings" android:summary="@string/display_cutout_force_fullscreen_summary" android:fragment="com.havoc.config.center.fragments.DisplayCutoutForceFullscreenSettings"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/corners_category_title" android:key="corners_category">
+        <com.havoc.support.preferences.SecureSettingSwitchPreference android:title="@string/corner_fwvals_title" android:key="sysui_rounded_fwvals" android:summary="@string/corner_fwvals_summary" android:defaultValue="true" android:disableDependentsState="true"/>
+        <com.havoc.support.preferences.CustomSeekBarPreference android:persistent="false" android:max="60" android:title="@string/corner_radius" android:key="sysui_rounded_size" android:dependency="sysui_rounded_fwvals" settings:min="0" settings:units="dp"/>
+        <com.havoc.support.preferences.CustomSeekBarPreference android:persistent="false" android:max="30" android:title="@string/content_padding" android:key="sysui_rounded_content_padding" android:dependency="sysui_rounded_fwvals" settings:min="0" settings:units="dp"/>
+    </PreferenceCategory>
+</PreferenceScreen>

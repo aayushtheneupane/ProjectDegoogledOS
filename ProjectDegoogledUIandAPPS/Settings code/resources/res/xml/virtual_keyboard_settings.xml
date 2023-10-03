@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/virtual_keyboard_category" android:key="virtual_keyboard_category">
+    <Preference android:title="@string/add_virtual_keyboard" android:key="add_virtual_keyboard_screen" android:fragment="com.android.settings.inputmethod.AvailableVirtualKeyboardFragment" app:searchable="false"/>
+</PreferenceScreen>

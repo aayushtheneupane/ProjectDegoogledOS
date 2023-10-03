@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:id="@+id/editor_top_bar_save" android:title="@string/save_copy" app:actionLayout="@layout/editor_top_bar_save_copy_button" app:showAsAction="always"/>
+</menu>

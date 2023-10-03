@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="one">minuta</item>
+        <item quantity="few">minuty</item>
+        <item quantity="many">minuty</item>
+        <item quantity="other">minut</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="one">^1 přijatý hovor od kontaktu ^2</item>
+        <item quantity="few">^1 hovory, poslední je přijatý hovor od kontaktu ^2</item>
+        <item quantity="many">^1 hovoru, poslední je přijatý hovor od kontaktu ^2</item>
+        <item quantity="other">^1 hovorů, poslední je přijatý hovor od kontaktu ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="one">^1 zablokovaný hovor od kontaktu ^2</item>
+        <item quantity="few">^1 hovory, poslední je zablokovaný hovor od kontaktu ^2</item>
+        <item quantity="many">^1 hovoru, poslední je zablokovaný hovor od kontaktu ^2</item>
+        <item quantity="other">^1 hovorů, poslední je zablokovaný hovor od kontaktu ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="one">^1 zmeškaný hovor od kontaktu ^2</item>
+        <item quantity="few">^1 hovory, poslední je zmeškaný hovor od kontaktu ^2</item>
+        <item quantity="many">^1 hovoru, poslední je zmeškaný hovor od kontaktu ^2</item>
+        <item quantity="other">^1 hovorů, poslední je zmeškaný hovor od kontaktu ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="one">^1 odchozí hovor s kontaktem ^2</item>
+        <item quantity="few">^1 hovory, poslední je odchozí hovor s kontaktem ^2</item>
+        <item quantity="many">^1 hovoru, poslední je odchozí hovor s kontaktem ^2</item>
+        <item quantity="other">^1 hovorů, poslední je odchozí hovor s kontaktem ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="one">sekunda</item>
+        <item quantity="few">sekundy</item>
+        <item quantity="many">sekundy</item>
+        <item quantity="other">sekund</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="one">Smazat tuto hlasovou zprávu? </item>
+        <item quantity="few">Smazat tyto hlasové zprávy? </item>
+        <item quantity="many">Smazat tyto hlasové zprávy? </item>
+        <item quantity="other">Smazat tyto hlasové zprávy? </item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="one">Hlasová zpráva</item>
+        <item quantity="few">%1$d hlasové zprávy</item>
+        <item quantity="many">%1$d hlasové zprávy</item>
+        <item quantity="other">%1$d hlasových zpráv</item>
+    </plurals>
+    <plurals name="play_recordings">
+        <item quantity="one">Přehrát záznam</item>
+        <item quantity="few">Přehrát záznamy</item>
+        <item quantity="many">Přehrát záznamů</item>
+        <item quantity="other">Přehrát záznamů</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="one">Karta %1$s. %2$d nepřečtená položka.</item>
+        <item quantity="few">Karta %1$s. %2$d nepřečtené položky.</item>
+        <item quantity="many">Karta %1$s. %2$d nepřečtené položky.</item>
+        <item quantity="other">Karta %1$s. %2$d nepřečtených položek.</item>
+    </plurals>
+</resources>

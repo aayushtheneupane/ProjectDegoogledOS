@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.editor.PhotoEditorView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center_horizontal" android:id="@+id/photo_editor" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.android.contacts.widget.QuickContactImageView android:id="@+id/photo" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <View android:id="@+id/photo_icon_overlay" android:layout_width="match_parent" android:layout_height="56dp" android:layout_alignParentBottom="true"/>
+    <ImageView android:id="@+id/photo_icon" android:background="?android:attr/selectableItemBackground" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginBottom="16dp" android:src="@drawable/quantum_ic_camera_alt_vd_theme_24" android:tint="@android:color/white" android:layout_alignParentBottom="true" android:layout_marginEnd="16dp" android:layout_alignParentEnd="true"/>
+    <View android:id="@+id/photo_touch_intercept_overlay" android:background="@drawable/item_background_material_dark" android:focusable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/editor_change_photo_content_description"/>
+</com.android.contacts.editor.PhotoEditorView>

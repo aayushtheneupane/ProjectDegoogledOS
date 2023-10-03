@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/carrier_label_settings_title">
+    <com.havoc.support.preferences.SystemSettingListPreference android:title="@string/show_carrier_title" android:key="carrier_label_location" android:defaultValue="0"/>
+    <PreferenceScreen android:title="@string/custom_carrier_label_title" android:key="custom_carrier_label"/>
+</PreferenceScreen>
